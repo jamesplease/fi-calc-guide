@@ -1,0 +1,25 @@
+{
+  "name": "fi-calc-guide",
+  "version": "1.0.0",
+  "description": "A guidebook for FI Calc",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "npm run clean && eleventy",
+    "clean": "rimraf _site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesplease/fi-calc-guide.git"
+  },
+  "author": "James Please",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamesplease/fi-calc-guide/issues"
+  },
+  "homepage": "https://github.com/jamesplease/fi-calc-guide#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "rimraf": "^3.0.2"
+  }
+}

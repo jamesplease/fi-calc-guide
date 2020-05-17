@@ -1,0 +1,13 @@
+.footer {
+  height: var(--footerHeight);
+}
+
+.footer_content {
+  border-top: 1px solid #2f2f2f;
+  height: 100%;
+  max-width: var(--maxAppWidth);
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 1rem;
+}

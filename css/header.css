@@ -1,0 +1,6 @@
+.header {
+  height: var(--headerHeight);
+  border-bottom: 1px solid #2f2f2f;
+  background: #232323;
+  border-bottom-color: #2e2e2e;
+}

@@ -7,16 +7,27 @@ title: FI Calc Guidebook
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ '/css/header.css' | url }}" />
+    <link rel="stylesheet" href="{{ '/css/nav.css' | url }}" />
+    <link rel="stylesheet" href="{{ '/css/page.css' | url }}" />
+    <link rel="stylesheet" href="{{ '/css/footer.css' | url }}" />
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}" />
     <title>{{ title }}</title>
   </head>
   <body>
     <div class="website-root">
-      {% include 'header.njk' %} {% include 'nav.njk' %}
-      <main>
-        {{ content | safe }}
-      </main>
-      {% include 'footer.njk' %}
+      {% include 'header.njk' %}
+      <div class="website-body">
+        {% include 'nav.njk' %}
+        <div class="website-contents">
+        <main>
+          <div class="page">
+            {{ content | safe }}
+          </div>
+        </main>
+        {% include 'footer.njk' %}
+        </div>
+      </div>
     </div>
   </body>
 </html>

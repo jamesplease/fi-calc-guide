@@ -5,6 +5,7 @@
   height: calc(var(--footerHeight) + var(--safeAreaInsetBottom));
   color: var(--footerColor);
   padding-bottom: var(--safeAreaInsetBottom);
+  border-top: 1px solid var(--baseBorderColor);
 }
 
 .lightMode .footer {
@@ -12,7 +13,6 @@
 }
 
 .footer_content {
-  border-top: 1px solid var(--baseBorderColor);
   height: 100%;
   max-width: var(--maxAppWidth);
   display: flex;

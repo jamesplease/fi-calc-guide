@@ -1,5 +1,9 @@
 .footer {
+  --footerColor: #bbb;
+
+  font-size: 0.875rem;
   height: var(--footerHeight);
+  color: var(--footerColor);
 }
 
 .footer_content {
@@ -10,4 +14,24 @@
   align-items: center;
   margin: 0 auto;
   padding: 0 1rem;
+}
+
+.footer_linkList {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  margin-left: auto;
+  padding: 0;
+}
+
+.footer_linkListItem {
+  margin-right: 1rem;
+}
+
+.footer_linkListItem:last-child {
+  margin-right: 0;
+}
+
+.footer_link {
+  color: var(--footerColor);
 }

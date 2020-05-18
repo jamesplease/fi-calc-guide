@@ -1,4 +1,7 @@
 :root {
+  --accentColor: #6954ff;
+  --primaryBlue: #409dff;
+
   --safeAreaInsetTop: 0;
   --safeAreaInsetBottom: 0;
   --safeAreaInsetLeft: 0;
@@ -9,7 +12,7 @@
   --safeAreaInsetLeft: env(safe-area-inset-left);
   --safeAreaInsetRight: env(safe-area-inset-right);
 
-  --maxAppWidth: 44rem;
+  --maxAppWidth: 40rem;
   --headerHeight: 3rem;
   --footerHeight: 4rem;
   --configuration-width: calc(16rem + var(--safeAreaInsetLeft));
@@ -53,8 +56,8 @@ body {
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   color: #fff;
   -webkit-font-smoothing: antialiased;
@@ -88,5 +91,16 @@ body,
 }
 
 main {
+  padding-bottom: 3rem;
   min-height: calc(100vh - var(--headerHeight) - var(--footerHeight));
+}
+
+.app_content {
+  height: 100%;
+  width: 100%;
+  max-width: var(--maxAppWidth);
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 var(--contentSpacingRight) 0 var(--contentSpacingLeft);
 }

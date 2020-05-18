@@ -7,7 +7,7 @@
     "start": "eleventy --serve",
     "build": "npm run clean && eleventy --output=docs && cp CNAME docs/CNAME",
     "clean": "rimraf docs",
-    "deploy": "npm run build && git add . && git commit \"Build site\" && git push origin master"
+    "deploy": "npm run build && git add . && git commit -m \"Build site\" && git push origin master"
   },
   "repository": {
     "type": "git",

@@ -4,8 +4,38 @@
   top: 0;
   width: var(--configuration-width);
   max-height: 100vh;
-  padding: 0 0 20px;
+  padding: 1.5rem var(--contentSpacingRight) 1.5rem var(--contentSpacingLeft);
   overflow-y: auto;
-  background: #262626;
+  border-right: 1px solid var(--baseBorderColor);
   color: white;
+}
+
+.nav_sections,
+.nav_sectionLinks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav_sectionHeaderLink,
+.nav_sectionLink {
+  display: block;
+  color: var(--fontColor);
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.nav_sectionHeaderLink {
+  font-size: 1.125rem;
+  font-weight: 500;
+  padding: 0.5rem 0 0.5rem 1rem;
+}
+
+.nav_sectionLink {
+  padding: 0.5rem 0 0.5rem 1.75rem;
+}
+
+.nav_sectionHeaderLink.active,
+.nav_sectionLink.active {
+  background: rgba(255, 255, 255, 0.05);
 }

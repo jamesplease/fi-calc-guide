@@ -2,15 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164261905-2"></script>
-    <script>
+    {% if environment === 'prod' %}
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164261905-2"></script>
+      <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
       gtag('config', 'UA-164261905-2');
     </script>
+    {% endif %}
+    
     <meta name="Description" content="FI Calc is a powerful and flexible retirement calculator for FIRE. Simulate retirements using historical data that spans more than 100 years.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="{{ '/css/app.css' | url }}" />

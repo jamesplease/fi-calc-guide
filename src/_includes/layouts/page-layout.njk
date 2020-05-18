@@ -40,5 +40,9 @@
         </div>
       </div>
     </div>
+    {% set js %}
+      {% include "js/color-mode.js" %}
+    {% endset %}
+    <script>{{ js | jsmin | safe }}</script>
   </body>
 </html>

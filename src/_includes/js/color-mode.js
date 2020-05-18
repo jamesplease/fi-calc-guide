@@ -1,5 +1,5 @@
-const isLightMode =
+var isLightMode =
   window.matchMedia &&
   window.matchMedia("(prefers-color-scheme: light)").matches;
-const bodyClass = isLightMode ? "lightMode" : "darkMode";
+var bodyClass = isLightMode ? "lightMode" : "darkMode";
 document.body.classList.add(bodyClass);

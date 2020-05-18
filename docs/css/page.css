@@ -1,5 +1,5 @@
 .page {
-  width: var(--maxAppWidth);
+  max-width: var(--maxAppWidth);
   margin: 0 auto 0;
   padding: 1.5rem var(--contentSpacingRight) 0 var(--contentSpacingLeft);
 }

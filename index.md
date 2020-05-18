@@ -1,5 +1,5 @@
 ---
-layout: layouts/page-layout.njk
+layout: default
 ---
 
 # Getting Started

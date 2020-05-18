@@ -2,7 +2,7 @@
   --footerColor: #bbb;
 
   font-size: 0.875rem;
-  height: var(--footerHeight);
+  height: calc(var(--footerHeight) + var(--safeAreaInsetBottom));
   color: var(--footerColor);
   padding-bottom: var(--safeAreaInsetBottom);
 }

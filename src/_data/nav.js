@@ -1,11 +1,11 @@
 module.exports = [
   {
     title: "Introduction",
-    url: "/about/",
+    url: "/",
     pages: [
       {
         title: "Getting Started",
-        url: "/",
+        url: "/getting-started/",
       },
       {
         title: "Backtesting",

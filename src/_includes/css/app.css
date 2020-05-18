@@ -1,6 +1,8 @@
 @import "./normalize.css";
 @import "./variables.css";
 @import "./button.css";
+
+@import "./home.css";
 @import "./footer.css";
 @import "./header.css";
 @import "./nav.css";

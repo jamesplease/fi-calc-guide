@@ -7,8 +7,12 @@
   padding-bottom: var(--safeAreaInsetBottom);
 }
 
+.lightMode .footer {
+  --footerColor: #777;
+}
+
 .footer_content {
-  border-top: 1px solid #2f2f2f;
+  border-top: 1px solid var(--baseBorderColor);
   height: 100%;
   max-width: var(--maxAppWidth);
   display: flex;

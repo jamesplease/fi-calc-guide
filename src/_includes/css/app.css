@@ -1,14 +1,14 @@
-@import './normalize.css';
-@import './variables.css';
-@import './button.css';
-@import './footer.css';
-@import './header.css';
-@import './nav.css';
-@import './page.css';
+@import "./normalize.css";
+@import "./variables.css";
+@import "./button.css";
+@import "./footer.css";
+@import "./header.css";
+@import "./nav.css";
+@import "./page.css";
 
 html,
 body {
-  background: #1c1c1c;
+  background: var(--appBg);
   padding: 0;
   margin: 0;
 }
@@ -19,7 +19,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  color: #fff;
+  color: var(--fontColor);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

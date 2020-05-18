@@ -1,6 +1,5 @@
 :root {
   --accentColor: #6954ff;
-  --primaryBlue: #409dff;
 
   --safeAreaInsetTop: 0;
   --safeAreaInsetBottom: 0;
@@ -38,6 +37,22 @@
     var(--baseContentSpacingRight),
     var(--safeAreaInsetRight)
   );
+}
+
+body {
+  --appBg: #1c1c1c;
+  --fontColor: #fff;
+  --baseBorderColor: #2e2e2e;
+
+  --primaryBlue: #409dff;
+}
+
+body.lightMode {
+  --appBg: #fff;
+  --fontColor: #000;
+  --baseBorderColor: #e4e4e4;
+
+  --primaryBlue: #016bda;
 }
 
 @media (min-width: 1200px) {

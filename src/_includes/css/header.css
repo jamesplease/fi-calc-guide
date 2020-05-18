@@ -1,17 +1,20 @@
 .header {
   height: var(--headerHeight);
-  border-bottom: 1px solid #2f2f2f;
+  border-bottom: 1px solid var(--baseBorderColor);
   background: #232323;
-  border-bottom-color: #2e2e2e;
   display: flex;
   align-items: center;
+}
+
+.lightMode .header {
+  background: #f8f8f8;
 }
 
 .nav_logoLink {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: white;
+  color: var(--fontColor);
   font-weight: bold;
   font-size: 1.125rem;
   padding: 0 0.5rem;

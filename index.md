@@ -1,6 +1,5 @@
 ---
 layout: layouts/page-layout.njk
-title: Getting Started
 ---
 
 # Getting Started

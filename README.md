@@ -1,6 +1,3 @@
----
-layout: layouts/page-layout.njk
-title: FI Calc Guide - Home
----
+# FI Calc Guidebook
 
-# Page header
+The Guidebook for [FI Calc](https://github.com/jamesplease/fi-calc).

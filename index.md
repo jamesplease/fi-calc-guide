@@ -65,8 +65,8 @@ your calculations in your spreadsheet app of choice.
 
 You're now ready to jump in and start running simulations – have fun!
 
-<div className="page_ctas">
-  <a href="https://ficalc.app/calculator" className="button page_ctaBtn">
+<div class="page_ctas">
+  <a href="https://ficalc.app/calculator" class="button page_ctaBtn">
     Launch Calculator
   </a>
 </div>

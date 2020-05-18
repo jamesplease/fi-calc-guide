@@ -4,8 +4,7 @@ module.exports = function (config) {
   let markdownIt = require("markdown-it");
   let options = {
     html: true,
-    breaks: true,
-    linkify: true,
+    linkify: false,
   };
 
   const md = markdownIt(options);

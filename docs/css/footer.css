@@ -4,6 +4,7 @@
   font-size: 0.875rem;
   height: var(--footerHeight);
   color: var(--footerColor);
+  padding-bottom: var(--safeAreaInsetBottom);
 }
 
 .footer_content {

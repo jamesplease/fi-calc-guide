@@ -21,6 +21,7 @@
   "homepage": "https://github.com/jamesplease/fi-calc-guide#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
+    "@traptitech/markdown-it-katex": "^3.2.3",
     "cross-env": "^7.0.2",
     "cssnano": "^4.1.10",
     "html-minifier": "^4.0.0",

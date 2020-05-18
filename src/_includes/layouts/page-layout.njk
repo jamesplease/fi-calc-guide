@@ -16,6 +16,10 @@
     
     <meta name="Description" content="FI Calc is a powerful and flexible retirement calculator for FIRE. Simulate retirements using historical data that spans more than 100 years.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {% if katex %}
+      <link rel="preload" href="{{ '/css/katex.0.11.1.css' | url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <noscript><link rel="stylesheet" href="{{ '/css/katex.0.11.1.css' | url }}"></noscript>
+    {% endif %}
     <link rel="stylesheet" href="{{ '/css/app.css' | url }}" />
     <title>
       FI Calc Guidebook{% if title %}: {{ title }}{% endif %}

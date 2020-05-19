@@ -36,11 +36,11 @@
 }
 
 .button:hover {
-  background-color: #7763ff;
+  background-color: var(--accentColorLight);
 }
 
 .button:active {
-  background-color: #634dff;
+  background-color: var(--accentColorDark);
 }
 
 .button-secondary:hover {
@@ -59,10 +59,31 @@
   background-color: #e01d1d;
 }
 
-.button.focus-visible {
+.button:focus {
   box-shadow: 0 0 0 2px #fff;
 }
 
-.button-secondary.focus-visible {
+.button-secondary:focus {
   box-shadow: 0 0 0 2px var(--accentColor);
+}
+
+.lightMode .button-secondary {
+  color: black;
+  background: rgba(0, 0, 0, 0.13);
+}
+
+.lightMode .button-secondary:hover {
+  background: rgba(0, 0, 0, 0.11);
+}
+
+.lightMode .button-secondary:active {
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.lightMode .button:focus {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 4px #000;
+}
+
+.lightMode .button-secondary:focus {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 4px var(--accentColor);
 }

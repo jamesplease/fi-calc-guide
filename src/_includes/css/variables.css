@@ -1,6 +1,4 @@
 :root {
-  --accentColor: #6954ff;
-
   --safeAreaInsetTop: 0;
   --safeAreaInsetBottom: 0;
   --safeAreaInsetLeft: 0;
@@ -44,15 +42,23 @@ body {
   --fontColor: #fff;
   --baseBorderColor: #2e2e2e;
 
+  --accentColor: #6954ff;
   --primaryBlue: #409dff;
+
+  --accentColorLight: #7763ff;
+  --accentColorDark: #634dff;
 }
 
 body.lightMode {
   --appBg: #fff;
   --fontColor: #000;
-  --baseBorderColor: #e4e4e4;
+  --baseBorderColor: #e9e9e9;
 
+  --accentColor: #5c48ef;
   --primaryBlue: #016bda;
+
+  --accentColorLight: #6c58ff;
+  --accentColorDark: #5340e0;
 }
 
 @media (min-width: 1200px) {

@@ -3,3 +3,8 @@ var isLightMode =
   window.matchMedia("(prefers-color-scheme: light)").matches;
 var bodyClass = isLightMode ? "lightMode" : "darkMode";
 document.body.classList.add(bodyClass);
+
+const logo = document.querySelector(".home_titleImg");
+if (logo && isLightMode) {
+  logo.src = "/fi-calc-logo-light.png";
+}

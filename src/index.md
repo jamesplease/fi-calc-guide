@@ -1,10 +1,11 @@
 ---
 layout: default
+wide: true
 ---
 
 <div class="home">
   <h1 class="home_title">
-    <img src="/fi-calc-logo.png" alt="FI Calc" class="home_titleImg" />
+    <img src="/fi-calc-logo-dark.png" alt="FI Calc" class="home_titleImg" />
   </h1>
   <div class="home_description">
     FI Calc is a powerful and flexible retirement calculator. It simulates

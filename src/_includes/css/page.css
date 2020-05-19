@@ -4,6 +4,10 @@
   padding: 1.5rem var(--contentSpacingRight) 0 var(--contentSpacingLeft);
 }
 
+.page-wide {
+  max-width: 980px;
+}
+
 .page h1 {
   margin: 0;
 }

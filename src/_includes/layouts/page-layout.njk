@@ -22,7 +22,7 @@
     {% endif %}
     <link rel="stylesheet" href="{{ '/css/app.css' | url }}" />
     <title>
-      FI Calc Guidebook{% if title %}: {{ title }}{% endif %}
+      FI Calc{% if title %}: {{ title }}{% endif %}
     </title>
   </head>
   <body>
@@ -32,7 +32,7 @@
         {# {% include 'nav.njk' %} #}
         <div class="website-contents">
         <main>
-          <div class="page">
+          <div class="page {% if wide %}page-wide{% endif %}">
             {{ content | safe }}
           </div>
         </main>

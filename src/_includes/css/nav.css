@@ -1,9 +1,9 @@
 .nav {
   position: sticky;
   flex: 0 0 var(--configuration-width);
-  top: 0;
+  top: var(--headerHeight);
   width: var(--configuration-width);
-  max-height: 100vh;
+  max-height: calc(100vh - var(--headerHeight));
   padding: 1.5rem var(--contentSpacingRight) 1.5rem var(--contentSpacingLeft);
   overflow-y: auto;
   border-right: 1px solid var(--baseBorderColor);
@@ -33,9 +33,11 @@
 
 .nav_sectionLink {
   padding: 0.5rem 0 0.5rem 1.75rem;
+  color: #aaa;
 }
 
 .nav_sectionHeaderLink.active,
 .nav_sectionLink.active {
+  color: white;
   background: rgba(255, 255, 255, 0.05);
 }

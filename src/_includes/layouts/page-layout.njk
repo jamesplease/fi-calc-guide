@@ -29,10 +29,12 @@
     <div class="website-root">
       {% include 'header.njk' %}
       <div class="website-body">
-        {# {% include 'nav.njk' %} #}
+        {% if home !== true %}
+          {% include 'nav.njk' %}
+        {% endif %}
         <div class="website-contents">
         <main>
-          <div class="page {% if wide %}page-wide{% endif %}">
+          <div class="page {% if home %}page-wide{% endif %}">
             {{ content | safe }}
           </div>
         </main>

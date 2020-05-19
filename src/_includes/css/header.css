@@ -4,7 +4,7 @@
   background: #232323;
   display: flex;
   align-items: center;
-  /* padding: 0 var(--contentSpacingRight) 0 var(--contentSpacingLeft); */
+  padding: 0 var(--contentSpacingRight) 0 var(--contentSpacingLeft);
 }
 
 .lightMode .header {

@@ -1,6 +1,6 @@
 ---
 layout: default
-wide: true
+home: true
 ---
 
 <div class="home">

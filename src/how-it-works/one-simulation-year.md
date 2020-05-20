@@ -11,10 +11,9 @@ In each simulation year, three things occur (in this order):
 2. fees, growth, and dividends are applied to your assets
 3. the portfolio is rebalanced (should you choose to rebalance)
 
-This guide outlines this order in more detail.
+This guide outlines these events in more detail.
 
-> Note: it is not currently possible to configure the order that these events
-> occur in.
+> Note: it is not currently possible to configure the order of these events.
 
 ## The Year
 
@@ -31,7 +30,7 @@ Making a withdrawal is the very first thing to occur in a simulation year.
 If additional income or additional withdrawals are specified, then they also
 occur at the start of the year alongside the "base" withdrawal.
 
-Although not exact (due to the specific of the Shiller dataset), it is
+Although not exact (due to the specific of the Shiller data set), it is
 reasonable to think of the withdrawals as being made on January 1st of each
 year.
 
@@ -54,5 +53,5 @@ simulation year, December 31st.
 
 ## Example
 
-This example will step through a year using Shiller's dataset to illustrate with
-numbers how the above algorithm plays out.
+This example will step through a year using Shiller's data set to illustrate
+with numbers how the above algorithm plays out.

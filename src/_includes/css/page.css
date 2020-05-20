@@ -14,15 +14,22 @@
 }
 
 .page p {
-  line-height: 1.6;
+  line-height: 1.65;
 }
 
 .page ol li {
-  line-height: 1.6;
+  line-height: 1.65;
 }
 
 .page ul li {
-  line-height: 1.6;
+  line-height: 1.65;
+}
+
+.page blockquote {
+  margin-left: 0;
+  padding-left: 1rem;
+  border-left: 4px solid #444;
+  color: #aaa;
 }
 
 .page_ctas {

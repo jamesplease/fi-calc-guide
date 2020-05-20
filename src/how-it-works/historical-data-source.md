@@ -6,11 +6,11 @@ title: Historical Data
 # Historical Data
 
 This calculator uses historical data to run simulations. This calculator uses
-the dataset compiled by Nobel Prize-winning economist
+the data set compiled by Nobel Prize-winning economist
 [Robert Shiller](https://en.wikipedia.org/wiki/Robert_J._Shiller). Shiller's
-dataset dates back to January 1871.
+data set dates back to January 1871.
 
-You can view the Shiller dataset online at
+You can view the Shiller data set online at
 [Robert Shiller's website](http://www.econ.yale.edu/%7Eshiller/data.htm).
 
 ## Asset Types
@@ -43,8 +43,15 @@ investor.
 ### Comparisons to Popular Studies
 
 Both Bengen's study (which first described the 4% Rule) and the Trinity Study
-(which popularized the 4% Rule) used a different data set, the SSBI. This
-dataset begins in 1926.
+(which popularized the 4% Rule) used a different data set, the SSBI. This data
+set begins in 1926.
 
 Keep this in mind if you are attempting to recreate or compare results from FI
 Calc to the results in these studies.
+
+## Computed Data
+
+The numbers that Shiller provides aren't directly consumable by this calculator.
+Instead, they must be transformed before they can be used to simulate
+retirements. To learn more about the transformations that must be made, refer to
+[this guide](/how-it-works/computed-historical-data/).

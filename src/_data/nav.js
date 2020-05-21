@@ -22,8 +22,8 @@ module.exports = [
         url: '/configuration/length-of-retirement/',
       },
       {
-        title: 'Portfolio',
-        url: '/configuration/portfolio/',
+        title: 'Initial Portfolio',
+        url: '/configuration/initial-portfolio/',
       },
       {
         title: 'Withdrawal Strategy',
@@ -43,58 +43,58 @@ module.exports = [
       },
     ],
   },
-  {
-    title: 'Withdrawal Strategies',
-    url: '/withdrawal-strategies/',
-    pages: [
-      {
-        title: 'Constant Dollar',
-        url: '/withdrawal-strategies/constant-dollar/',
-      },
-      {
-        title: 'Percent of Portfolio',
-        url: '/withdrawal-strategies/percent-of-portfolio/',
-      },
-      {
-        title: '1/N',
-        url: '/withdrawal-strategies/one-over-n/',
-      },
+  // {
+  //   title: 'Withdrawal Strategies',
+  //   url: '/withdrawal-strategies/',
+  //   pages: [
+  //     {
+  //       title: 'Constant Dollar',
+  //       url: '/withdrawal-strategies/constant-dollar/',
+  //     },
+  //     {
+  //       title: 'Percent of Portfolio',
+  //       url: '/withdrawal-strategies/percent-of-portfolio/',
+  //     },
+  //     {
+  //       title: '1/N',
+  //       url: '/withdrawal-strategies/one-over-n/',
+  //     },
 
-      {
-        title: 'Variable Percentage Withdrawal',
-        url: '/withdrawal-strategies/vpw/',
-      },
-      {
-        title: 'Custom VPW',
-        url: '/withdrawal-strategies/custom-vpw/',
-      },
-      {
-        title: 'Dynamic SWR',
-        url: '/withdrawal-strategies/dynamic-swr/',
-      },
+  //     {
+  //       title: 'Variable Percentage Withdrawal',
+  //       url: '/withdrawal-strategies/vpw/',
+  //     },
+  //     {
+  //       title: 'Custom VPW',
+  //       url: '/withdrawal-strategies/custom-vpw/',
+  //     },
+  //     {
+  //       title: 'Dynamic SWR',
+  //       url: '/withdrawal-strategies/dynamic-swr/',
+  //     },
 
-      {
-        title: 'Endowment Strategy',
-        url: '/withdrawal-strategies/endowment/',
-      },
-      {
-        title: 'Guyton-Klinger',
-        url: '/withdrawal-strategies/guyton-klinger/',
-      },
-      {
-        title: '95% Rule',
-        url: '/withdrawal-strategies/95-percent/',
-      },
-      {
-        title: 'CAPE-based',
-        url: '/withdrawal-strategies/cape-based/',
-      },
-      {
-        title: 'Sensible Withdrawals',
-        url: '/withdrawal-strategies/sensible-withdrawals/',
-      },
-    ],
-  },
+  //     {
+  //       title: 'Endowment Strategy',
+  //       url: '/withdrawal-strategies/endowment/',
+  //     },
+  //     {
+  //       title: 'Guyton-Klinger',
+  //       url: '/withdrawal-strategies/guyton-klinger/',
+  //     },
+  //     {
+  //       title: '95% Rule',
+  //       url: '/withdrawal-strategies/95-percent/',
+  //     },
+  //     {
+  //       title: 'CAPE-based',
+  //       url: '/withdrawal-strategies/cape-based/',
+  //     },
+  //     {
+  //       title: 'Sensible Withdrawals',
+  //       url: '/withdrawal-strategies/sensible-withdrawals/',
+  //     },
+  //   ],
+  // },
   {
     title: 'Intepreting the Results',
     url: '/results/',

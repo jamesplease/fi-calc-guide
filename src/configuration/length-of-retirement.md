@@ -5,4 +5,4 @@ title: Length of Retirement
 
 # Length of Retirement
 
-Coming soon.
+One of the important inputs to FI Calc is the length of your retirement.

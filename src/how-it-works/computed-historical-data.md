@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Asset Growth Calculation
+title: Computed Historical Data
 katex: true
 ---
 

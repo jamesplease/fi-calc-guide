@@ -51,7 +51,7 @@
 }
 
 .lightMode .nav_sectionLink {
-  color: #777;
+  color: #555;
 }
 
 .nav_sectionHeaderLink.active,
@@ -78,7 +78,7 @@
     will-change: transform;
     transition: transform 220ms ease-in-out;
     border-right: 0;
-    box-shadow: 10px 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
   }
 
   .nav_bg {

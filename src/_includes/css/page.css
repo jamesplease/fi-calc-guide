@@ -13,6 +13,10 @@
   margin: 0;
 }
 
+.page h4 {
+  margin: 0 0 1rem;
+}
+
 .page p {
   line-height: 1.65;
 }
@@ -38,6 +42,11 @@
   padding-left: 1rem;
   border-left: 4px solid #444;
   color: #aaa;
+}
+
+.lightMode .page blockquote {
+  color: #555;
+  border-left-color: #ddd;
 }
 
 .page_ctas {

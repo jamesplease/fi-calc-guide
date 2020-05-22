@@ -39,4 +39,5 @@
 
 .footer_link {
   color: var(--footerColor);
+  text-decoration: none;
 }

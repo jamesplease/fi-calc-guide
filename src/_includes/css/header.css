@@ -50,7 +50,7 @@
   margin-right: 0.75rem;
   background: none;
   border: 0;
-  fill: white;
+  fill: #bbb;
   border: 2px solid transparent;
   border-radius: 0.2rem;
   outline: none;
@@ -62,7 +62,7 @@
 }
 
 .lightMode .header_open {
-  fill: black;
+  fill: #666;
 }
 
 @media (max-width: 551px) {

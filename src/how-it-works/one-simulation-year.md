@@ -13,45 +13,37 @@ In each simulation year, three things occur (in this order):
 
 This guide outlines these events in more detail.
 
-> Note: it is not currently possible to configure the order of these events.
+> It is not currently possible to configure the order of these events.
 
 ## The Year
 
-A simulation year begins on January 1st and ends exactly one year later on the
-following January 1st.
+A simulation year begins on January 1st and lasts through December 31st.
+
+Mathematically, the retirement is modeled as closely as possible to span from
+12:00 AM on January 1st to 12:00 AM on the following January 1st with an
+inclusive start and exclusive end.
+
+Much of Shiller's monthly data represents averages or linearly interpolated
+data, so keep in mind that each data point does not, in general, represent any
+specific day in history.
 
 ## Order of Operations
 
 ### 1. Withdrawals
 
-Withdrawals are annual, and they are made at the very beginning of the year.
-Making a withdrawal is the very first thing to occur in a simulation year.
+Withdrawals are annual, and they are made on the first day of the year. The
+withdrawal is the very first thing to occur in each simulation year.
 
-If additional income or additional withdrawals are specified, then they also
-occur at the start of the year alongside the "base" withdrawal.
-
-Although not exact (due to the specific of the Shiller data set), it is
-reasonable to think of the withdrawals as being made on January 1st of each
-year.
+If additional income or additional withdrawals are specified, then they are
+factored in on the first day of the year alongside the "base" withdrawal.
 
 ### 2. Fees, Growth, and Dividends
 
-Fees, growth, and dividends are each individually calculated a single time at
-the very end of the year. They are each based on the value of your assets after
-the withdrawal has been made.
-
-You can consider these values to be calculated on the final day of each
-simulation year, December 31st.
+Fees, growth, and dividends are each individually calculated a single time on
+the final day of the year. Each of these values is based on the portfolio value
+after the withdrawal has been made.
 
 ### 3. Portfolio Rebalancing
 
 Portfolio rebalancing, when specified, is the final step of each simulation
-year.
-
-You can consider these values to be calculated on the final day of each
-simulation year, December 31st.
-
-## Example
-
-This example will step through a year using Shiller's data set to illustrate
-with numbers how the above algorithm plays out.
+year. It takes place on the final day of the year.

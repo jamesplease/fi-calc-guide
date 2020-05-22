@@ -3,10 +3,10 @@ module.exports = [
     title: 'Introduction',
     url: '/introduction/',
     pages: [
-      {
-        title: 'Getting Started',
-        url: '/introduction/getting-started/',
-      },
+      // {
+      //   title: 'Getting Started',
+      //   url: '/introduction/getting-started/',
+      // },
       {
         title: 'Backtesting',
         url: '/introduction/backtesting/',
@@ -95,24 +95,24 @@ module.exports = [
   //     },
   //   ],
   // },
-  {
-    title: 'Intepreting the Results',
-    url: '/results/',
-    pages: [
-      {
-        title: 'Portfolio at End of Retirement',
-        url: '/results/portfolio/',
-      },
-      {
-        title: 'Withdrawals',
-        url: '/results/withdrawals/',
-      },
-      {
-        title: 'Year Details',
-        url: '/results/year-details/',
-      },
-    ],
-  },
+  // {
+  //   title: 'Intepreting the Results',
+  //   url: '/results/',
+  //   pages: [
+  //     {
+  //       title: 'Portfolio at End of Retirement',
+  //       url: '/results/portfolio/',
+  //     },
+  //     {
+  //       title: 'Withdrawals',
+  //       url: '/results/withdrawals/',
+  //     },
+  //     {
+  //       title: 'Year Details',
+  //       url: '/results/year-details/',
+  //     },
+  //   ],
+  // },
   {
     title: 'How It Works',
     url: '/how-it-works/',

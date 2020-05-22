@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Backtesting
 ---
 
 # Backtesting
@@ -25,4 +26,4 @@ not effective with new data.
 One of the ways to avoid overfitting is to test your models in other scenarios
 not present in the historical data, such as by running what are called Monte
 Carlo simulations. FI Calc does not currently support Monte Carlo simulations,
-but it is a feature that we plan to introduce.
+but it is a feature that we plan to introduce in the future.

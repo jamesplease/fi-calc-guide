@@ -13,6 +13,5 @@ of their retirement.
 Different people have devised withdrawal strategies that each have different
 goals and different behaviors based on how the market is doing.
 
-This is a deep topic: so deep, in fact, that there is an entire section of these
-guides dedicated to the different withdrawal strategies.
-[Read more](/withdrawal-strategies/).
+This is a deep topic, and we are working on a guide that describes all of the
+different withdrawal strategies in detail. Check back soon.

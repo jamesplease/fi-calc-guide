@@ -5,4 +5,53 @@ title: FAQ
 
 # FAQ
 
-Coming soon.
+These are general questions and answers about FI Calc and me, the creator.
+
+### Who created FI Calc?
+
+My name is James. It's nice to meet you! I'm a designer and engineer in Silicon
+Valley who is interested in early retirement.
+
+### Are you retired?
+
+Not yet! (as of April 2020)
+
+### Do you have a favorite withdrawal strategy?
+
+Honestly, it changes. I'm drawn to simple withdrawal strategies that you can
+calculate on a piece of paper. Right now I like the Constant Dollar and
+Endowment Strategy.
+
+### What are your favorite early retirement blogs and resources?
+
+I'm not particularly active in the FIRE community right now, but I listen to
+[Paula Pant's podcast](https://affordanything.com) and read
+[Mr. Money Mustache](https://www.mrmoneymustache.com).
+
+### What's the business model of FI Calc?
+
+FI Calc does not currently earn any revenue.
+
+### Do you plan to monetize FI Calc?
+
+There will always be a free version of FI Calc, and that free version will
+always include every feature that doesn't require a database.
+
+One feature that I've considered adding are user accounts, which would allow you
+to save simulations. This feature requires a database, though, which would cost
+me a little bit of money.
+
+If I do add this feature, then I would want to at least cover the cost of the
+database. The most likely turn of events is that I would introduce ads to FI
+Calc.
+
+I'm still not sure if I should add user accounts. Would you find them useful?
+[Let me know!](/contact/)
+
+### Where is FI Calc hosted?
+
+[Vercel](https://vercel.com) (previously known as Zeit).
+
+### When was FI Calc created?
+
+I started the project in 2018, although I didn't work on it much until 2020.

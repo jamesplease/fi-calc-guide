@@ -35,7 +35,6 @@
 .nav_logoLinkImg {
   display: block;
   height: 1.375rem;
-  /* margin-right: 0.75rem; */
 }
 
 .header_cta {
@@ -44,4 +43,31 @@
 
 .lightMode .nav_logoLink {
   border-width: 3px;
+}
+
+.header_open {
+  display: none;
+  margin-right: 0.75rem;
+  background: none;
+  border: 0;
+  fill: white;
+  border: 2px solid transparent;
+  border-radius: 0.2rem;
+  outline: none;
+  padding: 0 0.2rem;
+}
+
+.header_open:focus {
+  border-color: var(--accentColor);
+}
+
+.lightMode .header_open {
+  fill: black;
+}
+
+@media (max-width: 551px) {
+  .header_open {
+    display: flex;
+    align-items: center;
+  }
 }

@@ -14,7 +14,7 @@ home: true
   </div>
   <div class="home_ctas">
     <a
-      href="/introduction/getting-started"
+      href="/introduction/"
       class="home_cta button button-secondary home_learnMoreBtn">
       Learn More
     </a>

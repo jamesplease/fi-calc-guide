@@ -25,6 +25,14 @@
   line-height: 1.65;
 }
 
+.page code {
+  color: #ff79ee;
+}
+
+.lightMode .page code {
+  color: #c127ae;
+}
+
 .page blockquote {
   margin-left: 0;
   padding-left: 1rem;
@@ -46,4 +54,35 @@
 
 a {
   color: var(--primaryBlue);
+}
+
+.page table {
+  width: 100%;
+}
+
+.page table th {
+  padding: 0.5rem;
+  text-align: left;
+  border-bottom: 1px solid var(--baseBorderColor);
+}
+
+.page table td {
+  padding: 0.5rem;
+  border-bottom: 1px solid var(--baseBorderColor);
+}
+
+.page table th:first-child,
+.page table td:first-child {
+  padding-left: 0;
+}
+
+.page table th:last-child,
+.page table td:last-child {
+  padding-right: 0;
+}
+
+@media (max-width: 551px) {
+  .page {
+    padding-top: 1.5rem;
+  }
 }

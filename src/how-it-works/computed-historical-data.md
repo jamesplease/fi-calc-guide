@@ -15,27 +15,32 @@ and the formulas used to compute them.
 
 ## Inflation
 
-Shiller provides the CPI for each month in his data set under the column
-"Consumer Price Index."
+Shiller provides the Consumer Price Index (CPI) for each month in his data set
+under the column "Consumer Price Index." The equation to derive inflation from
+the CPI is:
 
 $$
-inflation = \frac{\displaystyle currentYearCpi}{\displaystyle previousYearCpi}
+inflation = \frac{\displaystyle currentYearCpi}{\displaystyle previousYearCpi} - 1
 $$
 
-Inflation for the first year, 1871, is set to 1 (representing no inflation).
+Inflation for the first year, 1871, is set to `1` (representing no inflation).
 
 ### Inflation Example
 
-The CPI for January 1900 is 18.02, and for January 1901 it is 18.53. Placing
-these numbers into our equation yields:
+The CPI for January 1900 is `127.40`, and for January 1901 it is `134.60`.
+Placing these numbers into our equation yields:
 
 $$
-inflation = \frac{\displaystyle currentYearCpi}{\displaystyle previousYearCpi}
-
-= \frac{\displaystyle 18.53}{\displaystyle 18.02}
-
-= 1.0283
+\frac{currentYearCpi}{previousYearCpi} - 1
+\\[0.8em]
+= \frac{\displaystyle 127.40}{\displaystyle 134.60} - 1
+\\[0.8em]
+= 1.0565 - 1
+\\[0.8em]
+= 0.0565
 $$
+
+Therefore, inflation for the year 1990 is `5.65%`.
 
 ## Stocks
 
@@ -48,11 +53,11 @@ $$
 growth = \frac{\displaystyle currentYearValue}{\displaystyle previousYearValue}
 $$
 
-The growth for the first year, 1871, is set to $1$ (representing no growth).
+The growth for the first year, 1871, is set to `1` (representing no growth).
 
-### Stocks Example
+<!-- ### Stocks Example
 
-An example of stocks growth.
+An example of stocks growth. -->
 
 ## Dividend Yields
 
@@ -64,12 +69,12 @@ Shiller's data set includes the 10 year yields on US Treasury bonds. To
 determine year-over-year returns, we assume that you purchase the bonds, hold
 them for one year, and then sell them.
 
-The formula for this is complicated.
+The formula for this is complicated. Documentation will be added soon.
 
-> Note: This is the same formula used by cFIREsim. In fact, Bo, the creator of
+> This is the same formula used by cFIREsim. In fact, Bo, the creator of
 > cFIREsim, deserves credit for this for creating this conversation on
 > Bogleheads.
 
-### Bonds Example
+<!-- ### Bonds Example
 
-Bonds example here.
+Bonds example here. -->

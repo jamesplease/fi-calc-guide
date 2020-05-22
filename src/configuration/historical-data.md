@@ -43,3 +43,12 @@ before. There are two common reasons for this:
 
 If either of these arguments resonate with you, then you have the option to
 restrict the data used in your simulations.
+
+## Notable Years
+
+| Year | Description                               |
+| ---- | ----------------------------------------- |
+| 1871 | The earliest year in Shiller's data set   |
+| 1926 | The year the S&P 500 was created          |
+| 1992 | The final year in Bengen's original paper |
+| 1995 | The final year in The Trinity Study       |

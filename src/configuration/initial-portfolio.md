@@ -10,8 +10,8 @@ Your portfolio is the collection of assets that you own, including equities
 using FI Calc, you specify the portfolio that you have, or plan to have, at the
 start of your retirement.
 
-Presently, FI Calc supports two kinds of assets: equities and bonds. More asset
-types will be added in the future.
+Presently, FI Calc supports entering two kinds of assets: equities and bonds.
+More asset types will be added in the future.
 
 ## Deciding on a Portfolio Value
 
@@ -34,7 +34,7 @@ stocks. Once again, we recommend inputting the average fees of your investments.
 
 ### Bonds
 
-Similarly to stocks, there is a single input field for all of your bonds. Add up
+Just like stocks, there is a single input field for all of your bonds. Add up
 the value of all of your bond investments and place them in this field.
 
 ## Rebalancing Your Portfolio
@@ -43,5 +43,5 @@ By default, FI Calc ensures that your portfolio's asset allocation remains
 constant over time. You may disable this by unchecking the "Rebalance portfolio
 annually" checkbox.
 
-In the future, FI Calc will support "glide path" allocations, where your asset
-allocation changes over time. However, this is not currently an option.
+In the future, FI Calc will support "glide path" allocations, in which your
+asset allocation changes over time.

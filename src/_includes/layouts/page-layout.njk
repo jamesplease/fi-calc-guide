@@ -44,7 +44,9 @@
     </div>
     {% set js %}
       {% include "js/color-mode.js" %}
-      {% include "js/nav-scroll-position.js" %}
+      {% if home !== true %}
+        {% include "js/nav-scroll-position.js" %}
+      {% endif %}
     {% endset %}
     <script>{{ js | jsmin | safe }}</script>
   </body>

@@ -4,6 +4,7 @@ var nav = document.querySelector('.nav');
 var navOpenBtn = document.querySelector('.header_open');
 var navBg = document.querySelector('.nav_bg');
 var navIsOpen = false;
+
 navOpenBtn.addEventListener('click', function () {
   nav.classList.add('nav_open');
 });

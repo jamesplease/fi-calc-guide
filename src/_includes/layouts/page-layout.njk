@@ -26,6 +26,12 @@
     </title>
   </head>
   <body>
+    {% set js %}
+      {% include "js/color-mode.js" %}
+      {% if home !== true %}
+        {% include "js/nav-scroll-position.js" %}
+      {% endif %}
+    {% endset %}
     <div class="website-root">
       {% include 'header.njk' %}
       <div class="website-body">
@@ -42,12 +48,6 @@
         </div>
       </div>
     </div>
-    {% set js %}
-      {% include "js/color-mode.js" %}
-      {% if home !== true %}
-        {% include "js/nav-scroll-position.js" %}
-      {% endif %}
-    {% endset %}
     <script>{{ js | jsmin | safe }}</script>
   </body>
 </html>

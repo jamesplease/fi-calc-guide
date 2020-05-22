@@ -10,6 +10,7 @@
   color: white;
   background: var(--appBg);
   z-index: 20000;
+  line-height: 1.4;
 }
 
 .nav_bg {
@@ -40,18 +41,29 @@
 
 .nav_sectionHeaderLink {
   font-weight: 500;
-  padding: 0.5rem 0 0.5rem 1rem;
+  padding: 0.45rem 0.25rem 0.45rem 1rem;
 }
 
 .nav_sectionLink {
-  padding: 0.5rem 0 0.5rem 1.75rem;
+  margin-left: 0.75rem;
+  padding: 0.45rem 0.25rem 0.45rem 1rem;
   color: #aaa;
+}
+
+.lightMode .nav_sectionLink {
+  color: #777;
 }
 
 .nav_sectionHeaderLink.active,
 .nav_sectionLink.active {
   color: white;
   background: rgba(255, 255, 255, 0.05);
+}
+
+.lightMode .nav_sectionHeaderLink.active,
+.lightMode .nav_sectionLink.active {
+  color: black;
+  background: rgba(0, 0, 0, 0.05);
 }
 
 @media (max-width: 551px) {

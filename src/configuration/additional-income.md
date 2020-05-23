@@ -64,6 +64,29 @@ The Additional Income will be deleted.
 
 ## Effect on Withdrawals
 
-At this time, additional income does not affect your withdrawal. In the future,
-we plan to allow you to decide whether withdrawals should be reduced in years
-where you bring in additional income.
+Additional income reduces your total withdrawal for the year.
+
+This is best shown with an example: consider a year where you planned to spend
+$40,000 of a $1,000,000 portfolio. Without any additional income, you would up
+with \$960,000 remaining in your portfolio (before gains, fees, and so on).
+
+If you have an additional income of
+$10,000 that year, then your portfolio will instead
+end up as $970,000. This is
+equivalent to spending $30,000 for the year instead
+of $40,000.
+
+### How to Increase Spending With Income
+
+The behavior described above explains how additional income reduces your
+withdrawal. If you instead wish to _increase_ your spending when you receive
+additional income, then you can simply omit the income from this calculator
+altogether.
+
+This may seem counterintuitive, but this calculator measures your portfolio over
+time, and not your spending. That's why withdrawals are called "withdrawals" and
+not "spending."
+
+If you receive \$10,000 and immediately spend it, then it never touches your
+portfolio and therefore has no effect on the calculations performed by this
+calculator.

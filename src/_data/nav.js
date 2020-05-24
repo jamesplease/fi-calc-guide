@@ -22,8 +22,8 @@ module.exports = [
         url: '/configuration/length-of-retirement/',
       },
       {
-        title: 'Initial Portfolio',
-        url: '/configuration/initial-portfolio/',
+        title: 'Portfolio',
+        url: '/configuration/portfolio/',
       },
       {
         title: 'Withdrawal Strategy',

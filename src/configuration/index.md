@@ -18,8 +18,8 @@ page of the calculator.
 - [Length of Retirement](/configuration/length-of-retirement/) - How long your
   retirement lasts.
 
-- [Initial Portfolio](/configuration/initial-portfolio/) - The assets that you
-  have, or will have, at the start of your retirement.
+- [Portfolio](/configuration/portfolio/) - The assets that you have, or will
+  have, at the start of your retirement.
 
 - [Withdrawal Strategy](/configuration/withdrawal-strategy/) - Your withdrawal
   strategy determines how much money you withdraw each year during your

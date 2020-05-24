@@ -52,11 +52,20 @@ The default expense ratio, 0.05%, was the expense ratio of
 ## Rebalancing Your Portfolio
 
 By default, FI Calc ensures that your portfolio's asset allocation remains
-constant over time. You may disable this by unchecking the "Rebalance portfolio
-annually" checkbox.
+constant over time by rebalancing it each year.
 
-When rebalancing is enabled, you are also able to change your asset allocations
-over time. Learn how to configure this in the following section.
+### Changing the Frequency of Rebalancing
+
+FI Calc rebalances annually by default, but you can rebalance at any frequency.
+
+For example, to rebalance every other year, enter `2` as the frequency of
+rebalancing.
+
+### Disabling Rebalancing
+
+To disable rebalancing altogether uncheck the "Rebalance portfolio" checkbox.
+When you do this, the final portfolio mix will be determined entirely on the
+gains, fees, and dividends of your different asset types.
 
 ## Changing Your Asset Allocation Over Time
 
@@ -74,7 +83,7 @@ wish to have.
 Presently, the glide path in FI Calc is linear. What this means is that your
 allocation mix will evenly transition from the initial and final values over the
 course of your retirement. We intend to allow you to customize this in the
-future, but it is not yet supported.
+future, but this is not yet supported.
 
 > Keep in mind that the sum of your initial and final asset allocations must
 > each add up to 100%.

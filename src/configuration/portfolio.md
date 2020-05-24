@@ -58,11 +58,11 @@ annually" checkbox.
 When rebalancing is enabled, you are also able to change your asset allocations
 over time. Learn how to configure this in the following section.
 
-## Changing your Allocations Over Time
+## Changing Your Asset Allocation Over Time
 
-Sometimes, you may wish to have a different allocation of assets at the end of
-your retirement than you had at the start. For example, you may wish to move
-more of your assets into bonds near the end of your retirement.
+Sometimes, you may wish to have a different mix of assets at the end of your
+retirement than you had at the start. For example, you may wish to move more of
+your assets into bonds near the end of your retirement.
 
 This is sometimes referred to as a "glide path."
 

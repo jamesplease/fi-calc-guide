@@ -2,11 +2,11 @@
   margin: 10vh auto 3rem;
 }
 
-.home_title {
+.page .home_title {
   font-size: 4.5rem;
   font-weight: 900;
   text-align: center;
-  margin: 0 0 4rem;
+  margin: 0 0 3.5rem;
 }
 
 .home_titleImg {
@@ -51,8 +51,8 @@
     margin: 5vh 0 1.5rem;
   }
 
-  .home_title {
-    margin-bottom: 1.5rem;
+  .page .home_title {
+    margin-bottom: 1.25rem;
   }
 
   .home_titleImg {

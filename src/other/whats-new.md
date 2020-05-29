@@ -67,11 +67,11 @@ This page lists the latest improvements to FI Calc.
 
 - The Constant Withdrawal strategy has been renamed to Constant Dollar
 
-### April 28, 2020
+#### April 28, 2020
 
 - You can now hover or tap-and-hold on charts to view detailed information
 
-### April 23, 2020
+#### April 23, 2020
 
 - CSV exports are more consistent between the overview and individual
   simulations, and now include more information

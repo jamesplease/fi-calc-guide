@@ -136,6 +136,10 @@ module.exports = [
     url: '/other/',
     pages: [
       {
+        title: "What's New",
+        url: '/other/whats-new/',
+      },
+      {
         title: 'Glossary',
         url: '/other/glossary/',
       },

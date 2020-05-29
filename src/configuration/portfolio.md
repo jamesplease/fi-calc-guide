@@ -80,10 +80,19 @@ window, you will find a checkbox called "Change allocations over time." After
 checking it, new inputs will appear for the final portfolio allocations that you
 wish to have.
 
-Presently, the glide path in FI Calc is linear. What this means is that your
-allocation mix will evenly transition from the initial and final values over the
-course of your retirement. We intend to allow you to customize this in the
-future, but this is not yet supported.
-
 > Keep in mind that the sum of your initial and final asset allocations must
 > each add up to 100%.
+
+### Configuring the Glide Path
+
+You can further customize your glide path by choosing how quickly your assets
+settle on their final values. There are three options to choose from:
+
+- **evenly**: your allocations transition from their initial values to their
+  final values evenly over time. Mathematically, this is a linear function.
+
+- **slowly**: your allocations remain close to their initial values at the start
+  of your retirement. Mathematically, this is Penner's Quadratic In function.
+
+- **quickly**: your allocations more quickly settle on their final values.
+  Mathematically, this is Penner's Quadratic Out function.

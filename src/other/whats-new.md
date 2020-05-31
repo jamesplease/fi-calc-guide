@@ -10,6 +10,12 @@ This page lists the latest improvements to FI Calc.
 > This page only lists user-facing changes. For a full list of changes, refer to
 > [the GitHub commit history](https://github.com/jamesplease/fi-calc/commits/master).
 
+#### May 31, 2020
+
+- You can now share and bookmark simulations using a URL. For more, refer to
+  this guide.
+- New withdrawal strategy: Hebeler Autopilot II.
+
 #### May 28, 2020
 
 - You can now customize how quickly your allocations change over time. To learn

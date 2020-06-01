@@ -7,8 +7,14 @@ title: Additional Income
 
 Retiring does not necessarily mean that you're no longer bringing in money.
 Sometimes, you may have additional income during some years of your retirement.
-Example sources of additional income include rental property cashflow, social
-security, a pension, a side job, or a profitable side project.
+Example sources of additional income include:
+
+- rental property cashflow
+- selling a home
+- social security
+- a pension
+- a side job
+- a profitable side project.
 
 ## Adding Additional Income
 

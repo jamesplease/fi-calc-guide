@@ -36,6 +36,13 @@ Note that bond growth is not straightforward to calculate from this value. For
 more, refer to the
 [Computed Historical Data guide](/how-it-works/computed-historical-data/).
 
+### Cash
+
+FI Calc does not use historical data for cash. At the moment, your cash
+investments are assumed to have 0% growth.
+
+> In the future FI Calc will support fixed growth of cash.
+
 ### CPI
 
 Shiller's Consumer Price Index (which is used to calculate inflation in FI Calc)

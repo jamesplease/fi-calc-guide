@@ -6,15 +6,15 @@ title: Portfolio
 # Portfolio
 
 Your portfolio is the collection of assets that you own, including equities
-(stocks), cash, real estate, and so on. When simulating your retirement plan
-using FI Calc, you specify the portfolio that you have, or plan to have, at the
-start of your retirement.
+(stocks), bonds, and cash. When simulating your retirement plan using FI Calc,
+you specify the portfolio that you have, or plan to have, at the start of your
+retirement.
 
-Presently, FI Calc supports entering two kinds of assets: equities and bonds.
-More asset types will be added in the future.
+Presently, FI Calc supports entering three kinds of assets: equities, bonds, and
+cash.
 
-You're also able to choose whether your portfolio rebalances or not, and also if
-your allocation mix should change over time (a "glide path").
+You're also able to specify whether you intend to rebalance your portfolio or
+not, and also if your allocation mix should change over time (a "glide path").
 
 ## Deciding on a Portfolio Value
 
@@ -48,6 +48,26 @@ You may also specify the annual fees, or expense ratios, for your bonds.
 
 The default expense ratio, 0.05%, was the expense ratio of
 [VBTLX](https://investor.vanguard.com/mutual-funds/profile/VBTLX) in May 2020.
+
+### Cash
+
+Cash is entered in the same way that equities and bonds are.
+
+One important thing to note is that unlike the other asset types, cash is not
+calculated using historical data. Presently, cash is assumed to have a 0% growth
+year over year.
+
+> A future update will allow for fixed growth of cash.
+
+### Real Estate
+
+The equity that you have in real estate is not something that you can input into
+your FI Calc portfolio. What you can do is specify
+[Additional Income](/configuration/additional-income/) to account for rental
+property cash flow, or to account for money earned from selling a home.
+
+> Do you need more features for your real estate properties? If so, please
+> [let me know](/contact/).
 
 ## Rebalancing Your Portfolio
 

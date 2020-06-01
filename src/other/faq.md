@@ -7,6 +7,28 @@ title: FAQ
 
 These are general questions and answers about FI Calc and me, the creator.
 
+## How Do I...?
+
+### Enter real estate into FI Calc?
+
+You can use the [Additional Income](/configuration/additional-income/) feature
+of FI Calc to support real estate.
+
+If you have a rental property, you can specify the annual cashflow as recurring
+income for as long as you intend to own the home.
+
+If you intend to sell the property, then you can add your earnings from the sell
+as additional income in the year that you sell.
+
+If there are more features you need to help manage your real estate investments,
+please [let me know](/contact/).
+
+### Share calculations?
+
+Refer to the [Saving Calculations](/saving-calculations/) guide.
+
+## About the Creator
+
 ### Who created FI Calc?
 
 My name is James. It's nice to meet you! I'm a designer and engineer in Silicon
@@ -27,6 +49,8 @@ Endowment Strategy.
 I'm not particularly active in the FIRE community right now, but I listen to
 [Paula Pant's podcast](https://affordanything.com) and read
 [Mr. Money Mustache](https://www.mrmoneymustache.com).
+
+## General Questions
 
 ### What's the business model of FI Calc?
 

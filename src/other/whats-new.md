@@ -10,6 +10,10 @@ This page lists the latest improvements to FI Calc.
 > This page only lists user-facing changes. For a full list of changes, refer to
 > [the GitHub commit history](https://github.com/jamesplease/fi-calc/commits/master).
 
+#### June 1, 2020
+
+- You can now specify cash in your portfolio.
+
 #### May 31, 2020
 
 - You can now share and bookmark calculations using a URL. For more, refer to

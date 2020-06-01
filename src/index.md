@@ -16,7 +16,7 @@ home: true
     <a
       href="/introduction/"
       class="home_cta button button-secondary home_learnMoreBtn">
-      Learn More
+      Read the Guides
     </a>
     <a href="https://calculator.ficalc.app" class="home_cta button home_launchCta">
       Launch Calculator

@@ -114,6 +114,10 @@ module.exports = [
   //   ],
   // },
   {
+    title: 'Saving Calculations',
+    url: '/saving-calculations/',
+  },
+  {
     title: 'How It Works',
     url: '/how-it-works/',
     pages: [
@@ -135,6 +139,10 @@ module.exports = [
     title: 'Other',
     url: '/other/',
     pages: [
+      {
+        title: "What's New",
+        url: '/other/whats-new/',
+      },
       {
         title: 'Glossary',
         url: '/other/glossary/',

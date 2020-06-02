@@ -54,10 +54,9 @@ The default expense ratio, 0.05%, was the expense ratio of
 Cash is entered in the same way that equities and bonds are.
 
 One important thing to note is that unlike the other asset types, cash is not
-calculated using historical data. Presently, cash is assumed to have a 0% growth
-year over year.
-
-> A future update will allow for fixed growth of cash.
+calculated using historical data. Instead, a fixed growth is used for cash,
+which defaults to 1.5%. This growth represents the interest earned in a
+high-interest savings account, for example.
 
 ### Real Estate
 

@@ -38,10 +38,9 @@ more, refer to the
 
 ### Cash
 
-FI Calc does not use historical data for cash. At the moment, your cash
-investments are assumed to have 0% growth.
-
-> In the future FI Calc will support fixed growth of cash.
+FI Calc does not use historical data for cash. Instead, you must supply a fixed
+annual growth for your cash investments (which defaults to 1.5%).
+[Learn more here](/configuration/portfolio/).
 
 ### CPI
 

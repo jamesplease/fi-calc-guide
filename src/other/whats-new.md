@@ -10,6 +10,13 @@ This page lists the latest improvements to FI Calc.
 > This page only lists user-facing changes. For a full list of changes, refer to
 > [the GitHub commit history](https://github.com/jamesplease/fi-calc/commits/master).
 
+#### June 3, 2020
+
+- Analysis-based colors have returned to the simulation-by-year grid. There are
+  two different analyses used based on the goals of the withdrawal strategy: one
+  is for longevity (e.g.; Constant Dollar), and the other is for maximum spend
+  (e.g.; VPW).
+
 #### June 1, 2020
 
 - You can now specify cash in your portfolio.

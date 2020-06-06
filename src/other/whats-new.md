@@ -10,6 +10,11 @@ This page lists the latest improvements to FI Calc.
 > This page only lists user-facing changes. For a full list of changes, refer to
 > [the GitHub commit history](https://github.com/jamesplease/fi-calc/commits/master).
 
+#### June 6, 2020
+
+- New charts have been introduced on the home page that display end portfolio and
+  withdrawals quantiles.
+
 #### June 3, 2020
 
 - Analysis-based colors have returned to the simulation-by-year grid. There are

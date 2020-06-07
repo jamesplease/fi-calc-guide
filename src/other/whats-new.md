@@ -12,8 +12,10 @@ This page lists the latest improvements to FI Calc.
 
 #### June 6, 2020
 
-- New charts have been introduced on the home page that display end portfolio and
-  withdrawals quantiles.
+- New charts have been introduced on the home page that display end portfolio
+  and withdrawals quantiles.
+- Results now show years with excessively large end portfolios for "longevity"
+  withdrawal strategies
 
 #### June 3, 2020
 

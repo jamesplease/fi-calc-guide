@@ -79,3 +79,8 @@ I'm still not sure if I should add user accounts. Would you find them useful?
 ### When was FI Calc created?
 
 I started the project in 2018, although I didn't work on it much until 2020.
+
+### What technology is FI Calc built with?
+
+FI Calc is a client-side React application. There is no server; all calculations
+are performed in the browser.

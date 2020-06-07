@@ -16,6 +16,8 @@ This page lists the latest improvements to FI Calc.
   and withdrawals quantiles.
 - Results now show years with excessively large end portfolios for "longevity"
   withdrawal strategies
+- The Summary on the results page is improved and now displayed for all
+  withdrawal strategies
 
 #### June 3, 2020
 

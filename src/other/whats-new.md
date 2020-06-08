@@ -7,8 +7,8 @@ title: What's New
 
 This page lists the latest improvements to FI Calc.
 
-> This page only lists user-facing changes. For a full list of changes, refer to
-> [the GitHub commit history](https://github.com/jamesplease/fi-calc/commits/master).
+<!-- > This page only lists user-facing changes. For a full list of changes, refer to
+> [the GitHub commit history](https://github.com/jamesplease/fi-calc/commits/master). -->
 
 #### June 6, 2020
 

@@ -10,6 +10,12 @@ This page lists the latest improvements to FI Calc.
 <!-- > This page only lists user-facing changes. For a full list of changes, refer to
 > [the GitHub commit history](https://github.com/jamesplease/fi-calc/commits/master). -->
 
+#### June 9, 2020
+
+- You can now view the end portfolio value of all simulations by clicking the
+  largest portfolio value, smallest portfolio value, or "No. of \$0 Portfolios"
+  rows.
+
 #### June 6, 2020
 
 - New charts have been introduced on the home page that display end portfolio

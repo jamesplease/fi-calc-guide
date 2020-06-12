@@ -17,7 +17,7 @@ and estimate the performance of a particular withdrawal strategy.
 Backtesting is only effective when you have high-quality data to run
 calculations with. The data set used in FI Calc was compiled by a Nobel
 Prize-winning economist, Robert Shiller (you can read more about the data set
-used in FI Calc [here](./how-it-works/historical-data/)).
+used in FI Calc [here](./how-it-works/historical-data-source/)).
 
 Another problem with backtesting is called _overfitting_. Overfitting is when
 you design an algorithm that follows too closely to the current data set, but is

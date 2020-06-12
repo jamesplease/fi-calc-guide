@@ -28,7 +28,7 @@ page of the calculator.
 - [Additional Income](/configuration/additional-income/) - Learn how to
   configure extra income that you plan to receive during your retirement.
 
-- [Additional Withdrawals](/configuration/additional-withdrawal/) - This guide
+- [Additional Withdrawals](/configuration/additional-withdrawals/) - This guide
   covers how you can make extra withdrawals for certain years during your
   retirement.
 

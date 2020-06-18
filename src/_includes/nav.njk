@@ -3,15 +3,39 @@
     {% for item in nav %}
       <li class="nav_section">
         <a href="{{ item.url }}" class="nav_sectionHeaderLink {% if page.url == item.url %}active{% endif %}">{{ item.title }}</a>
-        <ul class="nav_sectionLinks">
-          {% for child in item.pages %}
-            <li class="nav_sectionLinkContainer">
-              <a href="{{ child.url }}" class="nav_sectionLink {% if page.url == child.url %}active{% endif %}">
-                {{ child.title }}
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
+        {% if item.pages %}
+          <ul class="nav_sectionLinks">
+            {% for child in item.pages %}
+              <li class="nav_sectionLinkContainer">
+                <a href="{{ child.url }}" class="nav_sectionLink {% if page.url == child.url %}active{% endif %}">
+                  {{ child.title }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+        {% if item.groups %}
+          <ul class="nav_sectionGroups">
+            {% for group in item.groups %}
+              <li class="nav_sectionGroupContainer">
+                <a href="{{ group.url }}" class="nav_sectionGroupLink {% if page.url == group.url %}active{% endif %}">
+                  {{ group.title }}
+                </a>
+                {% if group.pages %}
+                  <ul class="nav_sectionLinks">
+                    {% for child in group.pages %}
+                      <li class="nav_sectionLinkContainer">
+                        <a href="{{ child.url }}" class="nav_sectionLink {% if page.url == child.url %}active{% endif %}">
+                          {{ child.title }}
+                        </a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
       </li>
     {% endfor %}
   </ul>

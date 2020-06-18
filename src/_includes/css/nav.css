@@ -25,14 +25,16 @@
 }
 
 .nav_sections,
-.nav_sectionLinks {
+.nav_sectionLinks,
+.nav_sectionGroups {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
 .nav_sectionHeaderLink,
-.nav_sectionLink {
+.nav_sectionLink,
+.nav_sectionGroupLink {
   display: block;
   color: var(--fontColor);
   text-decoration: none;
@@ -44,10 +46,19 @@
   padding: 0.45rem 0.25rem 0.45rem 1rem;
 }
 
-.nav_sectionLink {
+.nav_sectionLink,
+.nav_sectionGroupLink {
   margin-left: 0.75rem;
   padding: 0.45rem 0.25rem 0.45rem 1rem;
   color: #aaa;
+}
+
+.nav_sectionGroupContainer .nav_sectionLink {
+  margin-left: 1.5rem;
+}
+
+.nav_sectionGroupLink {
+  color: white;
 }
 
 .lightMode .nav_sectionLink {
@@ -55,7 +66,8 @@
 }
 
 .nav_sectionHeaderLink.active,
-.nav_sectionLink.active {
+.nav_sectionLink.active,
+.nav_sectionGroupLink.active {
   color: white;
   background: rgba(255, 255, 255, 0.05);
 }

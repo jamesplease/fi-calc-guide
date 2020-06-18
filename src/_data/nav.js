@@ -64,20 +64,20 @@ module.exports = [
       {
         title: 'Maximize Spending',
         url: '/withdrawal-strategies/maximize-spending/',
-        // pages: [
-        //   {
-        //     title: 'Variable Percentage Withdrawal',
-        //     url: '/withdrawal-strategies/vpw/',
-        //   },
-        //   {
-        //     title: 'Custom VPW',
-        //     url: '/withdrawal-strategies/custom-vpw/',
-        //   },
-        //   {
-        //     title: 'Dynamic SWR',
-        //     url: '/withdrawal-strategies/dynamic-swr/',
-        //   },
-        // ],
+        pages: [
+          {
+            title: 'Variable Percentage Withdrawal',
+            url: '/withdrawal-strategies/vpw/',
+          },
+          {
+            title: 'Custom VPW',
+            url: '/withdrawal-strategies/custom-vpw/',
+          },
+          {
+            title: 'Dynamic SWR',
+            url: '/withdrawal-strategies/dynamic-swr/',
+          },
+        ],
       },
       {
         title: 'Maximize Longevity',

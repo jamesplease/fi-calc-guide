@@ -22,13 +22,9 @@ similarities.
 
 ### [Maximize Spending](./maximize-spending)
 
-- Varible Percentage Withdrawal (VPW)
-- Custom VPW
-- Dynamic Safe Withdrawal Rate (Dynamic SWR)
-
-<!-- - [Varible Percentage Withdrawal (VPW)](./vpw)
+- [Variable Percentage Withdrawal (VPW)](./vpw)
 - [Custom VPW](./custom-vpw)
-- [Dynamic Safe Withdrawal Rate (Dynamic SWR)](./dynamic-swr) -->
+- [Dynamic Safe Withdrawal Rate (Dynamic SWR)](./dynamic-swr)
 
 ### [Maximize Longevity](./maximize-longevity)
 

@@ -22,14 +22,24 @@ similarities.
 
 ### [Maximize Spending](./maximize-spending)
 
-- [Varible Percentage Withdrawal (VPW)](./vpw)
+- Varible Percentage Withdrawal (VPW)
+- Custom VPW
+- Dynamic Safe Withdrawal Rate (Dynamic SWR)
+
+<!-- - [Varible Percentage Withdrawal (VPW)](./vpw)
 - [Custom VPW](./custom-vpw)
-- [Dynamic Safe Withdrawal Rate (Dynamic SWR)](./dynamic-swr)
+- [Dynamic Safe Withdrawal Rate (Dynamic SWR)](./dynamic-swr) -->
 
 ### [Maximize Longevity](./maximize-longevity)
 
-- [Endowment Strategy](./endowment-strategy)
+- Endowment Strategy
+- Guyton-Klinger
+- 95% Rule
+- CAPE-based
+- Sensible Withdrawals
+
+<!-- - [Endowment Strategy](./endowment-strategy)
 - [Guyton-Klinger](./guyton-klinger)
 - [95% Rule](./95-percent)
 - [CAPE-based](./cape-based)
-- [Sensible Withdrawals](./sensible-withdrawals)
+- [Sensible Withdrawals](./sensible-withdrawals) -->

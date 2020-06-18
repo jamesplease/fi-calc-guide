@@ -64,46 +64,46 @@ module.exports = [
       {
         title: 'Maximize Spending',
         url: '/withdrawal-strategies/maximize-spending/',
-        pages: [
-          {
-            title: 'Variable Percentage Withdrawal',
-            url: '/withdrawal-strategies/vpw/',
-          },
-          {
-            title: 'Custom VPW',
-            url: '/withdrawal-strategies/custom-vpw/',
-          },
-          {
-            title: 'Dynamic SWR',
-            url: '/withdrawal-strategies/dynamic-swr/',
-          },
-        ],
+        // pages: [
+        //   {
+        //     title: 'Variable Percentage Withdrawal',
+        //     url: '/withdrawal-strategies/vpw/',
+        //   },
+        //   {
+        //     title: 'Custom VPW',
+        //     url: '/withdrawal-strategies/custom-vpw/',
+        //   },
+        //   {
+        //     title: 'Dynamic SWR',
+        //     url: '/withdrawal-strategies/dynamic-swr/',
+        //   },
+        // ],
       },
       {
         title: 'Maximize Longevity',
         url: '/withdrawal-strategies/maximize-longevity/',
-        pages: [
-          {
-            title: 'Endowment Strategy',
-            url: '/withdrawal-strategies/endowment/',
-          },
-          {
-            title: 'Guyton-Klinger',
-            url: '/withdrawal-strategies/guyton-klinger/',
-          },
-          {
-            title: '95% Rule',
-            url: '/withdrawal-strategies/95-percent/',
-          },
-          {
-            title: 'CAPE-based',
-            url: '/withdrawal-strategies/cape-based/',
-          },
-          {
-            title: 'Sensible Withdrawals',
-            url: '/withdrawal-strategies/sensible-withdrawals/',
-          },
-        ],
+        // pages: [
+        //   {
+        //     title: 'Endowment Strategy',
+        //     url: '/withdrawal-strategies/endowment/',
+        //   },
+        //   {
+        //     title: 'Guyton-Klinger',
+        //     url: '/withdrawal-strategies/guyton-klinger/',
+        //   },
+        //   {
+        //     title: '95% Rule',
+        //     url: '/withdrawal-strategies/95-percent/',
+        //   },
+        //   {
+        //     title: 'CAPE-based',
+        //     url: '/withdrawal-strategies/cape-based/',
+        //   },
+        //   {
+        //     title: 'Sensible Withdrawals',
+        //     url: '/withdrawal-strategies/sensible-withdrawals/',
+        //   },
+        // ],
       },
     ],
   },

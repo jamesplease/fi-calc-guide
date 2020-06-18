@@ -65,6 +65,18 @@ a {
   color: var(--primaryBlue);
 }
 
+.page h1 a,
+.page h2 a,
+.page h3 a,
+.page h4 a {
+  text-decoration: none;
+  color: white;
+}
+
+.page li a {
+  text-decoration: none;
+}
+
 .page table {
   width: 100%;
 }

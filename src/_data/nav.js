@@ -82,28 +82,28 @@ module.exports = [
       {
         title: 'Maximize Longevity',
         url: '/withdrawal-strategies/maximize-longevity/',
-        // pages: [
-        //   {
-        //     title: 'Endowment Strategy',
-        //     url: '/withdrawal-strategies/endowment/',
-        //   },
-        //   {
-        //     title: 'Guyton-Klinger',
-        //     url: '/withdrawal-strategies/guyton-klinger/',
-        //   },
-        //   {
-        //     title: '95% Rule',
-        //     url: '/withdrawal-strategies/95-percent/',
-        //   },
-        //   {
-        //     title: 'CAPE-based',
-        //     url: '/withdrawal-strategies/cape-based/',
-        //   },
-        //   {
-        //     title: 'Sensible Withdrawals',
-        //     url: '/withdrawal-strategies/sensible-withdrawals/',
-        //   },
-        // ],
+        pages: [
+          {
+            title: 'Endowment Strategy',
+            url: '/withdrawal-strategies/endowment/',
+          },
+          {
+            title: 'Guyton-Klinger',
+            url: '/withdrawal-strategies/guyton-klinger/',
+          },
+          {
+            title: '95% Rule',
+            url: '/withdrawal-strategies/95-percent/',
+          },
+          {
+            title: 'CAPE-based',
+            url: '/withdrawal-strategies/cape-based/',
+          },
+          {
+            title: 'Sensible Withdrawals',
+            url: '/withdrawal-strategies/sensible-withdrawals/',
+          },
+        ],
       },
     ],
   },

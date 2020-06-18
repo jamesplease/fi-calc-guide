@@ -28,14 +28,8 @@ similarities.
 
 ### [Maximize Longevity](./maximize-longevity)
 
-- Endowment Strategy
-- Guyton-Klinger
-- 95% Rule
-- CAPE-based
-- Sensible Withdrawals
-
-<!-- - [Endowment Strategy](./endowment-strategy)
+- [Endowment Strategy](./endowment-strategy)
 - [Guyton-Klinger](./guyton-klinger)
 - [95% Rule](./95-percent)
 - [CAPE-based](./cape-based)
-- [Sensible Withdrawals](./sensible-withdrawals) -->
+- [Sensible Withdrawals](./sensible-withdrawals)

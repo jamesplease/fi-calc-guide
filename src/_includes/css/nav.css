@@ -86,6 +86,7 @@
     max-height: 100vh;
     top: 0;
     left: 0;
+    padding-bottom: 4rem;
     transform: translateX(-120%);
     will-change: transform;
     transition: transform 220ms ease-in-out;

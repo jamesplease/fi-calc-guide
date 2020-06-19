@@ -1,6 +1,7 @@
 ---
 layout: default
 home: true
+eleventyExcludeFromCollections: true
 ---
 
 <div class="home">

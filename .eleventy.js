@@ -8,6 +8,7 @@ module.exports = function (config) {
   };
 
   config.addFilter('squash', require('./src/utils/squash.js'));
+  config.addFilter('summary', require('./src/utils/summary.js'));
 
   const md = markdownIt(options);
   md.use(mk, { blockClass: 'math-block', errorColor: ' #cc0000' });

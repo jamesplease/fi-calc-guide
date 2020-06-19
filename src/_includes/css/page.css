@@ -73,6 +73,13 @@ a {
   color: white;
 }
 
+.lightMode .page h1 a,
+.lightMode .page h2 a,
+.lightMode .page h3 a,
+.lightMode .page h4 a {
+  color: black;
+}
+
 .page li a {
   text-decoration: none;
 }

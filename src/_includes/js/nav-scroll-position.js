@@ -7,10 +7,18 @@ var navIsOpen = false;
 
 navOpenBtn.addEventListener('click', function () {
   nav.classList.add('nav_open');
+
+  if (window.noScroll) {
+    window.noScroll.on();
+  }
 });
 
 navBg.addEventListener('click', function () {
   nav.classList.remove('nav_open');
+
+  if (window.noScroll) {
+    window.noScroll.off();
+  }
 });
 
 /* Persist scroll position of nav */

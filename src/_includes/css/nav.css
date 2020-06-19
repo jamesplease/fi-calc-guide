@@ -4,7 +4,6 @@
   top: var(--headerHeight);
   width: var(--configuration-width);
   max-height: calc(100vh - var(--headerHeight));
-  padding: 1.5rem var(--contentSpacingRight) 1.5rem var(--contentSpacingLeft);
   overflow-y: auto;
   border-right: 1px solid var(--baseBorderColor);
   color: white;
@@ -30,6 +29,10 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.nav_sections {
+  padding: 1.5rem var(--contentSpacingRight) 1.5rem var(--contentSpacingLeft);
 }
 
 .nav_sectionHeaderLink,
@@ -78,6 +81,12 @@
   background: rgba(0, 0, 0, 0.05);
 }
 
+.nav_search {
+  display: none;
+  border-bottom: 1px solid #3a3a3a;
+  padding: 1rem var(--contentSpacingRight) 1rem var(--contentSpacingLeft);
+}
+
 @media (max-width: 551px) {
   .nav {
     width: 85%;
@@ -86,12 +95,16 @@
     max-height: 100vh;
     top: 0;
     left: 0;
-    padding-bottom: 4rem;
     transform: translateX(-120%);
     will-change: transform;
     transition: transform 220ms ease-in-out;
     border-right: 0;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+  }
+
+  .nav_sections {
+    padding-top: 1rem;
+    padding-bottom: 4rem;
   }
 
   .nav_bg {
@@ -108,5 +121,52 @@
   .nav_open + .nav_bg {
     opacity: 1;
     pointer-events: all;
+  }
+
+  .nav_search {
+    display: block;
+  }
+
+  .nav_searchInputContainer {
+    position: relative;
+  }
+
+  .nav_searchIcon {
+    position: absolute;
+    top: 9px;
+    left: 8px;
+    z-index: 1;
+    fill: #777;
+    pointer-events: none;
+  }
+
+  .nav_searchInput {
+    font-size: 1.0625rem;
+    width: 100%;
+    background: #0f0f0f;
+    color: #fff;
+    border: 1px solid #3a3a3a;
+    padding: 0.5rem 0.65rem 0.5rem 1.9rem;
+    border-radius: 6px;
+    outline: none;
+  }
+
+  .lightMode .nav_search {
+    border-bottom-color: #ddd;
+  }
+
+  .lightMode .nav_searchInput {
+    color: #050505;
+    border-color: #dfdfdf;
+    background: #ddd;
+  }
+
+  .nav_searchInput:focus {
+    box-shadow: 0 0 0 1px var(--accentColor);
+    border-color: var(--accentColor);
+  }
+
+  .lightMode .nav_searchInput:focus {
+    background: #fff;
   }
 }

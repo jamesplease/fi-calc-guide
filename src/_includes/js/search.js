@@ -2,6 +2,9 @@ var URLSearchParams = new URLSearchParams(window.location.search);
 var search = URLSearchParams.get('q');
 
 var resultsEl = document.querySelector('#search-results-list');
+var searchInputElement = document.querySelector('.header_searchInput');
+
+searchInputElement.value = search;
 
 function createResult(result) {
   var container = document.createElement('div');
@@ -14,7 +17,9 @@ function createResult(result) {
   var link = document.createElement('a');
   link.className = 'result_link';
   link.href = result.item.url;
-  link.innerText = result.item.title;
+
+  const title = result.item.url === '/' ? 'Home' : result.item.title;
+  link.innerText = title;
 
   container.appendChild(link);
   container.appendChild(summary);
@@ -29,7 +34,6 @@ fetch('/search.json')
   .then(function (siteIndex) {
     var options = {
       includeScore: true,
-      // Search in `author` and in `tags` array
       keys: ['title', 'index'],
     };
 

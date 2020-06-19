@@ -21,6 +21,19 @@ navBg.addEventListener('click', function () {
   }
 });
 
+// The user could be on a small screen with the nav open (therefore, no-scroll is active).
+// Then, they resize their browser so that they are on a large screen. In these situations, we must
+// disable no-scroll.
+const supportsQuery = Boolean(window.matchMedia);
+const query = supportsQuery ? window.matchMedia('(min-width: 551px)') : null;
+if (query && typeof query.addListener === 'function') {
+  query.addListener((event) => {
+    if (event.matches && window.noScroll) {
+      window.noScroll.off();
+    }
+  });
+}
+
 /* Persist scroll position of nav */
 var navTop = sessionStorage.getItem('nav-scroll');
 if (navTop !== null) {

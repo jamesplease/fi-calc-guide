@@ -1,12 +1,13 @@
 .result_container {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .result_link {
-  font-weight: 500;
-  font-size: 1.125rem;
+  font-weight: bold;
+  /* font-size: 1.125rem; */
+  text-decoration: none;
   display: inline-block;
-  margin-bottom: 0.325rem;
+  margin-bottom: 0.2rem;
 }
 
 .result_summary {
@@ -15,7 +16,7 @@
 }
 
 .results_summary {
-  margin-bottom: 1rem;
+  margin: 1.5rem 0;
   font-style: italic;
   color: #aaa;
 }

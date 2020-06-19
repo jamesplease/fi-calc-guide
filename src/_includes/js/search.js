@@ -7,16 +7,17 @@ function createResult(result) {
   var container = document.createElement('div');
   container.className = 'result_container';
 
-  // var title = document.createElement('div');
-  // title.className = 'result_title';
-  // title.innerText = result.item.title;
+  var summary = document.createElement('div');
+  summary.className = 'result_summary';
+  summary.innerText = result.item.summary;
 
   var link = document.createElement('a');
+  link.className = 'result_link';
   link.href = result.item.url;
   link.innerText = result.item.title;
 
-  // container.appendChild(title);
   container.appendChild(link);
+  container.appendChild(summary);
 
   return container;
 }
@@ -35,9 +36,7 @@ fetch('/search.json')
     var fuse = new Fuse(siteIndex, options);
     var result = fuse.search(search);
 
-    console.log('got it', result[0]);
-
-    const summary = document.createElement('div');
+    var summary = document.createElement('div');
     summary.className = 'results_summary';
     summary.innerText = `${result.length} pages were found for "${search}".`;
     resultsEl.appendChild(summary);

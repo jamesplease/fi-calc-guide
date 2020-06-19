@@ -2,8 +2,15 @@
   margin-bottom: 1rem;
 }
 
-.result_title {
+.result_link {
   font-weight: 500;
+  font-size: 1.125rem;
+  display: inline-block;
+  margin-bottom: 0.325rem;
+}
+
+.result_summary {
+  line-height: 1.45;
   margin-bottom: 0.1rem;
 }
 

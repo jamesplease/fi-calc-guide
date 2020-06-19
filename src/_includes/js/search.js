@@ -18,7 +18,7 @@ function createResult(result) {
   link.className = 'result_link';
   link.href = result.item.url;
 
-  const title = result.item.url === '/' ? 'Home' : result.item.title;
+  var title = result.item.url === '/' ? 'Home' : result.item.title;
   link.innerText = title;
 
   container.appendChild(link);

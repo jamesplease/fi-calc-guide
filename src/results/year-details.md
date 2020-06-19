@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Year Details
+eleventyExcludeFromCollections: true
 ---
 
 # Year Details

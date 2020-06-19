@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Intepreting the Results
+eleventyExcludeFromCollections: true
 ---
 
 # Intepreting the Results

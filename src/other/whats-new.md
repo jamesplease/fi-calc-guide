@@ -10,6 +10,15 @@ This page lists the latest improvements to FI Calc.
 <!-- > This page only lists user-facing changes. For a full list of changes, refer to
 > [the GitHub commit history](https://github.com/jamesplease/fi-calc/commits/master). -->
 
+#### June 19, 2020
+
+- Search has been added to the guide website.
+
+#### June 17, 2020
+
+- New guides have been introduced for each of the different withdrawal
+  strategies. These are a first pass!
+
 #### June 9, 2020
 
 - You can now view the end portfolio value of all simulations by clicking the

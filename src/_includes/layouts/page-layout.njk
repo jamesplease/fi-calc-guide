@@ -26,10 +26,16 @@
     </title>
   </head>
   <body>
+    {% if search %}
+      <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.0.4"></script>
+    {% endif %}
     {% set js %}
       {% include "js/color-mode.js" %}
       {% if home !== true %}
         {% include "js/nav-scroll-position.js" %}
+      {% endif %}
+      {% if search %}
+        {% include "js/search.js" %}
       {% endif %}
     {% endset %}
     <div class="website-root">
@@ -49,6 +55,6 @@
       </div>
     </div>
     <script>{{ js | jsmin | safe }}</script>
-    <script src="https://unpkg.com/no-scroll@2.1.1/index.js"></script>
+    <script async src="https://unpkg.com/no-scroll@2.1.1/index.js"></script>
   </body>
 </html>

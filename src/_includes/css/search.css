@@ -1,0 +1,18 @@
+.result_container {
+  margin-bottom: 1rem;
+}
+
+.result_title {
+  font-weight: 500;
+  margin-bottom: 0.1rem;
+}
+
+.results_summary {
+  margin-bottom: 1rem;
+  font-style: italic;
+  color: #aaa;
+}
+
+.lightMode .results_summary {
+  color: #777;
+}

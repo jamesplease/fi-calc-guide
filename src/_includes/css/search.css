@@ -1,5 +1,8 @@
 .result_container {
   margin-bottom: 1.5rem;
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 0.75rem 1rem;
 }
 
 .result_link {

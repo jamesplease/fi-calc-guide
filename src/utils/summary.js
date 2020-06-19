@@ -27,5 +27,5 @@ module.exports = function (text) {
   // Remove newlines
   result = removedHeader.replace(/\n/g, ' ');
 
-  return `${result.slice(0, 140)}…`;
+  return `${result.slice(0, 145)}…`;
 };

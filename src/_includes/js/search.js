@@ -38,8 +38,12 @@ fetch('/search.json')
 
     var summary = document.createElement('div');
     summary.className = 'results_summary';
-    summary.innerText =
-      String(result.length) + ' pages were found for "' + search + '".';
+
+    var summaryText = result.length
+      ? String(result.length) + ' pages were found for "' + search + '".'
+      : 'No results were found for "' + search + '".';
+
+    summary.innerText = summaryText;
     resultsEl.appendChild(summary);
 
     if (result && result.length) {

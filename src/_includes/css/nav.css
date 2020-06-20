@@ -24,16 +24,21 @@
 }
 
 .nav_sectionHeading {
-  display: flex;
-  align-items: center;
   background: var(--appBg);
+  position: relative;
 }
 
 .nav_sectionLinkToggle {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  height: 100%;
+  right: 0.5rem;
   background: none;
   border: none;
   padding: 0;
-  margin-left: auto;
   cursor: pointer;
   outline: none;
 }
@@ -71,7 +76,8 @@
 }
 
 .nav_sections {
-  padding: 1.5rem var(--contentSpacingRight) 1.5rem var(--contentSpacingLeft);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .nav_sectionHeaderLink,
@@ -80,23 +86,21 @@
   display: block;
   color: var(--fontColor);
   text-decoration: none;
-  border-radius: 3px;
 }
 
 .nav_sectionHeaderLink {
   font-weight: 500;
-  padding: 0.45rem 0.25rem 0.45rem 1rem;
+  padding: 0.45rem 2.25rem 0.45rem var(--contentSpacingLeft);
 }
 
 .nav_sectionLink,
 .nav_sectionGroupLink {
-  margin-left: 0.75rem;
-  padding: 0.45rem 0.25rem 0.45rem 1rem;
+  padding: 0.45rem 0.25rem 0.45rem 1.75rem;
   color: #aaa;
 }
 
 .nav_sectionGroupContainer .nav_sectionLink {
-  margin-left: 1.5rem;
+  padding-left: 2.5rem;
 }
 
 .nav_sectionGroupLink {
@@ -146,6 +150,27 @@
   .nav_sections {
     padding-top: 1rem;
     padding-bottom: 7rem;
+  }
+
+  .nav_sectionHeaderLink {
+    padding-top: 0.55rem;
+    padding-bottom: 0.55rem;
+  }
+
+  .nav_sectionLink,
+  .nav_sectionGroupLink {
+    padding-top: 0.55rem;
+    padding-bottom: 0.55rem;
+  }
+
+  .nav_sectionLinkToggle {
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 1rem;
   }
 
   .nav_bg {

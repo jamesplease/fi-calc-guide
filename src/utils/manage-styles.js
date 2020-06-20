@@ -38,7 +38,7 @@ const manageStyles = {
     hash.update(contents);
     const piece = hash.digest('hex');
 
-    return `css/app-${piece.slice(0, 14)}.css`;
+    return `/css/app-${piece.slice(0, 14)}.css`;
   },
 };
 

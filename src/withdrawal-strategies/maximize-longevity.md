@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Basic Strategies
+title: Maximize Longevity
 ---
 
 # Maximize Longevity

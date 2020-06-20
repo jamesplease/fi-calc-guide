@@ -1,29 +1,33 @@
 const fs = require('fs');
 const path = require('path');
 const postcss = require('postcss');
+const cssFilename = require('../utils/css-filename');
 
 // the file name as an entry point for postcss compilation
 // also used to define the output filename in our output /css folder.
-const fileName = "app.css";
+const fileName = 'app.css';
 
 module.exports = class {
-  async data () {
+  async data() {
     const rawFilepath = path.join(__dirname, `../_includes/css/${fileName}`);
-    return {
-      permalink: `css/${fileName}`,
-      rawFilepath,
-      rawCss: await fs.readFileSync(rawFilepath)
-    };
-  };
+    const rawCss = await fs.readFileSync(rawFilepath);
+    const filename = await cssFilename();
 
-  async render ({ rawCss, rawFilepath }) {
+    return {
+      permalink: filename,
+      rawFilepath,
+      rawCss,
+    };
+  }
+
+  async render({ rawCss, rawFilepath }) {
     return await postcss([
       // require('postcss-comment'),
       require('precss'),
       require('postcss-import'),
-      require('cssnano')
+      require('cssnano'),
     ])
-    .process(rawCss, { from: rawFilepath })
-    .then(result => result.css);
-  };
-}
+      .process(rawCss, { from: rawFilepath })
+      .then((result) => result.css);
+  }
+};

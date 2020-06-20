@@ -84,6 +84,7 @@
 }
 
 .header_searchInput {
+  -webkit-appearance: none;
   font-size: 0.875rem;
   background: #1c1c1c;
   color: #fff;

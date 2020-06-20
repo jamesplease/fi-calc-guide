@@ -141,6 +141,7 @@
   }
 
   .nav_searchInput {
+    -webkit-appearance: none;
     font-size: 1.0625rem;
     width: 100%;
     background: #0f0f0f;

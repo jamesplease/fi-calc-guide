@@ -30,8 +30,5 @@
     "precss": "^4.0.0",
     "rimraf": "^3.0.2",
     "uglify-js": "^3.9.3"
-  },
-  "dependencies": {
-    "uuid": "^8.1.0"
   }
 }

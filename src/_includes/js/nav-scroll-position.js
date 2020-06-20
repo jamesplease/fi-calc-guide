@@ -5,20 +5,28 @@ var navOpenBtn = document.querySelector('.header_open');
 var navBg = document.querySelector('.nav_bg');
 var navIsOpen = false;
 
+function enableScroll() {
+  if (window.bodyScrollLock && window.bodyScrollLock.enableBodyScroll) {
+    bodyScrollLock.enableBodyScroll(nav);
+  }
+}
+
+function disableScroll() {
+  if (window.bodyScrollLock && window.bodyScrollLock.disableBodyScroll) {
+    bodyScrollLock.disableBodyScroll(nav);
+  }
+}
+
 navOpenBtn.addEventListener('click', function () {
   nav.classList.add('nav_open');
 
-  if (window.noScroll) {
-    window.noScroll.on();
-  }
+  disableScroll();
 });
 
 navBg.addEventListener('click', function () {
   nav.classList.remove('nav_open');
 
-  if (window.noScroll) {
-    window.noScroll.off();
-  }
+  enableScroll();
 });
 
 // The user could be on a small screen with the nav open (therefore, no-scroll is active).
@@ -28,9 +36,7 @@ var supportsQuery = Boolean(window.matchMedia);
 var query = supportsQuery ? window.matchMedia('(min-width: 551px)') : null;
 if (query && typeof query.addListener === 'function') {
   query.addListener(function (event) {
-    if (event.matches && window.noScroll) {
-      window.noScroll.off();
-    }
+    enableScroll();
   });
 }
 

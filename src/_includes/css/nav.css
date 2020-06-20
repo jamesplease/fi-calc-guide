@@ -89,11 +89,12 @@
 
 @media (max-width: 551px) {
   .nav {
-    z-index: 3000;
+    z-index: 20000;
     width: 85%;
     position: fixed;
     height: 100vh;
     max-height: 100vh;
+    overflow-y: scroll;
     top: 0;
     left: 0;
     transform: translateX(-120%);
@@ -105,7 +106,7 @@
 
   .nav_sections {
     padding-top: 1rem;
-    padding-bottom: 4rem;
+    padding-bottom: 7rem;
   }
 
   .nav_bg {
@@ -117,7 +118,7 @@
   }
 
   .nav_open {
-    transform: translateX(0);
+    transform: none;
   }
 
   .nav_open + .nav_bg {

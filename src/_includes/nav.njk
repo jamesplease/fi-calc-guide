@@ -10,20 +10,28 @@
   <ul class="nav_sections">
     {% for item in nav %}
       <li class="nav_section">
+      <div class="nav_sectionHeading">
         <a href="{{ item.url }}" class="nav_sectionHeaderLink {% if page.url == item.url %}active{% endif %}">{{ item.title }}</a>
+        {% if item.pages or item.groups %}
+        <button type="button" class="nav_sectionLinkToggle">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" style="--_mt-iconSize:1.4rem; width: var(--_mt-iconSize, 1em); height: var(--_mt-iconSize, 1em);"> <path d="M17.17 32.92l9.17-9.17-9.17-9.17L20 11.75l12 12-12 12z"></path></svg>
+        </button>
+                </div>
+        {% endif %}
         {% if item.pages %}
-          <ul class="nav_sectionLinks">
+          <ul class="nav_sectionLinks expandable_child">
             {% for child in item.pages %}
               <li class="nav_sectionLinkContainer">
                 <a href="{{ child.url }}" class="nav_sectionLink {% if page.url == child.url %}active{% endif %}">
                   {{ child.title }}
                 </a>
+                
               </li>
             {% endfor %}
           </ul>
         {% endif %}
         {% if item.groups %}
-          <ul class="nav_sectionGroups">
+          <ul class="nav_sectionGroups expandable_child">
             {% for group in item.groups %}
               <li class="nav_sectionGroupContainer">
                 <a href="{{ group.url }}" class="nav_sectionGroupLink {% if page.url == group.url %}active{% endif %}">

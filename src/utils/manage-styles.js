@@ -33,12 +33,20 @@ const manageStyles = {
       return filename;
     }
 
+    if (process.env.ELEVENTY_ENV === 'dev') {
+      const name = '/css/app.css';
+      filename = name;
+      return name;
+    }
+
     const contents = await manageStyles.getContents();
     const hash = crypto.createHash('sha256');
     hash.update(contents);
     const piece = hash.digest('hex');
 
-    return `/css/app-${piece.slice(0, 14)}.css`;
+    const name = `/css/app-${piece.slice(0, 14)}.css`;
+    filename = name;
+    return name;
   },
 };
 

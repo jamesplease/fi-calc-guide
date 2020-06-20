@@ -8,10 +8,10 @@ const cssFilename = require('../utils/css-filename');
 const fileName = 'app.css';
 
 module.exports = class {
-  async data() {
+  data() {
     const rawFilepath = path.join(__dirname, `../_includes/css/${fileName}`);
-    const rawCss = await fs.readFileSync(rawFilepath);
-    const filename = await cssFilename();
+    const rawCss = fs.readFileSync(rawFilepath);
+    const filename = cssFilename();
 
     return {
       permalink: filename,

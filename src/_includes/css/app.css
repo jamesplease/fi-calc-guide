@@ -66,3 +66,12 @@ main {
   margin: 0 auto;
   padding: 0 var(--contentSpacingRight) 0 var(--contentSpacingLeft);
 }
+
+.expandable-collapsed > .expandable_child {
+  height: 0;
+  overflow: hidden;
+}
+
+.expandable-expanded > .expandable_child {
+  height: auto;
+}

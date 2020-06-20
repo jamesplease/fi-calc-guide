@@ -1,7 +1,7 @@
-const cssFilename = require('../utils/css-filename');
+const manageStyles = require('../utils/manage-styles');
 
-module.exports = function () {
-  const filename = cssFilename();
+module.exports = async function () {
+  const filename = await manageStyles.getFilename();
 
   return {
     appCssFilename: filename,

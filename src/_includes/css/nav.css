@@ -26,6 +26,7 @@
 .nav_sectionHeading {
   display: flex;
   align-items: center;
+  background: var(--appBg);
 }
 
 .nav_sectionLinkToggle {
@@ -50,6 +51,15 @@
 
 .expandable-collapsed .nav_sectionLinkToggle svg {
   transform: rotate(0);
+}
+
+.nav_section .expandable_child {
+  will-change: opacity;
+  transition: opacity 200ms ease-out;
+}
+
+.nav_section.expandable-collapsed .expandable_child {
+  opacity: 0;
 }
 
 .nav_sections,

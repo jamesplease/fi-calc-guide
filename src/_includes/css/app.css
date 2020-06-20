@@ -67,6 +67,7 @@ main {
   padding: 0 var(--contentSpacingRight) 0 var(--contentSpacingLeft);
 }
 
+/* Expandable lib code */
 .expandable-collapsed > .expandable_child {
   height: 0;
   overflow: hidden;
@@ -75,3 +76,8 @@ main {
 .expandable-expanded > .expandable_child {
   height: auto;
 }
+
+.expandable_child {
+  overflow: hidden;
+}
+/* End Expandable lib code */

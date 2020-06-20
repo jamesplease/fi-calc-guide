@@ -94,9 +94,25 @@
   outline: none;
 }
 
+.lightMode .header_searchInput::-webkit-input-placeholder {
+  color: #888;
+}
+
+.lightMode .header_searchInput::-moz-placeholder {
+  color: #888;
+}
+
+.lightMode .header_searchInput:-ms-input-placeholder {
+  color: #888;
+}
+
+.lightMode .header_searchInput:-moz-placeholder {
+  color: #888;
+}
+
 .lightMode .header_searchInput {
   color: #050505;
-  background: #e3e3e3;
+  background: #eaeaea;
   border-color: #d0d0d0;
 }
 

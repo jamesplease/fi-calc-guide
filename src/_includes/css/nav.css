@@ -133,7 +133,7 @@
 
   .nav_searchIcon {
     position: absolute;
-    top: 9px;
+    top: 10px;
     left: 8px;
     z-index: 1;
     fill: #777;
@@ -152,14 +152,34 @@
     outline: none;
   }
 
+  .lightMode .nav_searchInput::-webkit-input-placeholder {
+    font-size: 1.0625rem;
+    color: #666;
+  }
+
+  .lightMode .nav_searchInput::-moz-placeholder {
+    font-size: 1.0625rem;
+    color: #666;
+  }
+
+  .lightMode .nav_searchInput:-ms-input-placeholder {
+    font-size: 1.0625rem;
+    color: #666;
+  }
+
+  .lightMode .nav_searchInput:-moz-placeholder {
+    font-size: 1.0625rem;
+    color: #666;
+  }
+
   .lightMode .nav_search {
     border-bottom-color: #ddd;
   }
 
   .lightMode .nav_searchInput {
     color: #050505;
-    border-color: #dfdfdf;
-    background: #ddd;
+    border-color: #d8d8d8;
+    background: #e2e2e2;
   }
 
   .nav_searchInput:focus {

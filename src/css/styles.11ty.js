@@ -5,6 +5,7 @@ module.exports = class {
     const permalink = await manageStyles.getFilename();
 
     return {
+      eleventyExcludeFromCollections: true,
       permalink,
     };
   }

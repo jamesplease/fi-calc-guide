@@ -1,24 +1,24 @@
-var URLSearchParams = new URLSearchParams(window.location.search);
-var search = URLSearchParams.get('q');
+const URLSearchParams = new URLSearchParams(window.location.search);
+const search = URLSearchParams.get('q');
 
-var resultsEl = document.querySelector('#search-results-list');
-var searchInputElement = document.querySelector('.header_searchInput');
+const resultsEl = document.querySelector('#search-results-list');
+const searchInputElement = document.querySelector('.header_searchInput');
 
 searchInputElement.value = search;
 
 function createResult(result) {
-  var container = document.createElement('div');
+  const container = document.createElement('div');
   container.className = 'result_container';
 
-  var summary = document.createElement('div');
+  const summary = document.createElement('div');
   summary.className = 'result_summary';
   summary.innerText = result.item.summary;
 
-  var link = document.createElement('a');
+  const link = document.createElement('a');
   link.className = 'result_link';
   link.href = result.item.url;
 
-  var title = result.item.url === '/' ? 'Home' : result.item.title;
+  const title = result.item.url === '/' ? 'Home' : result.item.title;
   link.innerText = title;
 
   container.appendChild(link);
@@ -28,22 +28,20 @@ function createResult(result) {
 }
 
 fetch('/search.json')
-  .then(function (res) {
-    return res.json();
-  })
-  .then(function (siteIndex) {
-    var options = {
+  .then((res) => res.json())
+  .then((siteIndex) => {
+    const options = {
       includeScore: true,
       keys: ['title', 'index'],
     };
 
-    var fuse = new Fuse(siteIndex, options);
-    var result = fuse.search(search);
+    const fuse = new Fuse(siteIndex, options);
+    const result = fuse.search(search);
 
-    var summary = document.createElement('div');
+    const summary = document.createElement('div');
     summary.className = 'results_summary';
 
-    var summaryText = result.length
+    const summaryText = result.length
       ? String(result.length) + ' pages were found for "' + search + '".'
       : 'No results were found for "' + search + '".';
 
@@ -51,8 +49,8 @@ fetch('/search.json')
     resultsEl.appendChild(summary);
 
     if (result && result.length) {
-      result.forEach(function (result) {
-        var el = createResult(result);
+      result.forEach((result) => {
+        const el = createResult(result);
         resultsEl.appendChild(el);
       });
     }

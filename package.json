@@ -1,5 +1,6 @@
 {
   "name": "fi-calc-guide",
+  "private": true,
   "version": "1.0.0",
   "description": "A guidebook for FI Calc",
   "main": "index.js",
@@ -14,7 +15,7 @@
     "url": "git+https://github.com/jamesplease/fi-calc-guide.git"
   },
   "author": "James Please",
-  "license": "AGPL",
+  "license": "AGPL-3.0-only",
   "bugs": {
     "url": "https://github.com/jamesplease/fi-calc-guide/issues"
   },

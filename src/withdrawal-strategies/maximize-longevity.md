@@ -12,7 +12,7 @@ withdrawals never rise too high above the initial amount specified.
 
 These strategies may interest you if you wish to leave a legacy behind.
 
-- [Endowment Strategy](../endowment-strategy)
+- [Endowment Strategy](../endowment)
 - [Guyton-Klinger](../guyton-klinger)
 - [95% Rule](../95-percent)
 - [CAPE-based](../cape-based)

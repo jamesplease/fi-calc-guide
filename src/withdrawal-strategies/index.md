@@ -28,7 +28,7 @@ similarities.
 
 ### [Maximize Longevity](./maximize-longevity)
 
-- [Endowment Strategy](./endowment-strategy)
+- [Endowment Strategy](./endowment)
 - [Guyton-Klinger](./guyton-klinger)
 - [95% Rule](./95-percent)
 - [CAPE-based](./cape-based)

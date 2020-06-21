@@ -18,6 +18,11 @@ not, and also if your allocation mix should change over time (a "glide path").
 
 ## Deciding on a Portfolio Value
 
+<figure>
+    <img width="256px" src="/images/configuration-portfolio-value.jpg" alt="The portfolio value input field.">
+    <figcaption>Enter the value of your portfolio value at the start of your retirement into this field.</figcaption>
+</figure>
+
 If you're not sure how much to enter, begin by running simulations with the
 default value, \$1,000,000. Experiment with the different withdrawal strategies
 to see how the withdrawal amounts compare to what you think you might need
@@ -25,6 +30,11 @@ during retirement. From there, you can adjust the initial portfolio to find a
 value that feels right for you.
 
 ## Entering Asset Types
+
+<figure>
+    <img width="256px" src="/images/configuration-asset-allocation.jpg" alt="The asset allocation summary button. Click this to choose your asset allocation.">
+    <figcaption>Click or tap on the asset allocation summary to change your portfolio's asset allocation.</figcaption>
+</figure>
 
 ### Equities
 
@@ -120,3 +130,12 @@ settle on their final values. There are three options to choose from:
 
 - **quickly**: your allocations more quickly settle on their final values.
   Mathematically, this is Penner's Quadratic Out function.
+
+<figure>
+    <picture>
+      <source media="(max-width: 550px)" srcset="/images/configuration-glide-path-quickly-628.jpg 628w" sizes="314px">
+      <source media="(min-width: 551px)" srcset="/images/configuration-glide-path-quickly-1198.jpg 1198w" sizes="599px">
+      <img src="/images/configuration-glide-path-quickly-1198.jpg" alt="The 'quickly' glide path configuration.">
+    </picture>
+    <figcaption>The "quickly" glide path configuration.</figcaption>
+</figure>

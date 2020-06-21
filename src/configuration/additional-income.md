@@ -25,6 +25,11 @@ sources as you would like.
 Click the "Add Additional Income" button to open a window that lets you
 configure your income.
 
+<figure>
+    <img width="254px" src="/images/configuration-additional-income.jpg" alt="The additional income form before any income has been added.">
+    <figcaption>The additional income form before any income has been added. Click "Add Additional Income" to add your first income.</figcaption>
+</figure>
+
 ### Name
 
 You may choose to label your income. Providing a name can help you to stay

@@ -21,6 +21,11 @@ section of FI Calc.
 Next, click the "Add Additional Withdrawals" button to open a window that lets
 you configure your withdrawals.
 
+<figure>
+    <img width="254px" src="/images/configuration-additional-withdrawals.jpg" alt="The additional withdrawals form before any withdrawals have been added.">
+    <figcaption>The additional withdrawals form before any withdrawals have been added. Click "Add Additional Withdrawal" to add your first withdrawal.</figcaption>
+</figure>
+
 ### Name
 
 You may choose to label your withdrawal. Providing a name can help you to stay

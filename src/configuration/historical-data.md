@@ -18,7 +18,12 @@ Expand the "Historical Data" section from the Configuration, and uncheck the
 "Use all historical data" checkbox. Next, input the earliest year and latest
 year that you'd like to use from historical data.
 
-> Keep in mind: using too little data can reduce the quality of your results.
+<figure>
+    <img width="256px" src="/images/configuration-historical-data.jpg" alt="The historical data input form.">
+    <figcaption>Use this section of the Configuration to restrict the historical data used in the simulations.</figcaption>
+</figure>
+
+Keep in mind: using too little data can reduce the quality of your results.
 
 ## Why Might You Choose to Use Less Data?
 

@@ -99,6 +99,11 @@ window, you will find a checkbox called "Change allocations over time." After
 checking it, new inputs will appear for the final portfolio allocations that you
 wish to have.
 
+<figure>
+    <img width="316px" src="/images/configuration-glide-path.jpg" alt="The checkbox used to enable the glide path.">
+    <figcaption>Enable this option in the Portfolio Details dialog to configure a glide path.</figcaption>
+</figure>
+
 > Keep in mind that the sum of your initial and final asset allocations must
 > each add up to 100%.
 

@@ -29,6 +29,27 @@
   line-height: 1.65;
 }
 
+.page figcaption {
+  margin-top: 0.5rem;
+  text-align: center;
+  font-style: italic;
+  opacity: 0.75;
+  font-size: 0.875rem;
+}
+
+.page picture,
+.page img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.page img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
 .page code {
   color: #ff79ee;
 }

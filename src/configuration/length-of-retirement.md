@@ -46,9 +46,9 @@ we don't recommend that you specify extremely long retirement lengths.
 
 <figure>
     <picture>
-      <source width="153px" media="(max-width: 550px)" srcset="/images/configuration-too-few-sims-warning-306.jpg">
-      <source width="491px" media="(min-width: 551px)" srcset="/images/configuration-too-few-sims-warning-982.jpg">
-      <img src="/images/configuration-too-few-sims-warning-982.jpg" alt="The warning that is displayed when too few simulations are run.">
+      <source media="(max-width: 550px)" srcset="/images/configuration-too-few-sims-warning-612.jpg 612w" sizes="306px">
+      <source media="(min-width: 551px)" srcset="/images/configuration-too-few-sims-warning-982.jpg 982w" sizes="491px">
+      <img src="/images/configuration-number-of-years.jpg" alt="The warning that is displayed when too few simulations are run.">
     </picture>
     <figcaption>FI Calc will warn you when an exceptionally low number of simulations are run.</figcaption>
 </figure>

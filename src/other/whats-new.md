@@ -48,7 +48,7 @@ This page lists the latest improvements to FI Calc.
 #### May 31, 2020
 
 - You can now share and bookmark calculations using a URL. For more, refer to
-  [this guide.](/saving-calculations/)
+  [this guide.](/usage-guides/saving-calculations/)
 - New withdrawal strategy: Hebeler Autopilot II.
 
 #### May 28, 2020

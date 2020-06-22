@@ -13,6 +13,10 @@ retirement.
 Presently, FI Calc supports entering three kinds of assets: equities, bonds, and
 cash.
 
+> Do you own real estate? Create
+> [Additional Income](/configuration/additional-income/) to factor in earnings
+> from your investment properties.
+
 You're also able to specify whether you intend to rebalance your portfolio or
 not, and also if your allocation mix should change over time (a "glide path").
 

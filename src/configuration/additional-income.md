@@ -35,11 +35,21 @@ configure your income.
 You may choose to label your income. Providing a name can help you to stay
 organized when you have multiple income sources. Providing a name is optional.
 
+<figure>
+    <img width="260px" src="/images/configuration-income-name.jpg" alt="The input field for entering a name for Additional Income.">
+    <figcaption>Use this input to enter a name for your Additional Income.</figcaption>
+</figure>
+
 ### Annual Amount
 
 Additional income is considered annually. If you receive your income on a more
 frequent schedule, then you should add up the total amount that you expect to
 receive in a year and enter it here.
+
+<figure>
+    <img width="281px" src="/images/configuration-income-value.jpg" alt="The value input for Additional Income.">
+    <figcaption>Use this input to enter the annual value of your Additional Income.</figcaption>
+</figure>
 
 > Additional Income at other frequencies is not currently supported.
 
@@ -53,6 +63,11 @@ each year to match inflation.
 If your income should be adjusted for inflation then you should check this
 checkbox.
 
+<figure>
+    <img width="281px" src="/images/configuration-income-value.jpg" alt="Check this checkbox to adjust Additional Income for inflation.">
+    <figcaption>Check the checkbox to adjust the income for inflation.</figcaption>
+</figure>
+
 ### Income Frequency
 
 FI Calc supports complex income frequencies. For example, you may know that you
@@ -61,17 +76,36 @@ plan to take 3 years off, and then get a side job for a couple of years.
 Use the "Income Frequency" section to specify when you want your Additional
 Income to begin, and for how long.
 
+<figure>
+    <img width="281px" src="/images/configuration-income-frequency.jpg" alt="Additional Income frequency form.">
+    <figcaption>Use this form to adjust additional income frequency.</figcaption>
+</figure>
+
 ## Modifying an Existing Additional Income
 
 You can make changes to an Additional Income that you have already created. To
 do so, click the target Additional Income in the list, and the edit window will
 appear. Make your changes, and then click Save.
 
+<figure>
+    <img width="281px" src="/images/configuration-income-summary.jpg" alt="Additional Income summary box.">
+    <figcaption>Click an additional income summary within Configuration to make changes.</figcaption>
+</figure>
+
 ## Deleting Additional Income
 
 To delete an Additional Income that you have created, click an existing
 Additional Income to open the Edit window. Then, click on the "Delete" button.
 The Additional Income will be deleted.
+
+<figure>
+    <picture>
+      <source media="(max-width: 550px)" srcset="/images/configuration-income-delete-636.jpg 636w" sizes="318px">
+      <source media="(min-width: 551px)" srcset="/images/configuration-income-delete-1278.jpg 1278w" sizes="639px">
+      <img src="/images/configuration-income-delete-1278.jpg" alt="The delete button for additional income.">
+    </picture>
+    <figcaption>In the edit form of an additional income, you can tap the delete button to remove it.</figcaption>
+</figure>
 
 ## Effect on Withdrawals
 

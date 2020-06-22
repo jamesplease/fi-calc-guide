@@ -23,10 +23,6 @@ as additional income in the year that you sell.
 If there are more features you need to help manage your real estate investments,
 please [let me know](/contact/).
 
-### Share calculations?
-
-Refer to the [Saving Calculations](/saving-calculations/) guide.
-
 ## About the Creator
 
 ### Who created FI Calc?

@@ -130,8 +130,22 @@ module.exports = [
   //   ],
   // },
   {
-    title: 'Saving Calculations',
-    url: '/saving-calculations/',
+    title: 'Usage Guides',
+    url: '/usage-guides/',
+    pages: [
+      {
+        title: 'Exporting Results',
+        url: '/usage-guides/exporting-results/',
+      },
+      {
+        title: 'Saving Calculations',
+        url: '/usage-guides/saving-calculations/',
+      },
+      {
+        title: 'Sharing Calculations',
+        url: '/usage-guides/sharing-calculations/',
+      },
+    ],
   },
   {
     title: 'How It Works',

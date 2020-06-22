@@ -20,7 +20,7 @@ not, and also if your allocation mix should change over time (a "glide path").
 
 <figure>
     <img width="256px" src="/images/configuration-portfolio-value.jpg" alt="The portfolio value input field.">
-    <figcaption>Enter the value of your portfolio value at the start of your retirement into this field.</figcaption>
+    <figcaption>Enter the value of your portfolio at the start of your retirement into this field.</figcaption>
 </figure>
 
 If you're not sure how much to enter, begin by running simulations with the
@@ -45,6 +45,11 @@ values together to determine the percent of your portfolio that number is.
 Additionally, you can also specify the annual fees, or expense ratio, for your
 stocks. Once again, we recommend inputting the average fees of your investments.
 
+<figure>
+    <img width="285px" src="/images/configuration-equities.jpg" alt="The equities form.">
+    <figcaption>Specify the sum of your equities in this form within Portfolio Details.</figcaption>
+</figure>
+
 The default expense ratio, 0.04%, was the expense ratio of
 [VTSAX](https://investor.vanguard.com/mutual-funds/profile/VTSAX) in May 2020.
 
@@ -55,6 +60,11 @@ how much of your portfolio is made up of your bonds investments and enter that
 value here.
 
 You may also specify the annual fees, or expense ratios, for your bonds.
+
+<figure>
+    <img width="287px" src="/images/configuration-bonds.jpg" alt="The bonds form.">
+    <figcaption>Specify the sum of your bonds in this form within Portfolio Details.</figcaption>
+</figure>
 
 The default expense ratio, 0.05%, was the expense ratio of
 [VBTLX](https://investor.vanguard.com/mutual-funds/profile/VBTLX) in May 2020.
@@ -67,6 +77,11 @@ One important thing to note is that unlike the other asset types, cash is not
 calculated using historical data. Instead, a fixed growth is used for cash,
 which defaults to 1.5%. This growth represents the interest earned in a
 high-interest savings account, for example.
+
+<figure>
+    <img width="290px" src="/images/configuration-cash.jpg" alt="The cash form.">
+    <figcaption>Specify the sum of your cash in this form within Portfolio Details.</figcaption>
+</figure>
 
 ### Real Estate
 
@@ -89,6 +104,11 @@ FI Calc rebalances annually by default, but you can rebalance at any frequency.
 
 For example, to rebalance every other year, enter `2` as the frequency of
 rebalancing.
+
+<figure>
+    <img width="311px" src="/images/configuration-rebalance.jpg" alt="The rebalance portfolio input.">
+    <figcaption>Configure the rebalancing of your portfolio using this section of Portfolio Details.</figcaption>
+</figure>
 
 ### Disabling Rebalancing
 

@@ -7,9 +7,25 @@ title: FAQ
 
 These are general questions and answers about FI Calc and me, the creator.
 
-## How Do I...?
+### I do not live in the United States. Can I use FI Calc?
 
-### Enter real estate into FI Calc?
+I'd love for FI Calc to be an international calculator, but it's not there right
+now. There are a couple of things to consider if you live outside of the US:
+
+- The historical data for equities and bonds are
+  [based on US assets](/how-it-works/historical-data-source/). Do you have
+  access to these assets, or similar US-based assets?
+- Inflation in this calculator based on the Consumer Price Index, which is
+  determined by the price of consumer goods in the US. It likely does not
+  reflect historical inflation in other countries.
+- The value of the funds in this calculator are in USD. To convert it to another
+  currency would require knowing the exchange rate. Would it be appropriate to
+  use the historical exchange rate, or something else?
+
+If you have thoughts on how any of these issues might be resolved, please
+[contact me](/contact/)!
+
+### How can I enter real estate into FI Calc?
 
 You can use the [Additional Income](/configuration/additional-income/) feature
 of FI Calc to support real estate.

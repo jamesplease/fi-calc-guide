@@ -34,13 +34,23 @@ car," "Down payment," or "Kid's college."
 
 Providing a name is optional.
 
+<figure>
+    <img width="262px" src="/images/configuration-withdrawal-name.jpg" alt="The input field for entering a name for an Additional Withdrawal.">
+    <figcaption>Use this input to enter a name for your Additional Withdrawal.</figcaption>
+</figure>
+
 ### Annual Amount
 
 Additional withdrawals in FI Calc are made annually. For each type of withdrawal
 that you need to make, add up the total withdrawal for the year and enter it
 here.
 
-> Additional Withdrawals at other frequencies is not currently supported.
+<figure>
+    <img width="279px" src="/images/configuration-withdrawal-value.jpg" alt="The value input for Additional Income.">
+    <figcaption>Use this input to enter the annual value of your Additional Withdrawal.</figcaption>
+</figure>
+
+> Additional Withdrawals at monthly frequencies is not currently supported.
 
 ### Adjusting for Inflation
 
@@ -52,6 +62,11 @@ inflation-adjusted, while a mortgage payment likely isn't.
 If your withdrawal should be adjusted for inflation then you should check this
 checkbox.
 
+<figure>
+    <img width="279px" src="/images/configuration-withdrawal-value.jpg" alt="Check this checkbox to adjust Additional Withdrawal for inflation.">
+    <figcaption>Check the checkbox to adjust the withdrawal for inflation.</figcaption>
+</figure>
+
 ### Withdrawal Frequency
 
 FI Calc supports complex withdrawal frequencies. For example, you may plan to
@@ -60,17 +75,36 @@ pay for 4 years of college in 10 years.
 Use the "Withdrawal Frequency" section to specify when you want your Additional
 Withdrawal to begin, and for how long.
 
+<figure>
+    <img width="230px" src="/images/configuration-withdrawal-frequency.jpg" alt="Additional Withdrawal frequency form.">
+    <figcaption>Use this form to adjust the additional withdrawal frequency.</figcaption>
+</figure>
+
 ## Modifying an Existing Additional Withdrawal
 
 You can make changes to an Additional Withdrawal that you have already created.
 To do so, click the target Additional Withdrawal in the list, and the edit
 window will appear. Make your changes, and then click Save.
 
+<figure>
+    <img width="300px" src="/images/configuration-withdrawal-summary.jpg" alt="Additional Withdrawal summary box.">
+    <figcaption>Click an additional withdrawal summary within Configuration to make changes.</figcaption>
+</figure>
+
 ## Deleting Additional Withdrawal
 
 To delete an Additional Withdrawal that you have created, click an existing
 Additional Withdrawal to open the Edit window. Then, click on the "Delete"
 button. The Additional Withdrawal will be deleted.
+
+<figure>
+    <picture>
+      <source media="(max-width: 550px)" srcset="/images/configuration-withdrawal-delete-634.jpg 634w" sizes="317px">
+      <source media="(min-width: 551px)" srcset="/images/configuration-withdrawal-delete-1256.jpg 1256w" sizes="628px">
+      <img src="/images/configuration-withdrawal-delete-1256.jpg" alt="The delete button for an additional withdrawal.">
+    </picture>
+    <figcaption>In the edit form of an additional withdrawal, you can tap the delete button to remove it.</figcaption>
+</figure>
 
 ## Effect on Your Withdrawal Strategy
 

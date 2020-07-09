@@ -51,7 +51,7 @@ receive in a year and enter it here.
     <figcaption>Use this input to enter the annual value of your Additional Income.</figcaption>
 </figure>
 
-> Additional Income at other frequencies is not currently supported.
+> Additional Income at monthly frequencies is not currently supported.
 
 ### Adjusting for Inflation
 
@@ -77,7 +77,7 @@ Use the "Income Frequency" section to specify when you want your Additional
 Income to begin, and for how long.
 
 <figure>
-    <img width="281px" src="/images/configuration-income-frequency.jpg" alt="Additional Income frequency form.">
+    <img width="221px" src="/images/configuration-income-frequency.jpg" alt="Additional Income frequency form.">
     <figcaption>Use this form to adjust additional income frequency.</figcaption>
 </figure>
 
@@ -88,7 +88,7 @@ do so, click the target Additional Income in the list, and the edit window will
 appear. Make your changes, and then click Save.
 
 <figure>
-    <img width="281px" src="/images/configuration-income-summary.jpg" alt="Additional Income summary box.">
+    <img width="237px" src="/images/configuration-income-summary.jpg" alt="Additional Income summary box.">
     <figcaption>Click an additional income summary within Configuration to make changes.</figcaption>
 </figure>
 

@@ -18,13 +18,15 @@
 }
 
 .header-anchor {
+  --fullOpacity: 0.35;
+
   opacity: 0;
   transition: opacity 50ms ease-out;
 }
 
 @media (hover: none) {
   .header-anchor {
-    opacity: 0.5;
+    opacity: var(--fullOpacity);
   }
 }
 
@@ -33,7 +35,7 @@
   .page h2:hover .header-anchor,
   .page h3:hover .header-anchor,
   .page h4:hover .header-anchor {
-    opacity: 0.5;
+    opacity: var(--fullOpacity);
   }
 }
 

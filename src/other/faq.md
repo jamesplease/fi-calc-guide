@@ -18,9 +18,10 @@ now. There are a couple of things to consider if you live outside of the US:
 - Inflation in this calculator based on the Consumer Price Index, which is
   determined by the price of consumer goods in the US. It likely does not
   reflect historical inflation in other countries.
-- The value of the funds in this calculator are in USD. To convert it to another
-  currency would require knowing the exchange rate. Would it be appropriate to
-  use the historical exchange rate, or something else?
+- The historical values of the assets in this calculator are in USD. To convert
+  these values to another currency would require knowing the exchange rate.
+  Would it be appropriate to use the historical exchange rate, or something
+  else?
 
 If you have thoughts on how any of these issues might be resolved, please
 [contact me](/contact/)!

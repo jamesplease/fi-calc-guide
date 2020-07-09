@@ -87,15 +87,29 @@ To do so, click the target Additional Withdrawal in the list, and the edit
 window will appear. Make your changes, and then click Save.
 
 <figure>
-    <img width="300px" src="/images/configuration-withdrawal-summary.jpg" alt="Additional Withdrawal summary box.">
+    <img width="317px" src="/images/configuration-withdrawal-summary.jpg" alt="Additional Withdrawal summary box.">
     <figcaption>Click an additional withdrawal summary within Configuration to make changes.</figcaption>
+</figure>
+
+## Disabling One or More Additional Withdrawals
+
+You can temporarily disable an additional withdrawal to quickly see how it
+affects your rate of success. This can be more convenient than deleting it,
+because you can quickly enable it again at any time.
+
+To disable an Additional Withdrawal, uncheck the checkbox next to the target
+withdrawal in the Configuration pane.
+
+<figure>
+    <img width="317px" src="/images/configuration-withdrawal-summary.jpg" alt="The checkbox you can uncheck to disable an Additional Withdrawal.">
+    <figcaption>Uncheck this checkbox to disable an additional withdrawal.</figcaption>
 </figure>
 
 ## Deleting Additional Withdrawal
 
 To delete an Additional Withdrawal that you have created, click an existing
 Additional Withdrawal to open the Edit window. Then, click on the "Delete"
-button. The Additional Withdrawal will be deleted.
+button.
 
 <figure>
     <picture>

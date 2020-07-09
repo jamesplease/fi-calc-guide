@@ -88,15 +88,35 @@ do so, click the target Additional Income in the list, and the edit window will
 appear. Make your changes, and then click Save.
 
 <figure>
-    <img width="237px" src="/images/configuration-income-summary.jpg" alt="Additional Income summary box.">
+    <img width="316px" src="/images/configuration-income-summary.jpg" alt="Additional Income summary box.">
     <figcaption>Click an additional income summary within Configuration to make changes.</figcaption>
+</figure>
+
+## Disabling One or More Additional Income Sources
+
+You can temporarily disable an additional income source, which will re-run the
+same calculation without factoring that income in.
+
+This can be useful to quickly see the impact of different income sources on your
+portfolio. Maybe you're considering getting a part time job, but you're not
+committed to it. Or maybe you wish to see how much impact your Social Security
+estimate has on your success rate.
+
+Disabling income is a quick way to "turn off" income while still allowing you to
+add it back into your calculation should you decide to.
+
+To disable an Additional Income, uncheck the checkbox next to the income in the
+Configuration pane.
+
+<figure>
+    <img width="316px" src="/images/configuration-income-summary.jpg" alt="The checkbox you can uncheck to disable an Additional Income.">
+    <figcaption>Uncheck this checkbox to disable the additional income.</figcaption>
 </figure>
 
 ## Deleting Additional Income
 
 To delete an Additional Income that you have created, click an existing
 Additional Income to open the Edit window. Then, click on the "Delete" button.
-The Additional Income will be deleted.
 
 <figure>
     <picture>

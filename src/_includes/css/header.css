@@ -86,9 +86,9 @@
 .header_searchInput {
   -webkit-appearance: none;
   font-size: 0.875rem;
-  background: #1c1c1c;
+  background: #171717;
   color: #fff;
-  border: 1px solid #3c3c3c;
+  border: 1px solid transparent;
   padding: 0.28rem 0.65rem 0.28rem 1.75rem;
   border-radius: 6px;
   outline: none;

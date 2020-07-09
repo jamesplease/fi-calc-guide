@@ -13,6 +13,11 @@ module.exports = function (config) {
 
   const md = markdownIt(options);
   md.use(mk, { blockClass: 'math-block', errorColor: ' #cc0000' });
+  md.use(require('markdown-it-anchor'), {
+    permalink: true,
+    permalinkClass: 'header-anchor',
+    permalinkSymbol: '¶',
+  });
 
   config.setLibrary('md', md);
 

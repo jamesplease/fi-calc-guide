@@ -33,14 +33,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  top: 0;
-  height: 100%;
+  top: 0.25rem;
+  height: 1.75rem;
+  width: 1.75rem;
   right: 0.5rem;
   background: none;
   border: none;
   padding: 0;
   cursor: pointer;
+  border-radius: 100%;
   outline: none;
+}
+
+.nav_sectionLinkToggle:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.lightMode .nav_sectionLinkToggle:hover {
+  background: rgba(0, 0, 0, 0.05);
 }
 
 .nav_sectionLinkToggle svg {
@@ -164,13 +174,12 @@
   }
 
   .nav_sectionLinkToggle {
-    top: 0;
+    top: 0.35rem;
     right: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
-    padding: 0 1rem;
+    margin-right: 0.4rem;
   }
 
   .nav_bg {

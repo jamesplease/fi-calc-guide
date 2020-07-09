@@ -112,8 +112,7 @@
 
 .lightMode .header_searchInput {
   color: #050505;
-  background: #eaeaea;
-  border-color: #d0d0d0;
+  background: #e0e0e0;
 }
 
 .header_searchInput:focus {

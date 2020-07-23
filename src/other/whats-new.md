@@ -5,10 +5,14 @@ title: What's New
 
 # What's New
 
-This page lists the latest improvements to FI Calc.
+This page lists major improvements to FI Calc. Small changes like bug fixes are
+not listed here.
 
-<!-- > This page only lists user-facing changes. For a full list of changes, refer to
-> [the GitHub commit history](https://github.com/jamesplease/fi-calc/commits/master). -->
+#### July 23, 2020
+
+- User Preferences have been added to FI Calc. You can choose to reduce motion
+  in the interface and/or adjust the colors if you have a color vision
+  deficiency (color blindness).
 
 #### June 19, 2020
 

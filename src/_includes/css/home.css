@@ -48,6 +48,43 @@
   fill: white;
 }
 
+.home_donateRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.donateBtn {
+  font-size: 0.875rem;
+  background: white;
+  color: #505050;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 0 2px;
+  border-color: transparent;
+  padding: 0.5em 1.75em;
+}
+
+.donateBtn:hover {
+  background: #f7f7f7;
+  color: #222;
+}
+
+.donateBtn:active {
+  background: #e8e8e8;
+  color: #111;
+}
+
+.donateBtn.focus-visible {
+  box-shadow: 0 0 0 3px var(--primaryBlue);
+}
+
+.donateBtn_img {
+  display: inline-block;
+  height: 0.825rem;
+  margin-right: 0.5rem;
+}
+
 @media (max-width: 551px) {
   .home {
     max-width: 100%;

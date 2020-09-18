@@ -24,4 +24,16 @@ eleventyExcludeFromCollections: true
       <!-- <IconArrowForward /> -->
     </a>
   </div>
+  <div class="home_donateRow">
+  <a
+    href="https://gum.co/kgIVJ"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="button donateBtn">
+    <span role="img" aria-label="Tada" class="donateBtn_img">
+      🎉
+    </span>
+    Donate
+  </a>
+</div>
 </div>

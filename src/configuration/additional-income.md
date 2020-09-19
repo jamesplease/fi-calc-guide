@@ -77,6 +77,9 @@ plan to take 3 years off, and then get a side job for a couple of years.
 Use the "Income Frequency" section to specify when you want your Additional
 Income to begin, and for how long.
 
+You may also specify that an income lasts forever. This might be useful for some
+income streams such as Social Security or a pension.
+
 <figure>
     <img width="221px" src="/images/configuration-income-frequency.jpg" alt="Additional Income frequency form.">
     <figcaption>Use this form to adjust additional income frequency.</figcaption>

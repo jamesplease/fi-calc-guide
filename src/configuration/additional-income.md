@@ -14,7 +14,8 @@ Example sources of additional income include:
 - social security
 - a pension
 - a side job
-- a profitable side project.
+- a profitable side project
+- inheritance
 
 ## Adding Additional Income
 

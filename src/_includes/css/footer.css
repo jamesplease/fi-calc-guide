@@ -41,3 +41,21 @@
   color: var(--footerColor);
   text-decoration: none;
 }
+
+@media (max-width: 551px) {
+  .footer_content {
+    margin-top: 1.325rem;
+    flex-direction: column;
+  }
+
+  .footer_copyright {
+    display: block;
+    order: 2;
+  }
+
+  .footer_linkList {
+    order: 1;
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+}

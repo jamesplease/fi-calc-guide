@@ -61,6 +61,12 @@ body.lightMode {
   --accentColorDark: #5340e0;
 }
 
+@media (max-width: 551px) {
+  :root {
+    --footerHeight: 5rem;
+  }
+}
+
 @media (min-width: 1200px) {
   :root {
     --configuration-width: calc(20rem + var(--safeAreaInsetLeft));

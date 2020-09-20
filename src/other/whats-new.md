@@ -8,6 +8,23 @@ title: What's New
 This page lists major improvements to FI Calc. Small changes like bug fixes are
 not listed here.
 
+#### September 19, 2020
+
+- Additional income and withdrawals can now be explicitly set as never-ending.
+  Previously, you would need to give them a very long duration to ensure that
+  they never ended.
+- The definition of success for Maximize Spend strategies has been tweaked
+  slightly to take into account your minimum withdrawal limit. If a year ever
+  withdraws less than your specified minimum, then it will count that simulation
+  as a fail.
+
+#### September 18, 2020
+
+- "Target End Portfolio Value" has been removed from the VPW strategy. Not only
+  was the label misleading, but VPW does not allow you to specify this value.
+  CVPW still allows you to set it, but the input has been given the more
+  appropriate label "PMT Future Value."
+
 #### July 23, 2020
 
 - User Preferences have been added to FI Calc. You can choose to reduce motion

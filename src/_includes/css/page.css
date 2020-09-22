@@ -184,5 +184,7 @@ a {
 }
 
 .spacer {
-  height: 30px;
+  padding-top: 20px;
+  border-bottom: 6px solid var(--baseBorderColor);
+  margin-bottom: 60px;
 }

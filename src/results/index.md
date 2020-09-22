@@ -13,9 +13,9 @@ guide for tips on what to look for in the results.
 
 ## Pages in this Guide
 
-- [Portfolio At End of Retirement](/results/portfolio-at-end-of-retirement/) -
-  FI Calc aggregates all of the final year portfolios and returns stats to you.
-  Learn more about these stats here.
+- [Portfolio At End of Retirement](/results/portfolio/) - FI Calc aggregates all
+  of the final year portfolios and returns stats to you. Learn more about these
+  stats here.
 
 - [Withdrawals](/results/withdrawals/) - Over the course of hundreds of
   simulations, trends will emerge from your annual withdrawals. FI Calc shows

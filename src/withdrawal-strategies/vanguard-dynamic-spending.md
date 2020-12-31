@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Endowment Strategy
+title: Vanguard Dynamic Spending
 ---
 
-# Endowment Strategy
+# Vanguard Dynamic Spending
 
-The Endowment Strategy is used by Yale University to determine its annual
-spending of its endowment. It was developed by a team of Yale's economic
-professors working with the University's endowment officials.
+The Vanguard Dynamic Spending strategy comes from the Vanguard Research team.
+Like other "Longevity" strategies, it aims to capture the best parts of the
+Constant Dollar and Percent of Portfolio strategies.
 
 ### Strengths
 
@@ -15,11 +15,11 @@ professors working with the University's endowment officials.
   spending when the market is performing poorly and increasing spending when the
   market does well.
 - It responds smoothly to market conditions, so that year-after-year changes to
-  your withdrawal are small, unlike the Percentage of Portfolio strategy
+  your withdrawal are small, unlike the Percentage of Portfolio strategy.
 - It has a low likelihood of exhausting your portfolio, even over long
   retirement lengths.
 - Its algorithm is straightforward enough to calculate annual withdrawals by
-  hand
+  hand.
 
 ### Weaknesses
 

@@ -33,3 +33,5 @@ similarities.
 - [95% Rule](./95-percent)
 - [CAPE-based](./cape-based)
 - [Sensible Withdrawals](./sensible-withdrawals)
+- [Hebeler Autopilot II](./hebeler-autopilot-ii)
+- [Vanguard Dynamic Spending](./vanguard-dynamic-spending)

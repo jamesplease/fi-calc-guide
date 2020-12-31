@@ -17,3 +17,5 @@ These strategies may interest you if you wish to leave a legacy behind.
 - [95% Rule](../95-percent)
 - [CAPE-based](../cape-based)
 - [Sensible Withdrawals](../sensible-withdrawals)
+- [Hebeler Autopilot II](../hebeler-autopilot-ii)
+- [Vanguard Dynamic Spending](../vanguard-dynamic-spending)

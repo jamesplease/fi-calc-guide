@@ -103,6 +103,14 @@ module.exports = [
             title: 'Sensible Withdrawals',
             url: '/withdrawal-strategies/sensible-withdrawals/',
           },
+          {
+            title: 'Hebeler Autopilot II',
+            url: '/withdrawal-strategies/hebeler-autopilot-ii/',
+          },
+          {
+            title: 'Vanguard Dynamic Spending',
+            url: '/withdrawal-strategies/vanguard-dynamic-spending/',
+          },
         ],
       },
     ],

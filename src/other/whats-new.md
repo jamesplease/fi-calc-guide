@@ -8,6 +8,10 @@ title: What's New
 This page lists major improvements to FI Calc. Small changes like bug fixes are
 not listed here.
 
+#### December 30th, 2020
+
+- A new withdrawal strategy has been introduced: Vanguard Dynamic Spending.
+
 #### September 19, 2020
 
 - Additional income and withdrawals can now be explicitly set as never-ending.

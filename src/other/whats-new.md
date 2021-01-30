@@ -8,6 +8,16 @@ title: What's New
 This page lists major improvements to FI Calc. Small changes like bug fixes are
 not listed here.
 
+#### January 30th, 2021
+
+- A subtle improvement was made to the Available Spend chart: additional income
+  sources will always be displayed, even when the portfolio value goes to $0.
+  Previously, additional income sources were ignored after a portfolio went to
+  $0. This change does not impact simulation success rates.
+- All clickable elements in the app now use a consistent design. Did you know
+  you can click cells in the Portfolio at End of Retirement table to view all of
+  the end portfolio values?
+
 #### December 30th, 2020
 
 - A new withdrawal strategy has been introduced: Vanguard Dynamic Spending.

@@ -8,6 +8,10 @@ title: What's New
 This page lists major improvements to FI Calc. Small changes like bug fixes are
 not listed here.
 
+#### May 1st, 2021
+
+- Market data for 2020 has been added
+
 #### January 30th, 2021
 
 - A subtle improvement was made to the Available Spend chart: additional income

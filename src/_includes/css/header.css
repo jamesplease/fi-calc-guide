@@ -72,15 +72,15 @@
 
 .header_searchIcon {
   position: absolute;
-  top: 5px;
-  left: 7px;
+  top: 9px;
+  left: 8px;
   z-index: 1;
   fill: #777;
   pointer-events: none;
 }
 
 .header_search {
-  margin-right: 1rem;
+  margin-right: 0.75rem;
 }
 
 .header_searchInput {
@@ -89,35 +89,42 @@
   background: #171717;
   color: #fff;
   border: 1px solid transparent;
-  padding: 0.28rem 0.65rem 0.28rem 1.75rem;
+  padding: 0.55em 0.65em 0.55em 2em;
   border-radius: 6px;
   outline: none;
 }
 
 .lightMode .header_searchInput::-webkit-input-placeholder {
-  color: #888;
+  color: #777;
 }
 
 .lightMode .header_searchInput::-moz-placeholder {
-  color: #888;
+  color: #777;
 }
 
 .lightMode .header_searchInput:-ms-input-placeholder {
-  color: #888;
+  color: #777;
 }
 
 .lightMode .header_searchInput:-moz-placeholder {
-  color: #888;
+  color: #777;
 }
 
 .lightMode .header_searchInput {
   color: #050505;
-  background: #e0e0e0;
+  background: #e6e6e6;
 }
 
 .header_searchInput:focus {
   box-shadow: 0 0 0 1px var(--accentColor);
   border-color: var(--accentColor);
+}
+
+.header_launchBtn {
+  background: linear-gradient(45deg, #5b4ade, #4374ff);
+  font-size: 0.875rem;
+  padding: 0.55em 0.825em;
+  border-radius: 6px;
 }
 
 @media (max-width: 551px) {

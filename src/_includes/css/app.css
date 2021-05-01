@@ -53,7 +53,7 @@ body,
 }
 
 main {
-  padding-bottom: 3rem;
+  padding-bottom: 4rem;
   min-height: calc(100vh - var(--headerHeight) - var(--footerHeight));
 }
 

@@ -5,7 +5,7 @@
   width: var(--configuration-width);
   max-height: calc(100vh - var(--headerHeight));
   overflow-y: auto;
-  border-right: 1px solid var(--baseBorderColor);
+  /* border-right: 1px solid var(--baseBorderColor); */
   color: white;
   background: var(--appBg);
   z-index: 1000;
@@ -36,7 +36,7 @@
   top: 0.25rem;
   height: 1.75rem;
   width: 1.75rem;
-  right: 0.5rem;
+  right: 0.75rem;
   background: none;
   border: none;
   padding: 0;
@@ -86,16 +86,18 @@
 }
 
 .nav_sections {
-  padding-top: 1.5rem;
+  padding-top: 2.5rem;
   padding-bottom: 1.5rem;
 }
 
 .nav_sectionHeaderLink,
 .nav_sectionLink,
 .nav_sectionGroupLink {
+  border-radius: 6px;
   display: block;
   color: var(--fontColor);
   text-decoration: none;
+  margin: 0 0.5rem;
 }
 
 .nav_sectionHeaderLink {
@@ -129,9 +131,15 @@
 }
 
 .lightMode .nav_sectionHeaderLink.active,
-.lightMode .nav_sectionLink.active {
-  color: black;
-  background: rgba(0, 0, 0, 0.05);
+.lightMode .nav_sectionLink.active,
+.lightMode .nav_sectionGroupLink.active {
+  color: #454e67;
+  background: rgba(35, 34, 60, 0.05);
+}
+
+.lightMode .nav_sectionHeaderLink.active,
+.lightMode .nav_sectionGroupLink.active {
+  color: #363d50;
 }
 
 .nav_search {

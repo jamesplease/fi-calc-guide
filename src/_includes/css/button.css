@@ -81,7 +81,7 @@
 }
 
 .lightMode .button:focus {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 4px #000;
+  box-shadow: 0 0 0 1px #fff, 0 0 0 4px #3e2f94;
 }
 
 .lightMode .button-secondary:focus {

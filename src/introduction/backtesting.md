@@ -12,7 +12,7 @@ finance, meteorology, and oceanography.
 Backtesting is a one tool, but not the only tool, that you can use to understand
 and estimate the performance of a particular withdrawal strategy.
 
-### Limitations of Backtesting
+## Limitations of Backtesting
 
 Backtesting is only effective when you have high-quality data to run
 calculations with. The data set used in FI Calc was compiled by a Nobel

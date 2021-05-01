@@ -9,7 +9,7 @@ One of the inputs to FI Calc is the number of years you expect your retirement
 to last. Of course, we cannot know this number with certainty, but we can do our
 best to make a reasonable guess.
 
-### Choosing a Retirement Length
+## Choosing a Retirement Length
 
 <figure>
     <img width="255px" src="/images/configuration-number-of-years.jpg" alt="The length of retirement input field.">
@@ -25,7 +25,7 @@ If you are retiring at a younger age, then you may choose to increase the
 duration. That's totally fine. It's also worth keeping in mind that many early
 retirees feel confident using 30 years in their planning.
 
-### Retirements That are Too Short
+## Retirements That are Too Short
 
 Be mindful of specifying a retirement that is too short. Some of the withdrawal
 strategies (particularly those in the "Maximize Spend" categories) aim to
@@ -33,7 +33,7 @@ completely deplete your portfolio by the end of your retirement. Should you
 underestimate your retirement by a considerable amount, then you may run out of
 money while you are alive.
 
-### Excessively Long Retirements
+## Excessively Long Retirements
 
 Be mindful of the duration of the retirement that you specify. As you make your
 retirement longer, fewer simulations are run. You might have the idea to

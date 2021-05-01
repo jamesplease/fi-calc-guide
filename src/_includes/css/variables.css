@@ -11,12 +11,12 @@
 
   --maxAppWidth: 42rem;
   --headerHeight: 3rem;
-  --footerHeight: 4rem;
+  --footerHeight: 5rem;
   --configuration-width: calc(16rem + var(--safeAreaInsetLeft));
 
   --horizontalContentPadding: 1.375rem;
 
-  --baseContentSpacing: 1.25rem;
+  --baseContentSpacing: 1.5rem;
 
   /* Use these for containers that don't touch app edge */
   --baseContentSpacingLeft: var(--baseContentSpacing);
@@ -37,9 +37,15 @@
   );
 }
 
+@media (max-width: 551px) {
+  :root {
+    --baseContentSpacing: 1.25rem;
+  }
+}
+
 body {
   --appBg: #1c1c1c;
-  --fontColor: #f0f0f0;
+  --fontColor: #dedde6;
   --baseBorderColor: #2e2e2e;
 
   --accentColor: #6954ff;
@@ -51,7 +57,7 @@ body {
 
 body.lightMode {
   --appBg: #fff;
-  --fontColor: #000;
+  --fontColor: #282b33;
   --baseBorderColor: #e9e9e9;
 
   --accentColor: #5c48ef;

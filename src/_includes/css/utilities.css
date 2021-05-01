@@ -1,0 +1,15 @@
+.darkModeOnly {
+  display: block !important;
+}
+
+.lightMode .darkModeOnly {
+  display: none !important;
+}
+
+.lightModeOnly {
+  display: none !important;
+}
+
+.lightMode .lightModeOnly {
+  display: block !important;
+}

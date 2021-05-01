@@ -183,7 +183,7 @@
 
   .nav_sectionLinkToggle {
     top: 0.35rem;
-    right: 0;
+    right: 0.35em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -228,12 +228,32 @@
     -webkit-appearance: none;
     font-size: 1.0625rem;
     width: 100%;
-    background: #0f0f0f;
+    background: #32323e;
     color: #fff;
     border: 1px solid transparent;
     padding: 0.5rem 0.65rem 0.5rem 1.9rem;
     border-radius: 6px;
     outline: none;
+  }
+
+  .nav_searchInput::-webkit-input-placeholder {
+    font-size: 1.0625rem;
+    color: #f6f6f6;
+  }
+
+  .nav_searchInput::-moz-placeholder {
+    font-size: 1.0625rem;
+    color: #f6f6f6;
+  }
+
+  .nav_searchInput:-ms-input-placeholder {
+    font-size: 1.0625rem;
+    color: #f6f6f6;
+  }
+
+  .nav_searchInput:-moz-placeholder {
+    font-size: 1.0625rem;
+    color: #f6f6f6;
   }
 
   .lightMode .nav_searchInput::-webkit-input-placeholder {
@@ -257,12 +277,12 @@
   }
 
   .lightMode .nav_search {
-    border-bottom-color: #ddd;
+    border-bottom-color: #e6e6e6;
   }
 
   .lightMode .nav_searchInput {
     color: #050505;
-    background: #e2e2e2;
+    background: #eaeaea;
   }
 
   .nav_searchInput:focus {

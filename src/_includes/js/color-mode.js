@@ -4,7 +4,7 @@ const isLightMode =
 const bodyClass = isLightMode ? 'lightMode' : 'darkMode';
 document.body.classList.add(bodyClass);
 
-const logo = document.querySelector('.home_titleImg');
-if (logo && isLightMode) {
-  logo.src = '/fi-calc-logo-light.png';
-}
+// const logo = document.querySelector('.home_titleImg');
+// if (logo && isLightMode) {
+//   logo.src = '/fi-calc-logo-light.png';
+// }

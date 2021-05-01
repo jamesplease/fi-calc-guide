@@ -8,6 +8,17 @@
 .page h2,
 .page h3,
 .page h4 {
+  color: white;
+  padding-left: 25px;
+  position: relative;
+  left: -25px;
+}
+
+.lightMode .page h1,
+.lightMode .page h2,
+.lightMode .page h3,
+.lightMode .page h4 {
+  color: #111827;
   padding-left: 25px;
   position: relative;
   left: -25px;
@@ -18,6 +29,8 @@
 }
 
 .header-anchor {
+  font-size: 0.9em;
+  font-weight: 500;
   --fullOpacity: 0.35;
 
   opacity: 0;
@@ -44,8 +57,14 @@
 }
 
 .page h1 {
+  font-size: 1.875rem;
   font-weight: 900;
   margin: 0 0 1rem;
+}
+
+.page h2,
+.page h3 {
+  margin-top: 3rem;
 }
 
 .page h4 {
@@ -53,15 +72,35 @@
 }
 
 .page p {
-  line-height: 1.65;
+  line-height: 1.75;
 }
 
-.page ol li {
-  line-height: 1.65;
+.page ol,
+.page ul {
+  padding-left: 1.25rem;
+  margin-left: 0;
+  list-style: none;
 }
 
+.page ol li,
 .page ul li {
-  line-height: 1.65;
+  position: relative;
+  line-height: 1.75;
+}
+
+.page li:before {
+  height: 6px;
+  width: 6px;
+  top: 0.67857em;
+  left: -1.15em;
+  content: '';
+  position: absolute;
+  background-color: #636975;
+  border-radius: 3px;
+}
+
+.lightMode .page li:before {
+  background-color: #d1d5db;
 }
 
 .page figure {
@@ -84,7 +123,7 @@
   display: block;
   margin: 0 auto;
   max-width: 100%;
-  border-radius: 3px;
+  border-radius: 6px;
 }
 
 .page img {
@@ -123,6 +162,7 @@
 .page_ctaBtn {
   font-size: 1rem;
   padding: 0.75rem 1.75rem;
+  border-radius: 6px;
 }
 
 a {
@@ -145,6 +185,7 @@ a {
 }
 
 .page li a {
+  font-weight: 500;
   text-decoration: none;
 }
 

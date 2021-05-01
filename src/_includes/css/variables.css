@@ -9,7 +9,7 @@
   --safeAreaInsetLeft: env(safe-area-inset-left);
   --safeAreaInsetRight: env(safe-area-inset-right);
 
-  --maxAppWidth: 42rem;
+  --maxAppWidth: 47rem;
   --headerHeight: 3rem;
   --footerHeight: 5rem;
   --configuration-width: calc(16rem + var(--safeAreaInsetLeft));

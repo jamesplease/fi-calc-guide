@@ -16,7 +16,7 @@ module.exports = function (config) {
   md.use(require('markdown-it-anchor'), {
     permalink: true,
     permalinkClass: 'header-anchor',
-    permalinkSymbol: '¶',
+    permalinkSymbol: '#',
   });
 
   config.setLibrary('md', md);

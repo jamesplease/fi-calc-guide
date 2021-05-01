@@ -29,6 +29,8 @@
 }
 
 .header-anchor {
+  font-size: 0.9em;
+  font-weight: 500;
   --fullOpacity: 0.35;
 
   opacity: 0;
@@ -70,15 +72,35 @@
 }
 
 .page p {
-  line-height: 1.65;
+  line-height: 1.75;
 }
 
-.page ol li {
-  line-height: 1.65;
+.page ol,
+.page ul {
+  padding-left: 1.25rem;
+  margin-left: 0;
+  list-style: none;
 }
 
+.page ol li,
 .page ul li {
-  line-height: 1.65;
+  position: relative;
+  line-height: 1.75;
+}
+
+.page li:before {
+  height: 6px;
+  width: 6px;
+  top: 0.67857em;
+  left: -1.15em;
+  content: '';
+  position: absolute;
+  background-color: #636975;
+  border-radius: 3px;
+}
+
+.lightMode .page li:before {
+  background-color: #d1d5db;
 }
 
 .page figure {

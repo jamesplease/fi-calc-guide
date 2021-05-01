@@ -83,6 +83,10 @@
   opacity: 1;
 }
 
+.home_learnMoreBtn {
+  font-weight: 500;
+}
+
 .home_cta svg {
   margin-left: 0.25rem;
   fill: white;

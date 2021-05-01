@@ -6,7 +6,8 @@ eleventyExcludeFromCollections: true
 
 <div class="home">
   <h1 class="home_title">
-    <img src="/fi-calc-logo-dark.png" alt="FI Calc" class="home_titleImg" />
+    <img src="/fi-calc-logo-dark.png" alt="FI Calc" class="home_titleImg darkModeOnly" />
+    <img src="/fi-calc-logo-light.png" alt="FI Calc" class="home_titleImg lightModeOnly" />
   </h1>
   <div class="home_description">
     FI Calc is a powerful and flexible retirement calculator. It simulates
@@ -14,14 +15,14 @@ eleventyExcludeFromCollections: true
     need to retire.
   </div>
   <div class="home_ctas">
+    <a href="https://calculator.ficalc.app" class="home_cta button home_launchCta">
+      Launch Calculator
+      <!-- <IconArrowForward /> -->
+    </a>
     <a
       href="/introduction/"
       class="home_cta button button-secondary home_learnMoreBtn">
       Read the Guide
-    </a>
-    <a href="https://calculator.ficalc.app" class="home_cta button home_launchCta">
-      Launch Calculator
-      <!-- <IconArrowForward /> -->
     </a>
   </div>
   <div class="home_donateRow">

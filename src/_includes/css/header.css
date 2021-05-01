@@ -29,10 +29,6 @@
   outline: none;
 }
 
-.nav_logoLink:focus {
-  border-color: var(--accentColor);
-}
-
 .nav_logoLinkImg {
   display: block;
   height: 1.375rem;
@@ -40,6 +36,10 @@
 
 .lightMode .nav_logoLink {
   border-width: 3px;
+}
+
+.nav_logoLink:focus {
+  border-color: var(--accentColor);
 }
 
 .header_open {

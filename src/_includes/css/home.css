@@ -18,29 +18,73 @@
 
 .home_description {
   max-width: 70%;
-  margin: 0 auto 4rem;
+  margin: 0 auto 3.5rem;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   line-height: 1.5;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .home_ctas {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-bottom: 1.5rem;
 }
 
 .home_cta {
-  margin: 0 0.5rem;
-  font-size: 1.1rem;
-  padding: 1em 1.75em;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  padding: 0.825em 1.325em;
   border-radius: 0.5rem;
 }
 
 .home_launchCta {
+  position: relative;
+  font-size: 1.35rem;
   padding-right: 1.6em;
+  padding: 0.825em 1.625em;
+  background: linear-gradient(45deg, #5b4ade, #4374ff);
+  border: 0;
+}
+
+.home_launchCta:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  pointer-events: none;
+  opacity: 0;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.home_launchCta:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  pointer-events: none;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.home_launchCta:hover:after {
+  opacity: 1;
+}
+
+.home_launchCta:active:before {
+  opacity: 1;
+}
+
+.home_learnMoreBtn {
+  font-weight: 500;
 }
 
 .home_cta svg {
@@ -58,7 +102,7 @@
 .donateBtn {
   font-size: 0.875rem;
   background: white;
-  color: #505050;
+  color: #595577;
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, 0.4) 0 0 2px;
   border-color: transparent;
@@ -106,13 +150,7 @@
     margin-bottom: 2.5rem;
   }
 
-  .home_ctas {
-    flex-direction: column-reverse;
-  }
-
   .home_cta {
-    margin-bottom: 1rem;
-    width: 80%;
     display: flex;
     justify-content: center;
   }
@@ -129,5 +167,9 @@
 
   .home_description {
     margin-bottom: 1.5rem;
+  }
+
+  .home_launchCta {
+    font-size: 1.2rem;
   }
 }

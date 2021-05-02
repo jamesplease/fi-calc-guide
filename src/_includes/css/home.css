@@ -30,7 +30,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .home_cta {
@@ -121,22 +121,24 @@
 
 .donateBtn {
   font-size: 0.875rem;
-  background: white;
-  color: #595577;
+  background: transparent;
+  color: #ccc;
   border-radius: 4px;
-  box-shadow: rgba(0, 0, 0, 0.4) 0 0 2px;
-  border-color: transparent;
-  padding: 0.5em 1.75em;
+  border: 1px solid #333;
+  padding: 0.65em 1.5em;
+  border-radius: 5px;
 }
 
 .donateBtn:hover {
-  background: #f7f7f7;
-  color: #222;
+  background: #fff;
+  color: #111;
+  border-color: #fff;
 }
 
 .donateBtn:active {
-  background: #e8e8e8;
-  color: #111;
+  border-color: #f4f4f4;
+  background: #f4f4f4;
+  color: #1f1f1f;
 }
 
 .donateBtn.focus-visible {
@@ -144,6 +146,8 @@
 }
 
 .donateBtn_img {
+  position: relative;
+  top: -2px;
   display: inline-block;
   height: 0.825rem;
   margin-right: 0.5rem;

@@ -15,8 +15,9 @@ module.exports = function (config) {
   md.use(mk, { blockClass: 'math-block', errorColor: ' #cc0000' });
   md.use(require('markdown-it-anchor'), {
     permalink: true,
+    permalinkSpace: false,
     permalinkClass: 'header-anchor',
-    permalinkSymbol: '#',
+    permalinkSymbol: '&nbsp;#',
   });
 
   config.setLibrary('md', md);

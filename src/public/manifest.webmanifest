@@ -1,6 +1,6 @@
 {
-  "name": "FI Calc",
-  "short_name": "FI Calc",
+  "name": "FI Calc Guide",
+  "short_name": "FI Calc Guide",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
+  "theme_color": "#1a1a1b",
+  "background_color": "#1a1a1b",
   "display": "standalone"
 }

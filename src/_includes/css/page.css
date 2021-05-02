@@ -216,10 +216,6 @@ a {
 }
 
 @media (max-width: 551px) {
-  .page {
-    padding-top: 2.5rem;
-  }
-
   .page figcaption {
     max-width: none;
   }

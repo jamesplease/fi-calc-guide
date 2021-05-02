@@ -178,6 +178,10 @@
     display: flex;
     justify-content: center;
   }
+
+  .home_launchCta {
+    font-size: 1.25rem;
+  }
 }
 
 @media (max-width: 340px) {

@@ -24,6 +24,10 @@
     <title>
       {% if title %}{{ title }} - {% endif %}FI Calc
     </title>
+    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.webmanifest">
   </head>
   <body>
     {% if search %}
@@ -41,13 +45,15 @@
       {% endif %}
     {% endset %}
     <div class="website-root">
-      {% include 'header.njk' %}
+      {% if home !== true %}
+        {% include 'header.njk' %}
+      {% endif %}
       <div class="website-body">
         {% if home !== true %}
           {% include 'nav.njk' %}
         {% endif %}
         <div class="website-contents">
-        <main>
+        <main class="{% if home %}main-home{% endif %}">
           <div class="page {% if home %}page-wide{% endif %}">
             {{ content | safe }}
           </div>

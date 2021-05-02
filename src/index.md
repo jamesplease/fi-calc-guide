@@ -10,9 +10,7 @@ eleventyExcludeFromCollections: true
     <!-- <img src="/fi-calc-logo-light.png" alt="FI Calc" class="home_titleImg lightModeOnly" /> -->
   </h1>
   <div class="home_description">
-    FI Calc is a powerful and flexible retirement calculator. It simulates
-    retirement plans using historical data, giving you the confidence you
-    need to retire.
+    The most trusted and flexible retirement calculator. Simulate retirement plans using historical data and gain the confidence you need to retire.
   </div>
   <div class="home_ctas">
     <a href="https://calculator.ficalc.app" class="home_cta button home_launchCta">

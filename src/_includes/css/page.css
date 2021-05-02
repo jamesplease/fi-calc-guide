@@ -91,11 +91,11 @@
 .page li:before {
   height: 6px;
   width: 6px;
-  top: 0.67857em;
+  top: 0.72em;
   left: -1.15em;
   content: '';
   position: absolute;
-  background-color: #636975;
+  background-color: #5e636b;
   border-radius: 3px;
 }
 

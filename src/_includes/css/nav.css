@@ -126,7 +126,7 @@
 .nav_sectionHeaderLink.active,
 .nav_sectionLink.active,
 .nav_sectionGroupLink.active {
-  color: var(--fontColor);
+  color: white;
   background: rgba(255, 255, 255, 0.05);
 }
 

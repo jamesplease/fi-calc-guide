@@ -3,8 +3,8 @@
   z-index: 2000;
   top: 0;
   height: var(--headerHeight);
-  border-bottom: 1px solid #2a2a2a;
-  background: #212123;
+  border-bottom: 1px solid #252525;
+  background: #1f1f21;
   display: flex;
   align-items: center;
   padding: 0 var(--contentSpacingRight) 0 var(--contentSpacingLeft);
@@ -87,7 +87,7 @@
 .header_searchInput {
   -webkit-appearance: none;
   font-size: 0.875rem;
-  background: #353442;
+  background: #34333c;
   color: #fff;
   border: 0;
   padding: 0.55em 0.65em 0.55em 2em;

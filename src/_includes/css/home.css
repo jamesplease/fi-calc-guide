@@ -37,16 +37,30 @@
   margin-bottom: 1rem;
   font-size: 1rem;
   padding: 0.825em 1.325em;
-  border-radius: 0.5rem;
+  border-radius: 8px;
 }
 
 .home_launchCta {
+  fill: white;
+  stroke: white;
   position: relative;
   font-size: 1.35rem;
   padding-right: 1.6em;
   padding: 0.825em 1.625em;
+  padding-right: 1.55em;
   background: linear-gradient(45deg, #5b4ade, #4374ff);
   border: 0;
+  border-radius: 10px;
+}
+
+.home_launchCta svg {
+  will-change: translate;
+  margin-left: 0.325rem;
+  transition: transform 150ms ease-out;
+}
+
+.home_launchCta:hover svg {
+  transform: translateX(3px);
 }
 
 .home_launchCta:after {
@@ -87,9 +101,15 @@
   font-weight: 500;
 }
 
-.home_cta svg {
-  margin-left: 0.25rem;
-  fill: white;
+.home_learnMoreBtn svg {
+  width: 18px;
+  height: 18px;
+  stroke: #a09fa2;
+  margin-right: 0.25em;
+}
+
+.lightMode .home_learnMoreBtn svg {
+  stroke: #918d9e;
 }
 
 .home_donateRow {

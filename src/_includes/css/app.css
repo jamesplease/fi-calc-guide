@@ -59,6 +59,10 @@ main {
   min-height: calc(100vh - var(--headerHeight) - var(--footerHeight));
 }
 
+.main-home {
+  min-height: calc(100vh - var(--footerHeight));
+}
+
 .app_content {
   height: 100%;
   width: 100%;

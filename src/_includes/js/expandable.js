@@ -50,36 +50,48 @@ Expandable.prototype.toggleOpen = function (newIsOpen) {
     this.onTransitionStart(newIsOpen ? 'open' : 'close');
   }
 
+  let useRaf = false;
   if (newIsOpen && !this.expandableChild.isConnected) {
+    useRaf = true;
     this.el.appendChild(this.expandableChild);
   }
 
-  this.el.classList.remove(classNameToRemove);
-  this.el.classList.add(classNameToAdd);
+  const performAnimation = () => {
+    this.el.classList.remove(classNameToRemove);
+    this.el.classList.add(classNameToAdd);
 
-  const bb = this.expandableChild.getBoundingClientRect();
-  this.expandableChild.style.height = `${snapshot.height}px`;
+    const bb = this.expandableChild.getBoundingClientRect();
+    this.expandableChild.style.height = `${snapshot.height}px`;
 
-  requestAnimationFrame(() => {
     requestAnimationFrame(() => {
-      this.expandableChild.style.transition = `all ${durationMs}ms ease-out`;
-      this.expandableChild.style.height = `${bb.height}px`;
+      requestAnimationFrame(() => {
+        this.expandableChild.style.transition = `all ${durationMs}ms ease-out`;
+        this.expandableChild.style.height = `${bb.height}px`;
 
-      setTimeout(() => {
-        this.expandableChild.style = '';
-        this.isOpen = newIsOpen;
-        this.isOpening = false;
+        setTimeout(() => {
+          this.expandableChild.style = '';
+          this.isOpen = newIsOpen;
+          this.isOpening = false;
 
-        if (!newIsOpen) {
-          if (this.expandableChild.isConnected) {
-            this.expandableChild.remove();
+          if (!newIsOpen) {
+            if (this.expandableChild.isConnected) {
+              this.expandableChild.remove();
+            }
           }
-        }
 
-        if (typeof this.onTransitionEnd === 'function') {
-          this.onTransitionEnd(newIsOpen ? 'open' : 'close');
-        }
-      }, durationMs);
+          if (typeof this.onTransitionEnd === 'function') {
+            this.onTransitionEnd(newIsOpen ? 'open' : 'close');
+          }
+        }, durationMs);
+      });
     });
-  });
+  };
+
+  if (useRaf) {
+    setTimeout(() => {
+      performAnimation();
+    }, 24);
+  } else {
+    performAnimation();
+  }
 };

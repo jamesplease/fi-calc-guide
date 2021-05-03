@@ -110,6 +110,8 @@
   color: var(--fontColor);
   text-decoration: none;
   margin: 0 0.5rem;
+  outline: none;
+  border: 2px solid transparent;
 }
 
 .nav_sectionHeaderLink {
@@ -152,6 +154,12 @@
 .lightMode .nav_sectionHeaderLink.active,
 .lightMode .nav_sectionGroupLink.active {
   color: #363d50;
+}
+
+.nav_sectionHeaderLink:focus-visible,
+.nav_sectionLink:focus-visible,
+.nav_sectionGroupLink:focus-visible {
+  border-color: var(--accentColor);
 }
 
 .nav_search {

@@ -4,11 +4,11 @@ eleventyExcludeFromCollections: true
 ---
 [
 {%- for page in collections.all -%}
-  {%- if page.data.layout %}
+  {%- if page.data.layout and not page.data.excludeFromSearch %}
   {
     "url": "{{ page.url }}",
     "title": "{{ page.data.title }}",
-    "summary": "{{ page.templateContent | summary }}",
+    "summary": "{{ page.templateContent | summary | safe }}",
     "index": "{{ page.templateContent | squash }}"
   }{% if not loop.last %},{% endif %}
   {%- endif -%}

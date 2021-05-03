@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Saving Calculations
+excludeFromSearch: true
 ---
 
 # This page has moved.

@@ -64,11 +64,11 @@
   transform: rotate(90deg) translateX(1px);
 }
 
-.nav_sectionLinkToggle:focus-visible {
+.nav_sectionLinkToggle.focus-visible {
   border-color: var(--accentColor);
 }
 
-.nav_sectionLinkToggle:focus-visible svg {
+.nav_sectionLinkToggle.focus-visible svg {
   fill: #afa5d4;
 }
 
@@ -156,9 +156,9 @@
   color: #363d50;
 }
 
-.nav_sectionHeaderLink:focus-visible,
-.nav_sectionLink:focus-visible,
-.nav_sectionGroupLink:focus-visible {
+.nav_sectionHeaderLink.focus-visible,
+.nav_sectionLink.focus-visible,
+.nav_sectionGroupLink.focus-visible {
   border-color: var(--accentColor);
 }
 

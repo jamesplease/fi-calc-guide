@@ -32,7 +32,7 @@
   </head>
   <body>
     {% if search %}
-      <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.0.4"></script>
+      <script src="/fuse.6.0.4.js"></script>
     {% endif %}
     {% set js %}
       {% include "js/color-mode.js" %}
@@ -64,7 +64,7 @@
       </div>
     </div>
     <script>{{ js | babel | jsmin | safe }}</script>
-    <script async src="https://unpkg.com/body-scroll-lock@3.0.3/lib/bodyScrollLock.min.js"></script>
+    <script async src="/body-scroll-lock.3.0.3.js"></script>
     <script data-ad-client="ca-pub-2963704961857988" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   </body>
 </html>

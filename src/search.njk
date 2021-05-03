@@ -4,7 +4,7 @@ eleventyExcludeFromCollections: true
 ---
 [
 {%- for page in collections.all -%}
-  {%- if page.data.layout and not page.data.excludeFromSearch %}
+  {%- if page.data.layout %}
   {
     "url": "{{ page.url }}",
     "title": "{{ page.data.title | safe }}",

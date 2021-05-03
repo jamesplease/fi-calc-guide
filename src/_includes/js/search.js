@@ -36,17 +36,34 @@ fetch('/search.json')
     };
 
     const fuse = new Fuse(siteIndex, options);
-    const result = fuse.search(search);
 
-    const summary = document.createElement('div');
-    summary.className = 'results_summary';
+    const hasSearchString = typeof search === 'string';
 
-    const summaryText = result.length
-      ? String(result.length) + ' pages were found for "' + search + '".'
-      : 'No results were found for "' + search + '".';
+    let result = [];
+    if (hasSearchString) {
+      result = fuse.search(search);
+    }
 
-    summary.innerText = summaryText;
-    resultsEl.appendChild(summary);
+    if (hasSearchString && search.length > 1) {
+      const summary = document.createElement('div');
+      summary.className = 'results_summary';
+
+      const summaryText = result.length
+        ? String(result.length) + ' pages were found for "' + search + '".'
+        : 'No results were found for "' + search + '".';
+
+      summary.innerText = summaryText;
+      resultsEl.appendChild(summary);
+    } else {
+      const instructions = document.createElement('div');
+      instructions.className = 'results_instructions';
+
+      const instructionsText =
+        'Type a query into the search field to run a search.';
+
+      instructions.innerText = instructionsText;
+      resultsEl.appendChild(instructions);
+    }
 
     if (result && result.length) {
       result.forEach((result) => {

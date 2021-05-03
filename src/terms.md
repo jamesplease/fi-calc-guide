@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Terms of Service
+meta: true
 ---
 
 # Terms of Service
@@ -22,7 +23,7 @@ products or services obtained from the Service.
 
 ## Your Data in the Services
 
-FI Calc does not store any data that you create within the Service.
+This Service does not store any data that you create within the Service.
 
 ## About these Terms
 

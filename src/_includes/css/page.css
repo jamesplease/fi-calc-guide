@@ -19,9 +19,6 @@
 .lightMode .page h3,
 .lightMode .page h4 {
   color: #111827;
-  padding-left: 25px;
-  position: relative;
-  left: -25px;
 }
 
 [id] {
@@ -67,8 +64,21 @@
   margin-top: 3rem;
 }
 
+.page-meta h2,
+.page-meta h3 {
+  margin-top: 1.5rem;
+}
+
+.page-faq h3 {
+  margin-top: 1.5rem;
+}
+
 .page h4 {
-  margin: 0 0 1rem;
+  margin: 2rem 0 1rem;
+}
+
+.page-meta h4 {
+  margin-top: 0;
 }
 
 .page p {

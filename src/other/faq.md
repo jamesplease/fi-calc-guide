@@ -1,6 +1,7 @@
 ---
 layout: default
 title: FAQ
+faq: true
 ---
 
 # FAQ
@@ -49,25 +50,24 @@ Valley who is interested in early retirement.
 
 ### Are you retired?
 
-Not yet! (as of April 2020)
+Not yet. (as of May 2021)
 
 ### Do you have a favorite withdrawal strategy?
 
-Honestly, it changes. I'm drawn to simple withdrawal strategies that you can
-calculate on a piece of paper. Right now I like the Constant Dollar and
-Endowment Strategy.
+I'm drawn to simple withdrawal strategies that you can calculate on a piece of
+paper. Right now I like the Constant Dollar and Endowment Strategy.
 
 ### What are your favorite early retirement blogs and resources?
 
-I'm not particularly active in the FIRE community right now, but I listen to
-[Paula Pant's podcast](https://affordanything.com) and read
+I listen to [Paula Pant's podcast](https://affordanything.com) and read
 [Mr. Money Mustache](https://www.mrmoneymustache.com).
 
 ## General Questions
 
 ### What's the business model of FI Calc?
 
-FI Calc does not currently earn any revenue.
+FI Calc is supported by [donations](https://gum.co/kgIVJ). If you look around
+you might also find the single ad hidden in the guides.
 
 ### Do you plan to monetize FI Calc?
 
@@ -76,24 +76,15 @@ always include every feature that doesn't require a database.
 
 One feature that I've considered adding are user accounts, which would allow you
 to save simulations. This feature requires a database, though, which would cost
-me a little bit of money.
+me a little bit of money each month.
 
 If I do add this feature, then I would want to at least cover the cost of the
-database. The most likely turn of events is that I would introduce ads to FI
+database. The most likely turn of events is that I would introduce ads into FI
 Calc.
 
 I'm still not sure if I should add user accounts. Would you find them useful?
 [Let me know!](/contact/)
 
-### Where is FI Calc hosted?
-
-[Vercel](https://vercel.com) (previously known as Zeit).
-
 ### When was FI Calc created?
 
 I started the project in 2018, although I didn't work on it much until 2020.
-
-### What technology is FI Calc built with?
-
-FI Calc is a client-side React application. There is no server; all calculations
-are performed in the browser.

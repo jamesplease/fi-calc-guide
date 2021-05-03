@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Privacy
+meta: true
 ---
 
 # Privacy Policy

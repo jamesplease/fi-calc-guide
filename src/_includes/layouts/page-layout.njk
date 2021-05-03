@@ -55,7 +55,7 @@
         {% endif %}
         <div class="website-contents">
         <main class="{% if home %}main-home{% endif %}">
-          <div class="page {% if home %}page-wide{% endif %}">
+          <div class="page {% if home %}page-wide{% endif %} {% if meta %}page-meta{% endif %} {% if faq %}page-faq{% endif %}">
             {{ content | safe }}
           </div>
         </main>

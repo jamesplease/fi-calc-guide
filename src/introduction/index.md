@@ -49,8 +49,8 @@ use FI Calc to find these answers.
 
 This calculator allows you to run your retirement simulations using historical
 data, just like Bengen. You can recreate his original results, or tweak the
-inputs to discover new results. Run retirements that are shorter or longer, or
-that withdraw less or more, and see how these changes impact success rates.
+inputs to discover new ones. Run retirements that are shorter or longer, or that
+withdraw less or more, and see how these changes impact success rates.
 
 In addition to the withdrawal strategy used in The 4% Rule, FI Calc includes
 others that you can use, too, and those strategies are just as configurable. You

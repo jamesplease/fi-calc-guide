@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About
+meta: true
 ---
 
 # About
@@ -13,8 +14,8 @@ simulations.
 
 ### History
 
-I created FI Calc in 2018 to be a mobile-first retirement simulator. The first
-version didn't have many features, and it was ultimately stashed away in my
-virtual drawer of unfinished side projects. In 2020 I had a sudden burst of
-motivation to start work on it again, and the result of that is the application
-that you see today.
+I created FI Calc in 2018 to be a retirement simulator that would work great on
+mobile phones. The first version didn't have many features, and it was stashed
+away in my virtual drawer of unfinished side projects. In 2020 I had a sudden
+burst of motivation to start work on it again, and the result of that is the
+application that you see today.

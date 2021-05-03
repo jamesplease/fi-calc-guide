@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Contact Me
+meta: true
 ---
 
 # Contact Me

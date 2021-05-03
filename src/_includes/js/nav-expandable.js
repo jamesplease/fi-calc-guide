@@ -39,8 +39,8 @@ if (Expandable) {
         // latest state. This is unlikely to be 100% foolproof (a user could theoretically)
         // navigate before the transition ends, but it should be good enough for the overwhelming
         // majority of cases.
-        const newState = type === 'open' ? true : false;
-        openObject[index] = newState;
+        const isOpen = type === 'open';
+        openObject[index] = isOpen;
         sessionStorage.setItem('navStates', JSON.stringify(openObject));
       },
     });

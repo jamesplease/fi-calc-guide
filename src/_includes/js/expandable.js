@@ -4,9 +4,15 @@ window.Expandable = function Expandable({
   onTransitionStart,
   onTransitionEnd,
 }) {
+  this.isRendering = isOpen;
   this.el = el;
   this.toggle = el.querySelector('.nav_sectionLinkToggle');
   this.expandableChild = el.querySelector('.expandable_child');
+
+  if (!this.isRendering && this.expandableChild.isConnected) {
+    this.expandableChild.remove();
+  }
+
   this.isOpen = isOpen;
   this.onTransitionStart = onTransitionStart;
   this.onTransitionEnd = onTransitionEnd;
@@ -38,14 +44,18 @@ Expandable.prototype.toggleOpen = function (newIsOpen) {
     ? 'expandable-expanded'
     : 'expandable-collapsed';
 
-  this.el.classList.remove(classNameToRemove);
-  this.el.classList.add(classNameToAdd);
-
   const durationMs = 200;
 
   if (typeof this.onTransitionStart === 'function') {
     this.onTransitionStart(newIsOpen ? 'open' : 'close');
   }
+
+  if (newIsOpen && !this.expandableChild.isConnected) {
+    this.el.appendChild(this.expandableChild);
+  }
+
+  this.el.classList.remove(classNameToRemove);
+  this.el.classList.add(classNameToAdd);
 
   const bb = this.expandableChild.getBoundingClientRect();
   this.expandableChild.style.height = `${snapshot.height}px`;
@@ -59,6 +69,12 @@ Expandable.prototype.toggleOpen = function (newIsOpen) {
         this.expandableChild.style = '';
         this.isOpen = newIsOpen;
         this.isOpening = false;
+
+        if (!newIsOpen) {
+          if (this.expandableChild.isConnected) {
+            this.expandableChild.remove();
+          }
+        }
 
         if (typeof this.onTransitionEnd === 'function') {
           this.onTransitionEnd(newIsOpen ? 'open' : 'close');

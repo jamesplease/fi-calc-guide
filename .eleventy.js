@@ -7,6 +7,7 @@ module.exports = function (config) {
     linkify: false,
   };
 
+  config.addFilter('searchable', require('./src/utils/searchable.js'));
   config.addFilter('squash', require('./src/utils/squash.js'));
   config.addFilter('summary', require('./src/utils/summary.js'));
   config.addFilter('babel', require('./src/utils/babel.js'));

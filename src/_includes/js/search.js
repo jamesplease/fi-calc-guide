@@ -12,7 +12,7 @@ function createResult(result) {
 
   const summary = document.createElement('div');
   summary.className = 'result_summary';
-  summary.innerText = result.item.summary;
+  summary.innerHTML = result.item.summary;
 
   const link = document.createElement('a');
   link.className = 'result_link';

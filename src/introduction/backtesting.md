@@ -12,7 +12,29 @@ finance, meteorology, and oceanography.
 Backtesting is a one tool, but not the only tool, that you can use to understand
 and estimate the performance of a particular withdrawal strategy.
 
-## Limitations of Backtesting
+## Future Performance
+
+One of the most important things to keep in mind when running backtesting
+calculations is that they do **not** guarantee future performance. Just because
+a portfolio performed well or poorly historically does not mean that it will
+perform that same way going forward.
+
+Backtesting simulations do not offer certainty: indeed, no retirement planning
+can, as we cannot know the future. Backtesting calculations provide other
+benefits, though, including:
+
+- comparing different withdrawal strategies
+- understanding the behavior of a particular withdrawal strategy in different
+  market conditions
+- determining the conditions under which a particular retirement plan performs
+  well or poorly
+- building confidence in a retirement plan
+
+It is extremely important to keep this in mind when running calculations in FI
+Calc to avoid misinterpreting the information that is presented in the
+calculator.
+
+## Other Notes on Backtesting
 
 Backtesting is only effective when you have high-quality data to run
 calculations with. The data set used in FI Calc was compiled by a Nobel

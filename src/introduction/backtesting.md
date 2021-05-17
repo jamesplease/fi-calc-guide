@@ -20,8 +20,8 @@ a portfolio performed well or poorly historically does not mean that it will
 perform that same way going forward.
 
 Backtesting simulations do not offer certainty: indeed, no retirement planning
-can, as we cannot know the future. Backtesting calculations provide other
-benefits, though, including:
+can, as we cannot know the future. Backtesting calculations provide a host of
+other benefits, though, including:
 
 - comparing different withdrawal strategies
 - understanding the behavior of a particular withdrawal strategy in different

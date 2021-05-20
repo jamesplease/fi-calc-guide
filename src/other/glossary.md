@@ -35,8 +35,8 @@ Bogleheads community.
 #### cFIREsim
 
 A popular retirement calculator that also uses a backtesting strategy. It was
-created by a member of the FIRE community named Bo. cFIREsim was created after
-FIRECalc.
+created by a member of the FIRE community named Lauren. cFIREsim was created
+after FIRECalc.
 
 #### FIRECalc
 

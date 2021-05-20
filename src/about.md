@@ -9,8 +9,7 @@ meta: true
 FI Calc is a calculator that helps you plan for retirement.
 
 The goal of FI Calc is to provide all of the features one might need when
-creating their retirement plan using historical data and Monte Carlo
-simulations.
+evaluating their retirement plan using the backtesting method.
 
 ### History
 

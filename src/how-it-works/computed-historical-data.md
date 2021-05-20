@@ -71,7 +71,7 @@ them for one year, and then sell them.
 
 The formula for this is complicated. Documentation will be added soon.
 
-> This is the same formula used by cFIREsim. In fact, Bo, the creator of
+> This is the same formula used by cFIREsim. In fact, Lauren, the creator of
 > cFIREsim, deserves credit for this for creating this conversation on
 > Bogleheads.
 

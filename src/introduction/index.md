@@ -57,6 +57,11 @@ others that you can use, too, and those strategies are just as configurable. You
 can export your results as a CSV file and continue your calculations in your
 spreadsheet app of choice.
 
+FI Calc cannot guarantee that any retirement plan will succeed or not. As stated
+before, nothing can provide you with that guarantee. But FI Calc _can_ help you
+make more informed decisions around retiring by allowing you to explore
+situations in which a particular retirement plan does well or poorly in.
+
 ## What Now?
 
 You're ready to jump in and start running simulations, or you can continue

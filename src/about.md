@@ -6,10 +6,15 @@ meta: true
 
 # About
 
-FI Calc is a calculator that helps you plan for retirement.
+FI Calc is a calculator that helps you plan for retirement using backtesting to
+evaluate different withdrawal strategies.
 
-The goal of FI Calc is to provide all of the features one might need when
-evaluating their retirement plan using the backtesting method.
+### Proper Usage
+
+FI Calc does not provide financial advice. Do not plan your retirement solely
+off of the results of FI Calc. A healthy retirement plan will be studied using
+multiple calculations. FI Calc can be one, but not the only, calculator that you
+use.
 
 ### History
 

@@ -6,6 +6,11 @@ meta: true
 
 # Terms of Service
 
+> Last updated: Nov. 27th, 2021.  
+> Added the following line to the Use of our Services section:  
+> "Our Services do not provide financial advice and are for educational purposes
+> only."
+
 By using our services ("Services"), you are agreeing to these terms.
 
 ## Use of our Services
@@ -13,6 +18,9 @@ By using our services ("Services"), you are agreeing to these terms.
 You must be 13 years or older to use our Services.
 
 Using our Services is at your sole risk. Do not misuse the Service.
+
+Our Services do not provide financial advice and are for educational purposes
+only.
 
 ## Personal and Non-Commercial Use Limitation
 

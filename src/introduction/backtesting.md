@@ -34,6 +34,12 @@ It is extremely important to keep this in mind when running calculations in FI
 Calc to avoid misinterpreting the information that is presented in the
 calculator.
 
+> To be clear: even if a retirement plan does well in FI Calc there is no
+> guarantee that it will work out as successfully if you were to retire with
+> that plan today. A healthy retirement plan will involve testing with multiple
+> calculators and calculations. Do not base your entire retirement off of the
+> results of FI Calc.
+
 ## Other Notes on Backtesting
 
 Backtesting is only effective when you have high-quality data to run

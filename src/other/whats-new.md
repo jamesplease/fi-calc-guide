@@ -8,6 +8,10 @@ title: What's New
 This page lists major improvements to FI Calc. Small changes like bug fixes are
 not listed here.
 
+#### Nov 26th, 2021
+
+- A refreshed visual design was released.
+
 #### May 1st, 2021
 
 - Market data for 2020 has been added

@@ -41,6 +41,36 @@ as additional income in the year that you sell.
 If there are more features you need to help manage your real estate investments,
 please [let me know](/contact/).
 
+### FI Calc is showing a 100% success rate for my retirement plan. Does that mean that I'll never run out of money?
+
+No, it's an unfortunate fact that there is always the possibility that you will
+run out of money during retirement. A 100% success rate in FI Calc only means
+that the portfolio didn't run out of money in any of the simulations that it ran
+using past data, but we cannot know what the future holds.
+
+The goal of retirement planning isn't to obtain absolute certainty that the plan
+won't fail, as we cannot ever achieve that. Instead, it's about building the
+confidence that your plan can weather all kinds of different economic
+conditions. A 100% success rate in FI Calc could be perceived as a strong
+indicator that your plan is sufficient, but here are just a few things to
+consider:
+
+- What is the smallest withdrawal made in the calcaulation? Is that a realistic
+  minimum withdrawal for you? What if you needed to live off of that amount next
+  year? Could you do it? If not, consider increasing the minimum withdrawal in
+  the Configuration. Does that change your success rate?
+- Are all of your expenses accounted for? Healthcare, for example?
+- Is your retirement length set at the default 30 years, or is it longer? The 30
+  year retirement was originally used for individuals who were retiring at
+  around 60 (optimistically assuming a 90 year life span). Maybe it would make
+  sense to add a few extra years to see how the success rate changes, if at all.
+- Do other retirement calculators return similar results?
+- Have you run more advanced calculations, factoring in details such as RMDs and
+  taxes (which are not a part of the FI Calc calculation)?
+
+These are just a couple of questions you might want to ask yourself when running
+retirement calculations to make sure that you're being as accurate as possible.
+
 ## About the Creator
 
 ### Who created FI Calc?

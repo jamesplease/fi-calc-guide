@@ -71,6 +71,16 @@ consider:
 These are just a couple of questions you might want to ask yourself when running
 retirement calculations to make sure that you're being as accurate as possible.
 
+### Other calculators return different results for the same inputs. Why is that?
+
+This is to be expected as different calculators use different data and different
+calculations with that data. We recommend using multiple calculators to get a
+range of results.
+
+FI Calc's data is documented [here](/how-it-works/historical-data-source/) and
+the algorithm is documented
+[here](https://ficalc.app/how-it-works/one-simulation-year/).
+
 ## About the Creator
 
 ### Who created FI Calc?

@@ -12,6 +12,7 @@
   padding-left: 25px;
   position: relative;
   left: -25px;
+  line-height: 1.35;
 }
 
 .lightMode .page h1,
@@ -57,7 +58,6 @@
   font-size: 1.875rem;
   font-weight: 800;
   margin: 0 0 1rem;
-  line-height: 1.3;
 }
 
 .page h2,

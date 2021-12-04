@@ -4,7 +4,7 @@
   top: 0;
   height: var(--headerHeight);
   border-bottom: 1px solid #252525;
-  background: #1f1f21;
+  background: #1a1a1b;
   display: flex;
   align-items: center;
   padding: 0 var(--contentSpacingRight) 0 var(--contentSpacingLeft);

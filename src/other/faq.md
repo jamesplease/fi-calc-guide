@@ -96,6 +96,10 @@ FI Calc's data is documented [here](/how-it-works/historical-data-source/) and
 the algorithm is documented
 [here](https://ficalc.app/how-it-works/one-simulation-year/).
 
+### How do you pronounce the name FI Calc?
+
+I personally prnounce the name as "Eff eye calc."
+
 ## About the Creator
 
 ### Who created FI Calc?

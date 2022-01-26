@@ -11,14 +11,14 @@ These are general questions and answers about FI Calc and me, the creator.
 ### How do I factor in taxes?
 
 FI Calc does not automatically account for taxes. For this reason you must
-include money to pay your taxes in your withdrawal amount.
+include the money to pay your taxes in your withdrawal amount.
 
 To give a simple example, if you know that you need $40,000 per year to live off
 of, and you estimate that your tax bill will be $5000 per year, then you should
-aim to withdraw $45k per year to cover both your expenses and the taxes.
+aim to withdraw $45k per year to cover both your expenses and taxes.
 
-If you would like to model a scenario where the taxes change over the course of
-your retirement then you can use
+If you would like to model a scenario where your taxes change over the course of
+your retirement, you can use
 [Additional Income](/configuration/additional-income/) and
 [Additional Withdrawals](/configuration/additional-withdrawals/) to decrease or
 increase your tax bill over the course of your retirement.

@@ -14,8 +14,8 @@ FI Calc does not automatically account for taxes. For this reason you must
 include the money to pay your taxes in your withdrawal amount.
 
 To give a simple example, if you know that you need $40,000 per year to live off
-of, and you estimate that your tax bill will be $5000 per year, then you should
-aim to withdraw $45k per year to cover both your expenses and taxes.
+of, and you estimate that your tax bill will be $5,000 per year, then you should
+aim to withdraw $45,000 per year to cover both your expenses and taxes.
 
 If you would like to model a scenario where your taxes change over the course of
 your retirement, you can use

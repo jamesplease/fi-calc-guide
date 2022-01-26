@@ -21,7 +21,7 @@ If you would like to model a scenario where your taxes change over the course of
 your retirement, you can use
 [Additional Income](/configuration/additional-income/) and
 [Additional Withdrawals](/configuration/additional-withdrawals/) to decrease or
-increase your tax bill over the course of your retirement.
+increase your tax bill over time.
 
 ### I do not live in the United States. Can I use FI Calc?
 
@@ -98,7 +98,7 @@ the algorithm is documented
 
 ### How do you pronounce the name FI Calc?
 
-I personally prnounce the name as "Eff eye calc."
+I personally pronounce the name as "Eff eye calc."
 
 ## About the Creator
 

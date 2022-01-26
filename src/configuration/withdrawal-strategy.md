@@ -33,3 +33,11 @@ in your retirement.
 This is a deep topic; accordingly, there's an entire section of this guide
 dedicated to describing the different withdrawal strategy options.
 [Read it here.](../../withdrawal-strategies/)
+
+### Determining the Amount to Withdraw
+
+Your withdrawal amount should cover all of your expenses for the year. Note that
+you should also include the cost of taxes to your withdrawal amount, as FI Calc
+does not automatically estimate what your taxes will be for each year.
+
+For more, see [the FAQ](/other/faq/#how-do-i-factor-in-taxes%3F).

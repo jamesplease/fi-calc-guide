@@ -98,7 +98,7 @@ the algorithm is documented
 
 ### How do you pronounce the name FI Calc?
 
-I personally pronounce the name as "Eff eye calc."
+I personally pronounce it as "Eff eye calc."
 
 ## About the Creator
 

@@ -6,8 +6,6 @@ faq: true
 
 # FAQ
 
-These are general questions and answers about FI Calc and me, the creator.
-
 ### How do I factor in taxes?
 
 FI Calc does not automatically account for taxes. For this reason you must
@@ -25,22 +23,18 @@ increase your tax bill over time.
 
 ### I do not live in the United States. Can I use FI Calc?
 
-I'd love for FI Calc to be an international calculator, but it's not there right
-now. There are a couple of things to consider if you live outside of the US:
+Perhaps. There are a couple of things to consider if you live outside of the US:
 
 - The historical data for equities and bonds are
   [based on US assets](/how-it-works/historical-data-source/). Do you have
   access to these assets, or similar US-based assets?
 - Inflation in this calculator based on the Consumer Price Index, which is
-  determined by the price of consumer goods in the US. It likely does not
-  reflect historical inflation in other countries.
+  determined by the price of consumer goods in the US. It may not reflect
+  historical inflation in your country.
 - The historical values of the assets in this calculator are in USD. To convert
   these values to another currency would require knowing the exchange rate.
   Would it be appropriate to use the historical exchange rate, or something
   else?
-
-If you have thoughts on how any of these issues might be resolved, please
-[contact me](/contact/)!
 
 ### How can I enter real estate into FI Calc?
 
@@ -109,7 +103,7 @@ Valley who is interested in early retirement.
 
 ### Are you retired?
 
-Not yet. (as of May 2021)
+Not yet!
 
 ### Do you have a favorite withdrawal strategy?
 
@@ -118,8 +112,7 @@ paper. Right now I like the Constant Dollar and Endowment Strategy.
 
 ### What are your favorite early retirement blogs and resources?
 
-I listen to [Paula Pant's podcast](https://affordanything.com) and read
-[Mr. Money Mustache](https://www.mrmoneymustache.com).
+I mostly listen to [Paula Pant's podcast](https://affordanything.com).
 
 ## General Questions
 
@@ -130,18 +123,19 @@ you might also find the single ad hidden in the guides.
 
 ### Do you plan to monetize FI Calc?
 
-There will always be a free version of FI Calc, and that free version will
-always include every feature that doesn't require a database.
+There are no plans to monetize FI Calc right now. In fact, there will always be
+a free version of FI Calc, and that free version will always include every
+feature that doesn't require a database.
 
 One feature that I've considered adding are user accounts, which would allow you
-to save simulations. This feature requires a database, though, which would cost
-me a little bit of money each month.
+to save simulations, among other things. User accounts requires a database,
+though, and databases have a monthly cost associated with them.
 
-If I do add this feature, then I would want to at least cover the cost of the
+If I do add user accounts, then I would want to at least cover the cost of the
 database. The most likely turn of events is that I would introduce ads into FI
 Calc.
 
-I'm still not sure if I should add user accounts. Would you find them useful?
+I'm not sure if I should add user accounts, though. Would you find them useful?
 [Let me know!](/contact/)
 
 ### When was FI Calc created?

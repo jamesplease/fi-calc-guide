@@ -27,7 +27,7 @@ Inflation for the first year, 1871, is set to `1` (representing no inflation).
 
 ### Inflation Example
 
-The CPI for January 1900 is `127.40`, and for January 1901 it is `134.60`.
+The CPI for January 1990 is `127.40`, and for January 1991 it is `134.60`.
 Placing these numbers into our equation yields:
 
 $$

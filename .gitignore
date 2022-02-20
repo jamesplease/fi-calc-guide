@@ -5,3 +5,4 @@ yarn.lock
 _site
 docs
 .vscode
+.DS_Store

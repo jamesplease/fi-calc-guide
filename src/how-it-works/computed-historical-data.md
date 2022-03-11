@@ -33,7 +33,7 @@ Placing these numbers into our equation yields:
 $$
 \frac{currentYearCpi}{previousYearCpi} - 1
 \\[0.8em]
-= \frac{\displaystyle 127.40}{\displaystyle 134.60} - 1
+= \frac{\displaystyle 134.60}{\displaystyle 127.40} - 1
 \\[0.8em]
 = 1.0565 - 1
 \\[0.8em]

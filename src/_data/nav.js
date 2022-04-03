@@ -1,7 +1,7 @@
 module.exports = [
   {
     title: 'Introduction',
-    url: '/introduction/',
+    url: '/',
     pages: [
       {
         title: 'Backtesting',

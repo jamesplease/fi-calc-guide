@@ -8,7 +8,8 @@
     "start": "rimraf _site && cross-env ELEVENTY_ENV=dev eleventy --input=src --output=_site --serve",
     "build": "npm run clean && cross-env ELEVENTY_ENV=prod eleventy --input=src --output=docs && cp CNAME docs/CNAME",
     "clean": "rimraf docs",
-    "deploy": "npm run clean && npm run build && cp CNAME docs && cd docs && git init && git commit --allow-empty -m 'update site' && git checkout -b gh-pages && touch .nojekyll && git add . && git commit -am 'update docs' && git push git@github.com:jamesplease/fi-calc-guide gh-pages --force"
+    "deploy": "npm run clean && npm run build && cp CNAME docs && cd docs && git init && git commit --allow-empty -m 'update site' && git checkout -b gh-pages && touch .nojekyll && git add . && git commit -am 'update docs' && git push git@github.com:jamesplease/fi-calc-guide gh-pages --force",
+    "deploy-old": "npm run clean && npm run build && cp CNAME docs && cd docs && git init && git commit --allow-empty -m 'update site' && git checkout -b gh-pages && touch .nojekyll && git add . && git commit -am 'update docs' && git push git@github.com:jamesplease/fi-calc-guide-old gh-pages --force"
   },
   "repository": {
     "type": "git",

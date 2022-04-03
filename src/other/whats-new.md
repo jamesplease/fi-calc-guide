@@ -102,7 +102,7 @@ not listed here.
 #### May 24, 2020
 
 - When appropriate, help dialogs now link out to the
-  [Guide](https://ficalc.app/introduction/).
+  [Guide](https://guide.ficalc.app/).
 
 #### May 22, 2020
 

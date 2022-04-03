@@ -75,10 +75,6 @@ reading these Guides to learn more about this calculator.
 
 ## What to Read Next
 
-<!-- - [Getting Started](/introduction/getting-started/) - How to get started with
-  using FI Calc.
- -->
-
 - [Backtesting](/introduction/backtesting/) - FI Calc is a calculator that works
   by using a strategy called "backtesting." Learn all about backtesting here.
 

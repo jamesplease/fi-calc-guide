@@ -8,7 +8,15 @@ title: What's New
 This page lists major improvements to FI Calc. Small changes like bug fixes are
 not listed here.
 
-#### Nov 26th, 2021
+#### April 10th, 2022
+
+- 2021 market data has been added. This allows for one more year of simulations.
+
+#### April 9th, 2022
+
+- FI Calc can now be installed as an app on Android
+
+#### November 26th, 2021
 
 - A refreshed visual design was released.
 

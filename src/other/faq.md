@@ -6,6 +6,14 @@ faq: true
 
 # FAQ
 
+### Where can I donate?
+
+FI Calc is provided for free.
+
+The costs associated with running FI Calc, and the time spent maintaining and updating
+the app as well as responding to emails are supported by donations. You can donate
+[here](https://gum.co/kgIVJ).
+
 ### How do I factor in taxes?
 
 FI Calc does not automatically account for taxes. For this reason you must
@@ -35,6 +43,18 @@ Perhaps. There are a couple of things to consider if you live outside of the US:
   these values to another currency would require knowing the exchange rate.
   Would it be appropriate to use the historical exchange rate, or something
   else?
+
+### Will you be adding new data?
+
+Yes, if the data is not currently up to date it should be updated soon. Data
+for each year will typically be added in the second half of the following year.
+For example, data for 2020 can be expected to be added some time around or after
+June 2021.
+
+### Are the dollars shown in the results page real or nominal?
+
+The results page shows real dollars. You can download the data as a CSV to see
+nominal dollars.
 
 ### How can I enter real estate into FI Calc?
 
@@ -92,7 +112,7 @@ the algorithm is documented
 
 ### How do you pronounce the name FI Calc?
 
-I personally pronounce it as "Eff eye calc."
+I pronounce it "eff eye calc."
 
 ## About the Creator
 
@@ -108,7 +128,8 @@ Not yet!
 ### Do you have a favorite withdrawal strategy?
 
 I'm drawn to simple withdrawal strategies that you can calculate on a piece of
-paper. Right now I like the Constant Dollar and Endowment Strategy.
+paper. Right now I like Constant Dollar and
+[Vanguard Dynamic Spending](https://ficalc.app?additionalIncome=%5B%5D&additionalWithdrawals=%5B%5D&bondsFees=0.05&bondsFinalRatio=15&bondsInitialRatio=15&cashFees=0&cashFinalRatio=5&cashGrowth=1.5&cashInitialRatio=5&changeAllocationsOverTime=false&equitiesFees=0.04&equitiesFinalRatio=80&equitiesInitialRatio=80&initialPortfolioValue=1000000&maxWithdrawalLimit=60000&maxWithdrawalLimitEnabled=false&minWithdrawalLimit=35000&minWithdrawalLimitEnabled=true&numberOfYears=30&portfolioRebalanceEquation=linear&rebalance=true&rebalanceFrequency=1&retirementStartingAge=60&vanguardDynamicSpendingCeiling=2&vanguardDynamicSpendingFloor=2.5&vanguardDynamicSpendingWithdrawalRate=4&withdrawalStrategyName=vanguardDynamicSpending).
 
 ### What are your favorite early retirement blogs and resources?
 

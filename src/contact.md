@@ -6,9 +6,11 @@ meta: true
 
 # Contact Me
 
-Do you have a question, a bug report, or a feature request? I'm always looking
-for ways to improve FI Calc. The fastest way to reach me is through Twitter or
-email.
+If you have a question, the answer may be in the [guide](https://guide.ficalc.app) or [FAQ](/other/faq).
+If you can't find it there, feel free to contact me through email or on Twitter.
 
-- Twitter: [@ficalc](https://twitter.com/ficalc)
+Keep in mind that I am an individual working on FI Calc in my free time, and I provide both the
+app and email support for free. Please be understanding that it may take time for me to reply.
+
 - Email: [hey@ficalc.app](mailto:hey@ficalc.app)
+- Twitter: [@ficalc](https://twitter.com/ficalc)

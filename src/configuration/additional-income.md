@@ -69,6 +69,21 @@ checkbox.
     <figcaption>Check the checkbox to adjust the income for inflation.</figcaption>
 </figure>
 
+Inflation begins accumulating immediately, even when you specify that the income does not
+begin after a number of years.
+
+For example, if you specify that additional income of $10,000 beginning in 20 years, the
+amount that you will receive on the 20th year will have $10,000 worth of purchasing
+power. This typically means that it will be nominally larger than $10,000.
+
+A future update will allow you to choose whether inflation adjustments begins immediately
+or once the income starts. In the meantime, if you need a particular nominal amount, you
+can compute what value would grow into that amount using a fixed inflation rate (like 3%)
+and input that value into the text field.
+
+Using the example above, you might enter $5,500. This is because $5,500 will become $9,933
+after 20 years of inflation adjustments assuming 3% annual inflation.
+
 ### Income Frequency
 
 FI Calc supports complex income frequencies. For example, you may know that you

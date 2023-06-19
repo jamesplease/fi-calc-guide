@@ -5,8 +5,11 @@ title: What's New
 
 # What's New
 
-This page lists major improvements to FI Calc. Small changes like bug fixes are
-not listed here.
+This page lists major improvements to FI Calc. Smaller changes are not listed.
+
+#### June 17th, 2023
+
+- 2022 market data has been added. This allows for one more year of simulations.
 
 #### April 10th, 2022
 

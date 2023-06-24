@@ -28,25 +28,27 @@ historical data. He took a retirement plan and calculated how it would have
 performed if an individual had started their retirement in 1926. He calculated
 each year of this simulated retirement (up to 50 years in his study), and determined
 if there was any money left in the portfolio by the end. Once this was done, he
-ran the simulation again, but this time starting the simulated retirement one year later
-in the year 1927. He continued to repeat this, running simulation after simulation
-to see how different kinds of retirements would have fared throughout history.
+ran the simulation again, but this time he started the simulated retirement one year
+later in the year 1927. He continued to repeat this process, running simulation
+after simulation to see how different kinds of retirements would have fared
+throughout history.
 
 After running all of the simulations, he determined that retirement plans
-survived about 95% of the time with a 4% initial withdrawal rate.
-
-A few years after Bengen's study, a group of professors reconfirmed his results
-in a paper called The Trinity Study. This result is now known as The 4% Rule, and
+survived about 95% of the time with a 4% initial withdrawal rate. A few years
+after Bengen's study, a group of professors reconfirmed his results in a paper
+called The Trinity Study. This result is now known as The 4% Rule, and
 it remains a foundational idea in retirement planning today.
 
-This strategy is called backtesting, and it can be a powerful tool if you believe
-that the market during your retirement will perform no worse than the worst
-market in the available data set.
+Using historical data to evaluate retirement plans can be a powerful tool if
+you believe that the market during your retirement will perform no worse than
+the worst market in the available data set.
 
 ## Other Withdrawal Strategies
 
 In the time since the 4% Rule was originally conceived, new withdrawal
-strategies have been created, each having different goals.
+strategies have been created, each having different goals. Some attempt to
+spend every dollar that you have to maximize your quality of life. Others
+aim to preserve the value of your portfolio throughout the retirement.
 
 What other strategies exist, and which one is most appropriate for you? You can
 use FI Calc to find these answers.

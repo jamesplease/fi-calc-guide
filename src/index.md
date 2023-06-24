@@ -13,10 +13,9 @@ title: Introduction
 
 FI Calc is a powerful and flexible retirement calculator.
 
-Planning a retirement involves an important decision: how much money will you
-withdraw from your investments each year? Most people wish to withdraw as much
-as they can to maximize their quality of life, but not so much that they run out
-of money.
+Retirement involves an important decision: how much money will you withdraw from
+your investments each year? Most people wish to withdraw as much as they can to
+maximize their quality of life, but not so much that they run out of money.
 
 It's impossible to know with certainty how much you can safely withdraw each
 year, because you can't know how the market will perform during your retirement,
@@ -37,14 +36,14 @@ would have fared throughout history.
 
 After running all of the simulations, he determined that portfolios lasted about
 95% of the time with a 4% initial withdrawal rate. A few years after Bengen's
-study, a group of professors reconfirmed his results in a paper called The
+study, a group of professors reconfirmed his results in a paper known as The
 Trinity Study. This result is now known as The 4% Rule, and it remains a
 foundational idea in retirement planning today.
 
 ## Using FI Calc
 
-FI Calc allows you to run your retirement simulations using historical data,
-just like Bengen. You can recreate his original results, or tweak the inputs to
+FI Calc allows you to run retirement simulations using historical data, just
+like Bengen. You can recreate his original results, or tweak the inputs to
 discover new ones. Run retirements that are shorter or longer, or that withdraw
 less or more, and see how these changes impact success rates.
 

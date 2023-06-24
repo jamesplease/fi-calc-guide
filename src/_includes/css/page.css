@@ -155,8 +155,8 @@
 .page blockquote {
   margin-left: 0;
   padding-left: 1rem;
-  border-left: 4px solid #444;
-  color: #aaa;
+  border-left: 4px solid #31323e;
+  color: #9097a3;
 }
 
 .lightMode .page blockquote {

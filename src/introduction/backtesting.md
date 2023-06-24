@@ -9,8 +9,9 @@ Using historical data to test the performance of retirement plans is called
 _backtesting_. Backtesting is a strategy used in different industries including
 finance, meteorology, and oceanography.
 
-Backtesting is a one tool, but not the only tool, that you can use to understand
-and estimate the performance of a particular withdrawal strategy.
+Backtesting can be a powerful tool if you believe that the market during your
+retirement will perform no worse than the worst market in the available data
+set.
 
 ## Future Performance
 
@@ -30,15 +31,11 @@ other benefits, though, including:
   well or poorly
 - building confidence in a retirement plan
 
-It is extremely important to keep this in mind when running calculations in FI
-Calc to avoid misinterpreting the information that is presented in the
-calculator.
+It is important to keep this in mind when running calculations in FI Calc to
+avoid misinterpreting the information that is presented to you.
 
-> To be clear: even if a retirement plan does well in FI Calc there is no
-> guarantee that it will work out as successfully if you were to retire with
-> that plan today. A healthy retirement plan will involve testing with multiple
-> calculators and calculations. Do not base your entire retirement off of the
-> results of FI Calc.
+> Also, keep in mind that FI Calc does **not** provide financial advice. Always
+> speak to a licensed financial professional before making financial decisions.
 
 ## Other Notes on Backtesting
 
@@ -53,5 +50,5 @@ not effective with new data.
 
 One of the ways to avoid overfitting is to test your models in other scenarios
 not present in the historical data, such as by running what are called Monte
-Carlo simulations. FI Calc does not currently support Monte Carlo simulations,
-but it is a feature that we plan to introduce in the future.
+Carlo simulations. FI Calc does not currently support running Monte Carlo
+simulations.

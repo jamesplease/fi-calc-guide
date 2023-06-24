@@ -76,7 +76,7 @@ main {
 .page .introduction_logo {
   width: 90%;
   max-width: 300px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 551px) {

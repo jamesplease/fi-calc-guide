@@ -6,13 +6,18 @@ faq: true
 
 # FAQ
 
+### Does FI Calc provide financial advice?
+
+No. We encourage you to speak to a licensed financial professional before making
+any financial decisions.
+
 ### Where can I donate?
 
 FI Calc is provided for free.
 
-The costs associated with running FI Calc, and the time spent maintaining and updating
-the app as well as responding to emails are supported by donations. You can donate
-[here](https://gum.co/kgIVJ).
+The costs associated with running FI Calc, and the time spent maintaining and
+updating the app as well as responding to emails are supported by donations. You
+can donate [here](https://gum.co/kgIVJ).
 
 ### How do I factor in taxes?
 
@@ -46,9 +51,9 @@ Perhaps. There are a couple of things to consider if you live outside of the US:
 
 ### Will you be adding new data?
 
-Yes, if the data is not currently up to date it should be updated soon. Data
-for each year will typically be added in the second half of the following year.
-For example, data for 2020 can be expected to be added some time around or after
+Yes, if the data is not currently up to date it should be updated soon. Data for
+each year will typically be added in the second half of the following year. For
+example, data for 2020 can be expected to be added some time around or after
 June 2021.
 
 ### Are the dollars shown in the results page real or nominal?

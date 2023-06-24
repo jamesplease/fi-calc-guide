@@ -73,6 +73,18 @@ main {
   padding: 0 var(--contentSpacingRight) 0 var(--contentSpacingLeft);
 }
 
+.page .introduction_logo {
+  width: 90%;
+  max-width: 300px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 551px) {
+  .page .introduction_logo {
+    max-width: 230px;
+  }
+}
+
 /* Expandable lib code */
 .expandable-collapsed > .expandable_child {
   height: 0;

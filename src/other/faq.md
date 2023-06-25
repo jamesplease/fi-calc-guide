@@ -52,9 +52,10 @@ Perhaps. There are a couple of things to consider if you live outside of the US:
 ### Will you be adding new data?
 
 Yes, if the data is not currently up to date it should be updated soon. Data for
-each year will typically be added in the second half of the following year. For
-example, data for 2020 can be expected to be added some time around or after
-June 2021.
+each year will typically be added in the second half of the following year.
+
+As an example, data for the year 2050 could be expected to be added some time
+around or after June 2051.
 
 ### Are the dollars shown in the results page real or nominal?
 
@@ -89,7 +90,7 @@ conditions. A 100% success rate in FI Calc could be perceived as a strong
 indicator that your plan is sufficient, but here are just a few things to
 consider:
 
-- What is the smallest withdrawal made in the calcaulation? Is that a realistic
+- What is the smallest withdrawal made in the calculation? Is that a realistic
   minimum withdrawal for you? What if you needed to live off of that amount next
   year? Could you do it? If not, consider increasing the minimum withdrawal in
   the Configuration. Does that change your success rate?
@@ -105,64 +106,54 @@ consider:
 These are just a couple of questions you might want to ask yourself when running
 retirement calculations to make sure that you're being as accurate as possible.
 
+And, please remember that FI Calc does not provide financial advice, and that
+you should always consult with a licensed financial professional before making
+financial decisions.
+
 ### Other calculators return different results for the same inputs. Why is that?
 
-This is to be expected as different calculators use different data and different
-calculations with that data. We recommend using multiple calculators to get a
-range of results.
+This is to be expected as different calculators use different data sources and
+different calculations with that data. We recommend using multiple calculators
+to get a range of results.
 
 FI Calc's data is documented [here](/how-it-works/historical-data-source/) and
 the algorithm is documented
 [here](https://ficalc.app/how-it-works/one-simulation-year/).
 
-### How do you pronounce the name FI Calc?
+### How do you pronounce "FI Calc"?
 
-I pronounce it "eff eye calc."
+Eff eye calc.
 
 ## About the Creator
 
 ### Who created FI Calc?
 
-My name is James. It's nice to meet you! I'm a designer and engineer in Silicon
-Valley who is interested in early retirement.
+My name is James. It's nice to meet you!
 
 ### Are you retired?
 
-Not yet!
+Not yet.
 
 ### Do you have a favorite withdrawal strategy?
 
-I'm drawn to simple withdrawal strategies that you can calculate on a piece of
-paper. Right now I like Constant Dollar and
-[Vanguard Dynamic Spending](https://ficalc.app?additionalIncome=%5B%5D&additionalWithdrawals=%5B%5D&bondsFees=0.05&bondsFinalRatio=15&bondsInitialRatio=15&cashFees=0&cashFinalRatio=5&cashGrowth=1.5&cashInitialRatio=5&changeAllocationsOverTime=false&equitiesFees=0.04&equitiesFinalRatio=80&equitiesInitialRatio=80&initialPortfolioValue=1000000&maxWithdrawalLimit=60000&maxWithdrawalLimitEnabled=false&minWithdrawalLimit=35000&minWithdrawalLimitEnabled=true&numberOfYears=30&portfolioRebalanceEquation=linear&rebalance=true&rebalanceFrequency=1&retirementStartingAge=60&vanguardDynamicSpendingCeiling=2&vanguardDynamicSpendingFloor=2.5&vanguardDynamicSpendingWithdrawalRate=4&withdrawalStrategyName=vanguardDynamicSpending).
+I like Vanguard Dynamic Spending.
 
 ### What are your favorite early retirement blogs and resources?
 
-I mostly listen to [Paula Pant's podcast](https://affordanything.com).
+I was introduced to FIRE through
+[Mr. Money Mustache](https://www.mrmoneymustache.com). These days I mostly
+listen to [Paula Pant's podcast](https://affordanything.com).
 
 ## General Questions
 
 ### What's the business model of FI Calc?
 
 FI Calc is supported by [donations](https://gum.co/kgIVJ). If you look around
-you might also find the single ad hidden in the guides.
+you might also find a single ad hidden in the guides.
 
 ### Do you plan to monetize FI Calc?
 
-There are no plans to monetize FI Calc right now. In fact, there will always be
-a free version of FI Calc, and that free version will always include every
-feature that doesn't require a database.
-
-One feature that I've considered adding are user accounts, which would allow you
-to save simulations, among other things. User accounts requires a database,
-though, and databases have a monthly cost associated with them.
-
-If I do add user accounts, then I would want to at least cover the cost of the
-database. The most likely turn of events is that I would introduce ads into FI
-Calc.
-
-I'm not sure if I should add user accounts, though. Would you find them useful?
-[Let me know!](/contact/)
+My goal is to always provide FI Calc for free.
 
 ### When was FI Calc created?
 

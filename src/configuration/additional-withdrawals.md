@@ -67,6 +67,14 @@ checkbox.
     <figcaption>Check the checkbox to adjust the withdrawal for inflation.</figcaption>
 </figure>
 
+By default, inflation begins accumulating immediately, even when you specify
+that the withdrawals do not begin after a number of years.
+
+You can change this so that inflation adjustments are only made after the
+withdrawals start. To do this, change the "Begin adjusting for inflation"
+dropdown from "immediately, at the first year" to "only after withdrawals
+start."
+
 ### Withdrawal Frequency
 
 FI Calc supports complex withdrawal frequencies. For example, you may plan to
@@ -133,15 +141,15 @@ With the 95% Rule, one of the Withdrawal Strategies you can choose in FI Calc,
 you are allowed to withdraw a percent of your portfolio _or_ 95% of last year's
 withdrawal, whichever is larger.
 
-Consider a year where you withdraw 4% of your
-$1,000,000 portfolio, equaling $40,000. And let's say you withdraw an additional
-\$10,000 that year, making your total withdrawal equal to \$50,000.
+Consider a year where you withdraw 4% of your $1,000,000 portfolio, equaling
+$40,000. And let's say you withdraw an additional \$10,000 that year, making
+your total withdrawal equal to \$50,000.
 
 The following year, assume your portfolio is now \$1,005,000 after gains, fees,
-and dividends are taken into account. 4% of that is
-$40,200. 95% of your previous withdrawal of $50,000 is \$47,500. In this
-situation, 95% of the previous year withdrawal is larger than the 4% withdrawal,
-so you use it instead.
+and dividends are taken into account. 4% of that is $40,200. 95% of your
+previous withdrawal of $50,000 is \$47,500. In this situation, 95% of the
+previous year withdrawal is larger than the 4% withdrawal, so you use it
+instead.
 
 This trend will continue for as long as the \$10,000 withdrawal occurs, and your
 total withdrawal will grow and grow. Often, this results in the portfolio
@@ -151,12 +159,9 @@ poorly.
 
 FI Calc gets around this problem by not factoring in additional withdrawals in
 subsequent year calculations. In the above example, FI Calc would instead input
-the "base" withdrawal of
-$40,000
-into the 95% Rule algorithm, which equals
-$38,000. This is less than the
-4% withdrawal of your total portfolio, so when using FI Calc you would withdraw
-\$40,200 the next year instead of \$47,500.
+the "base" withdrawal of $40,000 into the 95% Rule algorithm, which equals
+$38,000. This is less than the 4% withdrawal of your total portfolio, so when
+using FI Calc you would withdraw \$40,200 the next year instead of \$47,500.
 
 The 95% Rule is not the only strategy that breaks when additional withdrawals
 are factored in, and for this reason FI Calc always ignores additional

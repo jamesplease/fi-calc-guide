@@ -7,6 +7,12 @@ title: What's New
 
 This page lists major improvements to FI Calc. Smaller changes are not listed.
 
+#### June 25th, 2023
+
+- A new setting for additional income and withdrawals has been added that allows
+  you to delay adjusting the income/withdrawal for inflation until it starts,
+  rather than immediately.
+
 #### June 24th, 2023
 
 - The simulation detail page now includes a chart showing S&P 500 performance.

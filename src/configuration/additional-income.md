@@ -69,20 +69,12 @@ checkbox.
     <figcaption>Check the checkbox to adjust the income for inflation.</figcaption>
 </figure>
 
-Inflation begins accumulating immediately, even when you specify that the income does not
-begin after a number of years.
+By default, inflation begins accumulating immediately, even when you specify
+that the income does not begin after a number of years.
 
-For example, if you specify that additional income of $10,000 beginning in 20 years, the
-amount that you will receive on the 20th year will have $10,000 worth of purchasing
-power. This typically means that it will be nominally larger than $10,000.
-
-A future update will allow you to choose whether inflation adjustments begins immediately
-or once the income starts. In the meantime, if you need a particular nominal amount, you
-can compute what value would grow into that amount using a fixed inflation rate (like 3%)
-and input that value into the text field.
-
-Using the example above, you might enter $5,500. This is because $5,500 will become $9,933
-after 20 years of inflation adjustments assuming 3% annual inflation.
+You can change this so that inflation adjustments are only made after the income
+starts. To do this, change the "Begin adjusting for inflation" dropdown from
+"immediately, at the first year" to "only after income starts."
 
 ### Income Frequency
 
@@ -154,11 +146,9 @@ This is best shown with an example: consider a year where you planned to spend
 $40,000 of a $1,000,000 portfolio. Without any additional income, you would up
 with \$960,000 remaining in your portfolio (before gains, fees, and so on).
 
-If you have an additional income of
-$10,000 that year, then your portfolio will instead
-end up as $970,000. This is
-equivalent to spending $30,000 for the year instead
-of $40,000.
+If you have an additional income of $10,000 that year, then your portfolio will
+instead end up as $970,000. This is equivalent to spending $30,000 for the year
+instead of $40,000.
 
 ### How to Increase Spending With Income
 

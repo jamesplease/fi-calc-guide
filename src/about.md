@@ -6,7 +6,7 @@ meta: true
 
 # About
 
-FI Calc is a calculator that that utilizes backtesting to evaluate different
+FI Calc is a calculator that utilizes backtesting to evaluate different
 withdrawal strategies.
 
 ### Proper Usage

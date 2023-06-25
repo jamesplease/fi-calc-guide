@@ -7,11 +7,15 @@ title: What's New
 
 This page lists major improvements to FI Calc. Smaller changes are not listed.
 
+#### June 24th, 2023
+
+- The simulation detail page now includes a chart showing S&P 500 performance.
+
 #### June 23rd, 2023
 
 - The overview charts have been replaced by histograms. The old charts smoothed
-  over the data in ways that could be misleading. The new charts are considerably
-  more accurate.
+  over the data in ways that could be misleading. The new charts are
+  considerably more accurate.
 
 #### June 17th, 2023
 

@@ -12,6 +12,8 @@ This page lists major improvements to FI Calc. Smaller changes are not listed.
 - A new setting for additional income and withdrawals has been added that allows
   you to delay adjusting the income/withdrawal for inflation until it starts,
   rather than immediately.
+- Inflation and purchasing power charts have been added to the simulation
+  details page.
 
 #### June 24th, 2023
 

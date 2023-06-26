@@ -31,6 +31,8 @@
 
 .footer_linkListItem {
   margin-right: 1rem;
+  display: flex;
+  align-items: center;
 }
 
 .footer_linkListItem:last-child {
@@ -40,6 +42,17 @@
 .footer_link {
   color: var(--footerColor);
   text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.footer_link:hover {
+  color: #cfcfcf;
+}
+
+.footer_linkIcon {
+  width: 1rem;
+  fill: currentColor;
 }
 
 @media (max-width: 551px) {

@@ -74,7 +74,9 @@ reading these Guides to learn more about the different features of FI Calc.
 
 <div class="spacer"></div>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!--
+  Normally required, but I have it in the header.
+ <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
 <!-- Bottom of Introduction -->
 
 <ins class="adsbygoogle"

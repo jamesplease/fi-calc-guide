@@ -6,12 +6,7 @@ katex: true
 
 # Computed Historical Data
 
-The data in Shiller's data set is not in the exact format that this calculator
-needs to run computations. Some of Shiller's data must be manipulated before
-simulations can be run.
-
-In this guide, we will cover the values that we compute from Shiller's data set
-and the formulas used to compute them.
+The FI Calc algorithm uses some values that are derived from Shiller's data set.
 
 ## Inflation
 
@@ -23,7 +18,7 @@ $$
 inflation = \frac{\displaystyle currentYearCpi}{\displaystyle previousYearCpi} - 1
 $$
 
-Inflation for the first year, 1871, is set to `1` (representing no inflation).
+Inflation for the first year, 1871, is set to `0` (representing no inflation).
 
 ### Inflation Example
 
@@ -47,17 +42,11 @@ Therefore, inflation for the year 1990 is `5.65%`.
 Shiller's data set provides the price of the S&P 500 for each month. In his
 spreadsheet, the value for the S&P 500 is under the label "S&P Comp. (P)".
 
-Deriving the growth of stocks, therefore, is:
+Deriving the capital appreciation of stocks, therefore, is:
 
 $$
-growth = \frac{\displaystyle currentYearValue}{\displaystyle previousYearValue}
+capitalAppreciation = \frac{\displaystyle currentYearValue}{\displaystyle previousYearValue} - 1
 $$
-
-The growth for the first year, 1871, is set to `1` (representing no growth).
-
-<!-- ### Stocks Example
-
-An example of stocks growth. -->
 
 ## Dividend Yields
 
@@ -65,16 +54,5 @@ Coming soon.
 
 ## Bonds
 
-Shiller's data set includes the 10 year yields on US Treasury bonds. To
-determine year-over-year returns, we assume that you purchase the bonds, hold
-them for one year, and then sell them.
-
-The formula for this is complicated. Documentation will be added soon.
-
-> This is the same formula used by cFIREsim. In fact, Lauren, the creator of
-> cFIREsim, deserves credit for this for creating this conversation on
-> Bogleheads.
-
-<!-- ### Bonds Example
-
-Bonds example here. -->
+Shiller's data set includes bond returns by month, which FI Calc consumes
+directly.

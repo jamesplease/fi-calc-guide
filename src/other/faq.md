@@ -29,10 +29,9 @@ of, and you estimate that your tax bill will be $5,000 per year, then you should
 aim to withdraw $45,000 per year to cover both your expenses and taxes.
 
 If you would like to model a scenario where your taxes change over the course of
-your retirement, you can use
-[Additional Income](/configuration/additional-income/) and
-[Additional Withdrawals](/configuration/additional-withdrawals/) to decrease or
-increase your tax bill over time.
+your retirement, you can use [Income](/configuration/income/) and
+[Extra Withdrawals](/configuration/extra-withdrawals/) to decrease or increase
+your tax bill over time.
 
 ### I do not live in the United States. Can I use FI Calc?
 
@@ -64,14 +63,14 @@ nominal dollars.
 
 ### How can I enter real estate into FI Calc?
 
-You can use the [Additional Income](/configuration/additional-income/) feature
-of FI Calc to support real estate.
+You can use the [Income](/configuration/income/) feature of FI Calc to support
+real estate.
 
 If you have a rental property, you can specify the annual cashflow as recurring
 income for as long as you intend to own the home.
 
 If you intend to sell the property, then you can add your earnings from the sell
-as additional income in the year that you sell.
+as income in the year that you sell.
 
 If there are more features you need to help manage your real estate investments,
 please [let me know](/contact/).

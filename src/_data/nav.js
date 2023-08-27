@@ -10,12 +10,12 @@ module.exports = [
     ],
   },
   {
-    title: 'Configuring the Calculator',
+    title: 'Making a Retirement Plan',
     url: '/configuration/',
     pages: [
       {
-        title: 'Length of Retirement',
-        url: '/configuration/length-of-retirement/',
+        title: 'Duration',
+        url: '/configuration/duration/',
       },
       {
         title: 'Portfolio',
@@ -26,12 +26,12 @@ module.exports = [
         url: '/configuration/withdrawal-strategy/',
       },
       {
-        title: 'Additional Income',
-        url: '/configuration/additional-income/',
+        title: 'Extra Withdrawals',
+        url: '/configuration/extra-withdrawals/',
       },
       {
-        title: 'Additional Withdrawals',
-        url: '/configuration/additional-withdrawals/',
+        title: 'Income',
+        url: '/configuration/income/',
       },
       {
         title: 'Historical Data',

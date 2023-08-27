@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Length of Retirement
+title: Duration
 ---
 
-# Length of Retirement
+# Duration
 
 One of the inputs to FI Calc is the number of years you expect your retirement
 to last. Of course, we cannot know this number with certainty, but we can do our

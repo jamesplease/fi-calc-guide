@@ -13,9 +13,8 @@ retirement.
 Presently, FI Calc supports entering three kinds of assets: equities, bonds, and
 cash.
 
-> Do you own real estate? Create
-> [Additional Income](/configuration/additional-income/) to factor in earnings
-> from your investment properties.
+> Do you own real estate? Create [Income](/configuration/income/) to factor in
+> earnings from your investment properties.
 
 You're also able to specify whether you intend to rebalance your portfolio or
 not, and also if your allocation mix should change over time (a "glide path").
@@ -91,8 +90,8 @@ high-interest savings account, for example.
 
 The equity that you have in real estate is not something that you can input into
 your FI Calc portfolio. What you can do is specify
-[Additional Income](/configuration/additional-income/) to account for rental
-property cash flow, or to account for money earned from selling a home.
+[Income](/configuration/income/) to account for rental property cash flow, or to
+account for money earned from selling a home.
 
 > Do you need more features for your real estate properties? If so, please
 > [let me know](/contact/).

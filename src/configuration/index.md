@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Configuring the Calculator
+title: Making a Retirement Plan
 ---
 
-# Configuring the Calculator
+# Making a Retirement Plan
 
 Each person's retirement plan is unique, and FI Calc is designed to be flexible
 enough to support as many needs as possible. In this section, you will learn all
@@ -24,8 +24,8 @@ page of the calculator.
 
 ## Pages in this Guide
 
-- [Length of Retirement](/configuration/length-of-retirement/) - How long your
-  retirement lasts.
+- [Length of Retirement](/configuration/duration/) - How long your retirement
+  lasts.
 
 - [Portfolio](/configuration/portfolio/) - The assets that you have, or will
   have, at the start of your retirement.
@@ -34,12 +34,11 @@ page of the calculator.
   strategy determines how much money you withdraw each year during your
   retirement.
 
-- [Additional Income](/configuration/additional-income/) - Learn how to
-  configure extra income that you plan to receive during your retirement.
+- [Extra Withdrawals](/configuration/extra-withdrawals/) - This guide covers how
+  you can make extra withdrawals for certain years during your retirement.
 
-- [Additional Withdrawals](/configuration/additional-withdrawals/) - This guide
-  covers how you can make extra withdrawals for certain years during your
-  retirement.
+- [Income](/configuration/income/) - Learn how to configure extra income that
+  you plan to receive during your retirement.
 
 - [Historical Data](/configuration/historical-data/) - FI Calc uses a data set
   that dates back to 1871. This guide covers how you can choose to use a subset

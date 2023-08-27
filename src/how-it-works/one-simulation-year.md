@@ -34,8 +34,8 @@ specific day in history.
 Withdrawals are annual, and they are made on the first day of the year. The
 withdrawal is the very first thing to occur in each simulation year.
 
-If additional income or additional withdrawals are specified, then they are
-factored in on the first day of the year alongside the "base" withdrawal.
+If income or extra withdrawals are specified, then they are factored in on the
+first day of the year alongside the "base" withdrawal.
 
 ### 2. Fees, Growth, and Dividends
 

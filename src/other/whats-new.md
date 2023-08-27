@@ -7,6 +7,19 @@ title: What's New
 
 This page lists major improvements to FI Calc. Smaller changes are not listed.
 
+#### August 26th, 2023
+
+- New overview stats related to spending: Volatile Spending, Large Spending, and
+  Small Spending.
+- Adds the ability to customize all of the overview stats.
+- Introduced "Help Me Choose," a short survey that recommends withdrawal
+  strategies based on your goals.
+- On the overview page, you can now view portfolio values at different points
+  during the retirement.
+- On the overview page, portfolio values can now be viewed as a table.
+- On the overview page, the list of simulations now shows more information.
+- Market data has been added to the overview page.
+
 #### June 25th, 2023
 
 - A new setting for additional income and withdrawals has been added that allows

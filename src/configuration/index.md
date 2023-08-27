@@ -24,8 +24,7 @@ page of the calculator.
 
 ## Pages in this Guide
 
-- [Length of Retirement](/configuration/duration/) - How long your retirement
-  lasts.
+- [Duration](/configuration/duration/) - How long your retirement lasts.
 
 - [Portfolio](/configuration/portfolio/) - The assets that you have, or will
   have, at the start of your retirement.

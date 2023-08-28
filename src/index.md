@@ -3,12 +3,6 @@ layout: default
 title: Introduction
 ---
 
-<img
-  src="/fi-calc-logo.png"
-  alt="FI Calc"
-  class="introduction_logo"
-/>
-
 # Welcome
 
 FI Calc is a powerful and flexible retirement calculator.
@@ -58,19 +52,14 @@ file and continue your calculations in your spreadsheet app of choice.
 
 ## Getting Started
 
-You're ready to jump in and start running simulations. Or you can continue
-reading these Guides to learn more about the different features of FI Calc.
+Continue reading these Guides to learn more about the different features of FI
+Calc. Or you can jump right in and start running calculations.
 
 <div class="page_ctas">
   <a href="https://ficalc.app" class="button page_ctaBtn">
     Launch Calculator
   </a>
 </div>
-
-## What to Read Next
-
-- [Backtesting](/introduction/backtesting/) - Bengen's analysis used a strategy
-  called backtesting. Learn more about backtesting here.
 
 <div class="spacer"></div>
 

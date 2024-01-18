@@ -38,7 +38,3 @@ page of the calculator.
 
 - [Income](/configuration/income/) - Learn how to configure extra income that
   you plan to receive during your retirement.
-
-- [Historical Data](/configuration/historical-data/) - FI Calc uses a data set
-  that dates back to 1871. This guide covers how you can choose to use a subset
-  of that data.
